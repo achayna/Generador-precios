@@ -2,8 +2,8 @@
   "metadata": {
     "sistema_origen": "INFOMAR - Instituto del Mar del Perú (IMARPE)",
     "endpoint_principal": "https://infomar.imarpe.gob.pe/v2/api/especies-por-puertos",
-    "generado_en_peru": "2026-11-11T23:40:04-05:00",
-    "generado_en_utc": "2026-11-12T04:40:04+00:00",
+    "generado_en_peru": "2026-11-11T23:57:20-05:00",
+    "generado_en_utc": "2026-11-12T04:57:20+00:00",
     "moneda": "PEN",
     "simbolo_moneda": "S/",
     "unidad": "kg",

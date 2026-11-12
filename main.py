@@ -15,6 +15,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+from imarpe_extractor.client import InfomarClient
 from imarpe_extractor.config import now_peru
 from imarpe_extractor.exporters import (
     export_to_excel,
@@ -64,6 +65,14 @@ def parse_args() -> argparse.Namespace:
         help="Fuerza el uso del respaldo ASP.NET MVC (/Acceso/Login + /Reportes/EspeciesPuerto).",
     )
     parser.add_argument(
+        "--graceful-unreachable",
+        action="store_true",
+        help=(
+            "Si el firewall Geo-IP de IMARPE bloquea una IP extranjera de nube sin proxy, "
+            "conserva intacto output/ y finaliza con código 0."
+        ),
+    )
+    parser.add_argument(
         "--verbose",
         action="store_true",
         help="Activa logs detallados DEBUG.",
@@ -79,6 +88,18 @@ def main() -> int:
         datefmt="%Y-%m-%d %H:%M:%S",
     )
     logger = logging.getLogger("imarpe_main")
+
+    if args.graceful_unreachable:
+        reachable, detail = InfomarClient.check_reachability(probe_timeout=10.0)
+        if not reachable:
+            logger.warning(
+                "IMARPE no accesible desde esta IP (%s). El firewall perimetral de infomar.imarpe.gob.pe "
+                "restringe conexiones fuera del Perú (Geo-IP). Se conserva intacto output/ vigente. "
+                "Para extracción directa desde nube extranjera configure el secret IMARPE_PROXY_URL (IP Perú) "
+                "o un self-hosted runner en Perú.",
+                detail,
+            )
+            return 0
 
     if args.end_date:
         try:

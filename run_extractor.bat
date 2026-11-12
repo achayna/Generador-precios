@@ -8,7 +8,7 @@ cd /d "%~dp0"
 
 if not exist "logs" mkdir "logs"
 
-REM Fecha YYYYMMDD independiente de configuracion regional usando PowerShell
+REM Fecha YYYYMMDD independiente de configuracion regional
 for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyyMMdd"') do set TODAY=%%i
 set LOG_FILE=logs\extractor_%TODAY%.log
 
@@ -23,6 +23,22 @@ echo ====================================================================== >> "
 echo [%DATE% %TIME%] Iniciando extraccion nacional INFOMAR - IMARPE >> "%LOG_FILE%"
 "%PYTHON_EXE%" main.py --days 7 %* >> "%LOG_FILE%" 2>&1
 set EXIT_CODE=%ERRORLEVEL%
-echo [%DATE% %TIME%] Finalizado con codigo: %EXIT_CODE% >> "%LOG_FILE%"
 
+REM Si la extraccion fue exitosa y existe repositorio Git, publicar output/ en GitHub automaticamente
+if "%EXIT_CODE%"=="0" (
+    if exist ".git" (
+        echo [%DATE% %TIME%] Sincronizando output/ hacia GitHub achayna/Generador-precios... >> "%LOG_FILE%"
+        git add output/ >> "%LOG_FILE%" 2>&1
+        git diff --staged --quiet
+        if errorlevel 1 (
+            git commit -m "chore(data): auto-sync precios playa IMARPE desde IP Peru [skip ci]" >> "%LOG_FILE%" 2>&1
+            git pull --rebase --autostash origin main >> "%LOG_FILE%" 2>&1
+            git push origin main >> "%LOG_FILE%" 2>&1
+        ) else (
+            echo [%DATE% %TIME%] Sin cambios en output/ para subir a GitHub. >> "%LOG_FILE%"
+        )
+    )
+)
+
+echo [%DATE% %TIME%] Finalizado con codigo: %EXIT_CODE% >> "%LOG_FILE%"
 exit /b %EXIT_CODE%

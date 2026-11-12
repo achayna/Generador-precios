@@ -6,6 +6,7 @@ import base64
 import html
 import io
 import logging
+import os
 import re
 import time
 from datetime import date, datetime, timedelta
@@ -116,6 +117,33 @@ class InfomarClient:
         )
         self.session.mount("https://", adapter)
         self.session.mount("http://", adapter)
+
+        proxy_url = (os.environ.get("IMARPE_PROXY_URL") or "").strip()
+        if proxy_url:
+            self.session.proxies.update({"http": proxy_url, "https": proxy_url})
+            logger.info("Usando proxy configurado vía IMARPE_PROXY_URL para conexión a IMARPE.")
+
+    @staticmethod
+    def check_reachability(probe_timeout: float = 8.0) -> Tuple[bool, str]:
+        """
+        Sondeo rápido sin reintentos para detectar bloqueo Geo-IP del firewall de IMARPE (.gob.pe)
+        cuando el script corre desde datacenters fuera del Perú sin proxy peruano.
+        """
+        proxy_url = (os.environ.get("IMARPE_PROXY_URL") or "").strip()
+        proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        try:
+            resp = requests.post(
+                ENDPOINT_LUGARES,
+                json={},
+                headers=DEFAULT_HEADERS,
+                proxies=proxies,
+                timeout=probe_timeout,
+            )
+            if resp.status_code < 500:
+                return True, f"HTTP {resp.status_code}"
+            return False, f"HTTP {resp.status_code}"
+        except requests.RequestException as exc:
+            return False, f"{type(exc).__name__}: {exc}"
 
     def close(self) -> None:
         self.session.close()

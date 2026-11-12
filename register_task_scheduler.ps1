@@ -1,8 +1,7 @@
 ﻿<#
 .SYNOPSIS
-    Registra la tarea programada diaria en Windows 11 (11:00 AM y 06:00 PM) para actualizar
-    automáticamente los precios en playa de INFOMAR - IMARPE.
-    Incluye StartWhenAvailable para ejecutar la tarea apenas se encienda la laptop si estuvo apagada.
+    Registra la tarea programada en Windows 11 (4 corridas diarias: 08:30, 11:30, 14:30 y 18:00)
+    para extraer precios desde IP peruana y publicar automáticamente output/ en GitHub.
 #>
 
 $ErrorActionPreference = "Stop"
@@ -16,8 +15,12 @@ if (-not (Test-Path $BatPath)) {
 }
 
 $Action = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$BatPath`"" -WorkingDirectory $ProjectDir
-$TriggerMorning = New-ScheduledTaskTrigger -Daily -At 11:00AM
-$TriggerEvening = New-ScheduledTaskTrigger -Daily -At 6:00PM
+$Triggers = @(
+    (New-ScheduledTaskTrigger -Daily -At 08:30AM),
+    (New-ScheduledTaskTrigger -Daily -At 11:30AM),
+    (New-ScheduledTaskTrigger -Daily -At 02:30PM),
+    (New-ScheduledTaskTrigger -Daily -At 06:00PM)
+)
 
 $Settings = New-ScheduledTaskSettingsSet `
     -StartWhenAvailable `
@@ -29,10 +32,9 @@ $Settings = New-ScheduledTaskSettingsSet `
 Register-ScheduledTask `
     -TaskName $TaskName `
     -Action $Action `
-    -Trigger @($TriggerMorning, $TriggerEvening) `
+    -Trigger $Triggers `
     -Settings $Settings `
-    -Description "Extracción diaria nacional de precios en playa y especies por puerto desde INFOMAR (IMARPE Perú)." `
+    -Description "Extracción y publicación GitHub 4x/día (08:30, 11:30, 14:30, 18:00) de precios en playa INFOMAR - IMARPE." `
     -Force | Out-Null
 
-Write-Host "Tarea programada '$TaskName' registrada exitosamente (11:00 AM y 06:00 PM diario)." -ForegroundColor Green
-Write-Host "Para probarla de inmediato ejecuta: Start-ScheduledTask -TaskName '$TaskName'" -ForegroundColor Cyan
+Write-Host "Tarea '$TaskName' registrada con éxito (08:30, 11:30, 14:30 y 18:00 diario -> auto-push GitHub)." -ForegroundColor Green

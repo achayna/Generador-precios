@@ -26,6 +26,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 concurrency:
   group: imarpe-infomar-daily-sync
   cancel-in-progress: false
@@ -51,13 +54,14 @@ jobs:
       - name: Ejecutar barrido nacional contra INFOMAR (IMARPE)
         env:
           TZ: America/Lima
+          IMARPE_PROXY_URL: ${{ secrets.IMARPE_PROXY_URL }}
         run: |
           DAYS="${{ github.event.inputs.days || '7' }}"
           EXTRA_FLAGS=""
           if [ "${{ github.event.inputs.include_selva }}" = "true" ]; then
             EXTRA_FLAGS="--include-selva"
           fi
-          python main.py --days "$DAYS" --workers 6 $EXTRA_FLAGS
+          python main.py --days "$DAYS" --workers 6 --graceful-unreachable $EXTRA_FLAGS
 
       - name: Publicar artefactos descargables de la ejecución
         uses: actions/upload-artifact@v4
@@ -77,7 +81,7 @@ jobs:
           git add output/
 
           if git diff --staged --quiet; then
-            echo "Sin cambios en output/ respecto a la corrida previa. Finalizando sin error."
+            echo "Sin cambios nuevos en output/ (o salida vigente preservada). Finalizando en verde."
           else
             FECHA_PE=$(TZ=America/Lima date +'%Y-%m-%d %H:%M PET')
             git commit -m "chore(data): actualizar precios playa IMARPE (${FECHA_PE}) [skip ci]"
