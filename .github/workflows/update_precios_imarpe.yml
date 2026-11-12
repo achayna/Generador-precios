@@ -1,0 +1,86 @@
+name: Actualizar Precios Playa IMARPE (INFOMAR)
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "output/**"
+  schedule:
+    # 4 corridas diarias en hora Perú (UTC-5):
+    # 08:30 PET (13:30 UTC), 11:30 PET (16:30 UTC) y 14:30 PET (19:30 UTC)
+    - cron: "30 13,16,19 * * *"
+    # 18:00 PET (23:00 UTC)
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Ventana de días hacia atrás a consultar"
+        required: false
+        default: "7"
+      include_selva:
+        description: "Incluir puertos fluviales de SELVA (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: imarpe-infomar-daily-sync
+  cancel-in-progress: false
+
+jobs:
+  extract-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias Python
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar barrido nacional contra INFOMAR (IMARPE)
+        env:
+          TZ: America/Lima
+        run: |
+          DAYS="${{ github.event.inputs.days || '7' }}"
+          EXTRA_FLAGS=""
+          if [ "${{ github.event.inputs.include_selva }}" = "true" ]; then
+            EXTRA_FLAGS="--include-selva"
+          fi
+          python main.py --days "$DAYS" --workers 6 $EXTRA_FLAGS
+
+      - name: Publicar artefactos descargables de la ejecución
+        uses: actions/upload-artifact@v4
+        with:
+          name: precios-imarpe-nacional
+          path: |
+            output/precios_app_movil.json
+            output/precios_imarpe_app.json
+            output/Precios_Playa_IMARPE_Nacional.xlsx
+          retention-days: 30
+
+      - name: Publicar output/ actualizado en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add output/
+
+          if git diff --staged --quiet; then
+            echo "Sin cambios en output/ respecto a la corrida previa. Finalizando sin error."
+          else
+            FECHA_PE=$(TZ=America/Lima date +'%Y-%m-%d %H:%M PET')
+            git commit -m "chore(data): actualizar precios playa IMARPE (${FECHA_PE}) [skip ci]"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

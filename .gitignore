@@ -1,0 +1,20 @@
+# Entornos virtuales y caché Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Bitácoras locales de ejecución
+logs/
+*.log
+
+# Archivos temporales de sistema / Excel abiertos
+~$*.xlsx
+.DS_Store
+Thumbs.db
+
+# Permitir explícitamente versionar las 3 salidas públicas en output/
+!output/
+!output/precios_app_movil.json
+!output/precios_imarpe_app.json
+!output/Precios_Playa_IMARPE_Nacional.xlsx
