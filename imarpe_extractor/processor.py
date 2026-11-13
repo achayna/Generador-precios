@@ -13,6 +13,7 @@ from statistics import mean
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from .client import InfomarClient, LegacyInfomarClient, extract_primary_common_name
+from .config import PERU_TZ, now_peru
 from .models import (
     Especie,
     ItemPrecioMovil,
@@ -47,17 +48,52 @@ def format_especie_mostrar(especie_corta: str, talla: str) -> str:
     return f"{especie_corta} ({t_pretty})"
 
 
-def format_hora_mostrar(obs_date: date, hora: str, fecha_corte_peru: date) -> str:
-    """Formatea Columna 3: 'Hoy 16:00', 'Ayer 16:00' o '10/11 16:00'."""
-    diff = (fecha_corte_peru - obs_date).days
+def format_hora_mostrar(obs_date: date, hora: str, hoy_peru: date) -> str:
+    """
+    Formatea Columna 3 basada estrictamente en la fecha real del muestreo vs hoy_peru (UTC-5):
+      - fecha_muestreo == hoy_peru           -> 'Hoy HH:MM'
+      - fecha_muestreo == hoy_peru - 1 día   -> 'Ayer HH:MM'
+      - anterior                             -> 'DD/MM HH:MM'
+    """
     h = (hora or "").strip()
-    if diff == 0:
+    ayer_peru = hoy_peru - timedelta(days=1)
+    if obs_date == hoy_peru:
         prefix = "Hoy"
-    elif diff == 1:
+    elif obs_date == ayer_peru:
         prefix = "Ayer"
     else:
         prefix = obs_date.strftime("%d/%m")
     return f"{prefix} {h}".strip() if h else prefix
+
+
+def format_estado_actualizacion(
+    max_fecha: Optional[date],
+    hoy_peru: date,
+    max_hora: str = "",
+    con_hora: bool = False,
+) -> str:
+    """
+    Construye el encabezado de vigencia real (nunca confunde hora de corrida con fecha de datos):
+      - max_fecha == None             -> 'Sin reportes recientes'
+      - max_fecha == hoy_peru         -> 'Actualizado hasta hoy 13' (o '... (08:30)')
+      - max_fecha == hoy_peru - 1 día -> 'Actualizado hasta ayer 12' (o '... (16:00)')
+      - anterior                      -> 'Actualizado hasta el 11/11' (o '... (08:48)')
+    """
+    if max_fecha is None:
+        return "Sin reportes recientes"
+
+    ayer_peru = hoy_peru - timedelta(days=1)
+    if max_fecha == hoy_peru:
+        base = f"Actualizado hasta hoy {hoy_peru.day}"
+    elif max_fecha == ayer_peru:
+        base = f"Actualizado hasta ayer {max_fecha.day}"
+    else:
+        base = f"Actualizado hasta el {max_fecha.strftime('%d/%m')}"
+
+    h = (max_hora or "").strip()
+    if con_hora and h:
+        return f"{base} ({h})"
+    return base
 
 
 class TaxonMatcher:
@@ -109,7 +145,7 @@ def parse_infomar_date(raw_row: Dict[str, Any]) -> Optional[date]:
     if m:
         ts_sec = int(m.group(1)) / 1000.0
         # Los timestamps .NET de IMARPE están anclados a medianoche hora Perú (UTC-5)
-        dt = datetime.fromtimestamp(ts_sec, tz=datetime.now().astimezone().tzinfo)
+        dt = datetime.fromtimestamp(ts_sec, tz=PERU_TZ)
         return dt.date()
     return None
 
@@ -151,7 +187,7 @@ def run_national_extraction(
     if dias_ventana < 1:
         raise ValueError("dias_ventana debe ser >= 1")
 
-    fecha_hasta = fecha_referencia or date.today()
+    fecha_hasta = fecha_referencia or now_peru().date()
     # Ventana de últimos N días (ej. N=7 -> desde hoy-7 hasta hoy inclusive, cubriendo rezagos de carga)
     fecha_desde = fecha_hasta - timedelta(days=dias_ventana)
 

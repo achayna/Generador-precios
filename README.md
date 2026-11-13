@@ -1,18 +1,13 @@
 # Generador de Precios en Playa - INFOMAR (IMARPE Perú)
 
-Extractor automatizado nacional de **precios en playa/muelle y especies por puerto** conectado directamente a los endpoints internos de **INFOMAR (IMARPE)**. Se ejecuta automáticamente **4 veces al día en GitHub Actions** (`08:30`, `11:30`, `14:30` y `18:00` hora Perú `UTC-5`).
+Extractor automatizado nacional de **precios en playa/muelle y especies por puerto** conectado directamente a los endpoints internos de **INFOMAR (IMARPE)**.
+
+- **Nube (GitHub Actions - 6 corridas diarias UTC-5):** `00:05`, `06:30`, `08:35`, `11:30`, `14:30` y `18:00` hora Perú (extrae datos o recalcula automáticamente etiquetas `"Hoy"` / `"Ayer"` / `"DD/MM"` al cambiar el día).
+- **Nodo Perú (Windows Task Scheduler):** `08:35`, `10:00`, `11:30`, `14:30`, `18:00` + `AtLogOn` / `StartWhenAvailable` con sincronización `git pull --rebase` + `git push`.
 
 ---
 
-## Salidas Públicas Auto-Actualizadas (`output/`)
-
-| Archivo | Uso Principal | Descripción |
-| :--- | :--- | :--- |
-| **`output/precios_app_movil.json`** | **App Android (Tabla 3 Columnas)** | Payload JSON ultraligero indexado por puerto sin tildes (`MATARANI`, `CALLAO`, `PAITA`, `EL NURO`, etc.), con filas listas para pintar: `especie_mostrar`, `precio_mostrar` y `hora_mostrar`. |
-| **`output/precios_imarpe_app.json`** | **Backend / Analítica / BI** | Payload completo con estadísticas, rangos mín/máx/promedio e historial diario de la ventana de 7 días. |
-| **`output/Precios_Playa_IMARPE_Nacional.xlsx`** | **Reporte Ejecutivo Excel** | Libro Excel profesional con 3 hojas (`Ultimos_Precios_Vigentes`, `Historico_Reciente`, `Catalogo_Puertos_Especies`). |
-
-### URL Directa para Consumo en App Android
+## URL Pública Directa para App Android
 ```text
 https://raw.githubusercontent.com/achayna/Generador-precios/main/output/precios_app_movil.json
 ```
@@ -21,44 +16,45 @@ https://raw.githubusercontent.com/achayna/Generador-precios/main/output/precios_
 
 ## Estructura de `output/precios_app_movil.json`
 
+Las etiquetas de vigencia **nunca confunden la hora de revisión del script con la fecha real del muestreo**:
+
 ```json
 {
-  "actualizado_peru": "11/11/2026 23:40",
-  "actualizado_iso": "2026-11-11T23:40:00-05:00",
-  "fecha_extraccion_peru": "11/11/2026",
+  "estado_actualizacion": "Actualizado hasta ayer 12",
+  "estado_actualizacion_con_hora": "Actualizado hasta ayer 12 (16:00)",
+  "actualizado_peru": "Actualizado hasta ayer 12",
+  "ultima_fecha_datos": "12/11/2026",
+  "ultima_hora_datos": "16:00",
+  "ultima_revision_sistema": "13/11/2026 06:48",
+  "actualizado_iso": "2026-11-13T06:48:00-05:00",
   "ventana_dias": 7,
   "total_puertos": 65,
   "puertos_con_datos": 42,
-  "total_filas_precios": 740,
+  "total_filas_precios": 710,
   "puertos": {
     "MATARANI": {
       "nombre_puerto": "MATARANI",
       "departamento": "AREQUIPA",
       "region": "COSTA",
+      "ultima_fecha_muestreo": "12/11/2026",
+      "ultima_hora_muestreo": "16:00",
+      "estado_puerto": "Actualizado hasta ayer 12",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 12 (16:00)",
       "precios": [
         {
-          "especie_mostrar": "Cabrilla (Grande)",
-          "especie_corta": "Cabrilla",
-          "nombre_cientifico": "Paralabrax humeralis",
-          "sinonimos_busqueda": "Cabrilla, cagálo, bagalo, cabrilla comun",
-          "talla": "GRANDE",
-          "precio": 27.0,
-          "precio_mostrar": "S/ 27.00",
-          "hora": "16:00",
-          "fecha": "10/11/2026",
-          "hora_mostrar": "Ayer 16:00"
+          "especie_mostrar": "Perico",
+          "especie_corta": "Perico",
+          "nombre_cientifico": "Coryphaena hippurus",
+          "sinonimos_busqueda": "Perico, dorado",
+          "talla": "STANDAR",
+          "precio": 15.0,
+          "precio_mostrar": "S/ 15.00",
+          "hora": "08:48",
+          "fecha": "11/11/2026",
+          "hora_mostrar": "11/11 08:48"
         }
       ]
     }
   }
 }
-```
-
----
-
-## Ejecución Manual Local
-
-```bash
-pip install -r requirements.txt
-python main.py --days 7
 ```

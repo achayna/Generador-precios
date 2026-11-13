@@ -21,6 +21,7 @@ from imarpe_extractor.exporters import (
     export_to_excel,
     export_to_json,
     export_to_mobile_json,
+    recalculate_existing_outputs,
 )
 from imarpe_extractor.processor import run_national_extraction
 
@@ -89,18 +90,6 @@ def main() -> int:
     )
     logger = logging.getLogger("imarpe_main")
 
-    if args.graceful_unreachable:
-        reachable, detail = InfomarClient.check_reachability(probe_timeout=10.0)
-        if not reachable:
-            logger.warning(
-                "IMARPE no accesible desde esta IP (%s). El firewall perimetral de infomar.imarpe.gob.pe "
-                "restringe conexiones fuera del Perú (Geo-IP). Se conserva intacto output/ vigente. "
-                "Para extracción directa desde nube extranjera configure el secret IMARPE_PROXY_URL (IP Perú) "
-                "o un self-hosted runner en Perú.",
-                detail,
-            )
-            return 0
-
     if args.end_date:
         try:
             fecha_ref = datetime.strptime(args.end_date, "%Y-%m-%d").date()
@@ -109,6 +98,29 @@ def main() -> int:
             return 2
     else:
         fecha_ref = now_peru().date()
+
+    out_dir: Path = args.output_dir.resolve()
+
+    if args.graceful_unreachable:
+        reachable, detail = InfomarClient.check_reachability(probe_timeout=10.0)
+        if not reachable:
+            logger.warning(
+                "IMARPE bloqueado por Geo-IP para esta IP cloud (%s). "
+                "Recalculando etiquetas dinámicas (hora_mostrar, estado_puerto, estado_actualizacion) "
+                "sobre output/ existente con hoy_peru=%s...",
+                detail,
+                fecha_ref.isoformat(),
+            )
+            summary = recalculate_existing_outputs(out_dir, hoy_peru=fecha_ref)
+            logger.info(
+                "Recálculo offline completado | hoy_peru=%s | estado_actualizacion='%s' | "
+                "ultima_fecha_datos=%s | ultima_revision_sistema='%s'",
+                summary["hoy_peru"],
+                summary["estado_actualizacion"],
+                summary["ultima_fecha_datos"],
+                summary["ultima_revision_sistema"],
+            )
+            return 0
 
     t0 = time.perf_counter()
     result = run_national_extraction(
@@ -119,7 +131,6 @@ def main() -> int:
         use_legacy_fallback=args.use_legacy_fallback,
     )
 
-    out_dir: Path = args.output_dir.resolve()
     excel_path = out_dir / "Precios_Playa_IMARPE_Nacional.xlsx"
     json_path = out_dir / "precios_imarpe_app.json"
     mobile_json_path = out_dir / "precios_app_movil.json"

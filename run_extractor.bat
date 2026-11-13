@@ -20,19 +20,25 @@ if exist ".venv\Scripts\python.exe" (
 )
 
 echo ====================================================================== >> "%LOG_FILE%"
+echo [%DATE% %TIME%] Sincronizando rama local con origin/main antes de extraer... >> "%LOG_FILE%"
+if exist ".git" (
+    git checkout -- output/ >> "%LOG_FILE%" 2>&1
+    git pull --rebase origin main >> "%LOG_FILE%" 2>&1
+)
+
 echo [%DATE% %TIME%] Iniciando extraccion nacional INFOMAR - IMARPE >> "%LOG_FILE%"
 "%PYTHON_EXE%" main.py --days 7 %* >> "%LOG_FILE%" 2>&1
 set EXIT_CODE=%ERRORLEVEL%
 
-REM Si la extraccion fue exitosa y existe repositorio Git, publicar output/ en GitHub automaticamente
+REM Publicar output/ en GitHub automaticamente tras sincronizar sin conflictos
 if "%EXIT_CODE%"=="0" (
     if exist ".git" (
-        echo [%DATE% %TIME%] Sincronizando output/ hacia GitHub achayna/Generador-precios... >> "%LOG_FILE%"
+        echo [%DATE% %TIME%] Publicando output/ hacia GitHub achayna/Generador-precios... >> "%LOG_FILE%"
         git add output/ >> "%LOG_FILE%" 2>&1
         git diff --staged --quiet
         if errorlevel 1 (
             git commit -m "chore(data): auto-sync precios playa IMARPE desde IP Peru [skip ci]" >> "%LOG_FILE%" 2>&1
-            git pull --rebase --autostash origin main >> "%LOG_FILE%" 2>&1
+            git pull --rebase -X theirs origin main >> "%LOG_FILE%" 2>&1
             git push origin main >> "%LOG_FILE%" 2>&1
         ) else (
             echo [%DATE% %TIME%] Sin cambios en output/ para subir a GitHub. >> "%LOG_FILE%"

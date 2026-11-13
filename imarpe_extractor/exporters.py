@@ -3,9 +3,9 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional, Tuple
 
 import openpyxl
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
@@ -14,7 +14,12 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.worksheet.worksheet import Worksheet
 
 from .config import BASE_URL, now_peru
-from .processor import NationalExtractionResult, normalize_port_key
+from .processor import (
+    NationalExtractionResult,
+    format_estado_actualizacion,
+    format_hora_mostrar,
+    normalize_port_key,
+)
 
 # Paleta institucional inspirada en IMARPE
 HEADER_FILL = PatternFill(start_color="0B3C5D", end_color="0B3C5D", fill_type="solid")
@@ -405,11 +410,29 @@ def export_to_json(result: NationalExtractionResult, output_path: Path) -> Path:
 
     ts_pe = now_peru()
     ts_utc = datetime.now(timezone.utc)
+    hoy_peru = result.fecha_hasta
+
+    max_fecha_nac: Optional[date] = None
+    max_hora_nac: str = ""
+    for obs in result.historico:
+        if max_fecha_nac is None or (obs.fecha, obs.hora or "") > (max_fecha_nac, max_hora_nac):
+            max_fecha_nac = obs.fecha
+            max_hora_nac = obs.hora or ""
+
+    estado_global = format_estado_actualizacion(max_fecha_nac, hoy_peru)
+    estado_global_con_hora = format_estado_actualizacion(
+        max_fecha_nac, hoy_peru, max_hora_nac, con_hora=True
+    )
 
     payload = {
         "metadata": {
             "sistema_origen": "INFOMAR - Instituto del Mar del Perú (IMARPE)",
             "endpoint_principal": f"{BASE_URL}/v2/api/especies-por-puertos",
+            "estado_actualizacion": estado_global,
+            "estado_actualizacion_con_hora": estado_global_con_hora,
+            "ultima_fecha_datos": max_fecha_nac.strftime("%d/%m/%Y") if max_fecha_nac else None,
+            "ultima_hora_datos": max_hora_nac or None,
+            "ultima_revision_sistema": ts_pe.strftime("%d/%m/%Y %H:%M"),
             "generado_en_peru": ts_pe.isoformat(timespec="seconds"),
             "generado_en_utc": ts_utc.isoformat(timespec="seconds"),
             "moneda": "PEN",
@@ -440,13 +463,22 @@ def export_to_json(result: NationalExtractionResult, output_path: Path) -> Path:
     return output_path
 
 
+def _max_date_and_hour(pairs: List[Tuple[date, str]]) -> Tuple[Optional[date], str]:
+    """Obtiene la fecha máxima y, dentro de esa fecha máxima, la hora más reciente."""
+    if not pairs:
+        return None, ""
+    best_d, best_h = max(pairs, key=lambda x: (x[0], x[1] or ""))
+    return best_d, best_h or ""
+
+
 def export_to_mobile_json(result: NationalExtractionResult, output_path: Path) -> Path:
     """
     Genera output/precios_app_movil.json ultraligero pensado específicamente para
     pintar la tabla móvil de 3 columnas en Android (Especie | Precio | Hora) con
-    búsqueda instantánea por puerto sin tildes.
+    encabezados dinámicos basados estrictamente en la fecha real de los muestreos.
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    hoy_peru = result.fecha_hasta
 
     items_por_puerto: Dict[int, List[Any]] = {}
     for item in result.items_movil:
@@ -457,14 +489,33 @@ def export_to_mobile_json(result: NationalExtractionResult, output_path: Path) -
         key=lambda l: normalize_port_key(l.nombre_lugar),
     )
 
+    nacional_pairs: List[Tuple[date, str]] = []
     puertos_dict: Dict[str, Dict[str, Any]] = {}
+
     for lug in lugares_sorted:
         port_key = normalize_port_key(lug.nombre_lugar)
         filas = items_por_puerto.get(lug.lugar_id, [])
+
+        port_pairs: List[Tuple[date, str]] = []
+        for f in filas:
+            f_date = datetime.strptime(f.fecha, "%d/%m/%Y").date()
+            port_pairs.append((f_date, f.hora or ""))
+            nacional_pairs.append((f_date, f.hora or ""))
+
+        max_f_port, max_h_port = _max_date_and_hour(port_pairs)
+        estado_port = format_estado_actualizacion(max_f_port, hoy_peru)
+        estado_port_hora = format_estado_actualizacion(
+            max_f_port, hoy_peru, max_h_port, con_hora=True
+        )
+
         puertos_dict[port_key] = {
             "nombre_puerto": lug.nombre_lugar,
             "departamento": lug.departamento,
             "region": lug.region,
+            "ultima_fecha_muestreo": max_f_port.strftime("%d/%m/%Y") if max_f_port else None,
+            "ultima_hora_muestreo": max_h_port or None,
+            "estado_puerto": estado_port,
+            "estado_puerto_con_hora": estado_port_hora,
             "precios": [
                 {
                     "especie_mostrar": f.especie_mostrar,
@@ -482,11 +533,21 @@ def export_to_mobile_json(result: NationalExtractionResult, output_path: Path) -
             ],
         }
 
+    max_f_nac, max_h_nac = _max_date_and_hour(nacional_pairs)
+    estado_global = format_estado_actualizacion(max_f_nac, hoy_peru)
+    estado_global_con_hora = format_estado_actualizacion(
+        max_f_nac, hoy_peru, max_h_nac, con_hora=True
+    )
+
     ts_pe = now_peru()
     payload_movil = {
-        "actualizado_peru": ts_pe.strftime("%d/%m/%Y %H:%M"),
+        "estado_actualizacion": estado_global,
+        "estado_actualizacion_con_hora": estado_global_con_hora,
+        "actualizado_peru": estado_global,
+        "ultima_fecha_datos": max_f_nac.strftime("%d/%m/%Y") if max_f_nac else None,
+        "ultima_hora_datos": max_h_nac or None,
+        "ultima_revision_sistema": ts_pe.strftime("%d/%m/%Y %H:%M"),
         "actualizado_iso": ts_pe.isoformat(timespec="seconds"),
-        "fecha_extraccion_peru": result.fecha_hasta.strftime("%d/%m/%Y"),
         "ventana_dias": result.dias_ventana,
         "total_puertos": len(lugares_sorted),
         "puertos_con_datos": result.puertos_con_datos,
@@ -498,4 +559,130 @@ def export_to_mobile_json(result: NationalExtractionResult, output_path: Path) -
         json.dump(payload_movil, fh, ensure_ascii=False, indent=2)
 
     return output_path
+
+
+def recalculate_existing_outputs(
+    output_dir: Path,
+    hoy_peru: Optional[date] = None,
+) -> Dict[str, Any]:
+    """
+    Recalcula en modo offline (cuando GitHub Actions corre desde IP bloqueada por Geo-IP de IMARPE)
+    todas las etiquetas relativas al día actual en Perú (UTC-5):
+      - precios_app_movil.json: hora_mostrar, estado_puerto, estado_actualizacion, actualizado_peru, ultima_revision_sistema
+      - precios_imarpe_app.json: dias_antiguedad, dias_antiguedad_min, estado_actualizacion, ultima_revision_sistema
+    """
+    ts_pe = now_peru()
+    ts_utc = datetime.now(timezone.utc)
+    hoy = hoy_peru or ts_pe.date()
+
+    mobile_path = output_dir / "precios_app_movil.json"
+    full_path = output_dir / "precios_imarpe_app.json"
+
+    estado_global = "Sin reportes recientes"
+    estado_global_con_hora = "Sin reportes recientes"
+    ultima_fecha_str: Optional[str] = None
+    ultima_hora_str: Optional[str] = None
+
+    if mobile_path.exists():
+        with mobile_path.open("r", encoding="utf-8") as fh:
+            mob = json.load(fh)
+
+        nacional_pairs: List[Tuple[date, str]] = []
+        puertos_obj = mob.get("puertos") or {}
+
+        for _, port_data in puertos_obj.items():
+            precios_list = port_data.get("precios") or []
+            port_pairs: List[Tuple[date, str]] = []
+            for item in precios_list:
+                f_str = str(item.get("fecha") or "").strip()
+                h_str = str(item.get("hora") or "").strip()
+                if not f_str:
+                    continue
+                f_date = datetime.strptime(f_str, "%d/%m/%Y").date()
+                item["hora_mostrar"] = format_hora_mostrar(f_date, h_str, hoy)
+                port_pairs.append((f_date, h_str))
+                nacional_pairs.append((f_date, h_str))
+
+            max_f_port, max_h_port = _max_date_and_hour(port_pairs)
+            est_puerto = format_estado_actualizacion(max_f_port, hoy)
+            est_puerto_hora = format_estado_actualizacion(
+                max_f_port, hoy, max_h_port, con_hora=True
+            )
+
+            # Reordenamos llaves del puerto limpiamente manteniendo precios al final
+            rebuilt_port = {
+                "nombre_puerto": port_data.get("nombre_puerto"),
+                "departamento": port_data.get("departamento"),
+                "region": port_data.get("region"),
+                "ultima_fecha_muestreo": max_f_port.strftime("%d/%m/%Y") if max_f_port else None,
+                "ultima_hora_muestreo": max_h_port or None,
+                "estado_puerto": est_puerto,
+                "estado_puerto_con_hora": est_puerto_hora,
+                "precios": precios_list,
+            }
+            port_data.clear()
+            port_data.update(rebuilt_port)
+
+        max_f_nac, max_h_nac = _max_date_and_hour(nacional_pairs)
+        estado_global = format_estado_actualizacion(max_f_nac, hoy)
+        estado_global_con_hora = format_estado_actualizacion(
+            max_f_nac, hoy, max_h_nac, con_hora=True
+        )
+        ultima_fecha_str = max_f_nac.strftime("%d/%m/%Y") if max_f_nac else None
+        ultima_hora_str = max_h_nac or None
+
+        rebuilt_mob = {
+            "estado_actualizacion": estado_global,
+            "estado_actualizacion_con_hora": estado_global_con_hora,
+            "actualizado_peru": estado_global,
+            "ultima_fecha_datos": ultima_fecha_str,
+            "ultima_hora_datos": ultima_hora_str,
+            "ultima_revision_sistema": ts_pe.strftime("%d/%m/%Y %H:%M"),
+            "actualizado_iso": ts_pe.isoformat(timespec="seconds"),
+            "ventana_dias": mob.get("ventana_dias", 7),
+            "total_puertos": mob.get("total_puertos", len(puertos_obj)),
+            "puertos_con_datos": mob.get("puertos_con_datos", 0),
+            "total_filas_precios": mob.get("total_filas_precios", 0),
+            "puertos": puertos_obj,
+        }
+        with mobile_path.open("w", encoding="utf-8") as fh:
+            json.dump(rebuilt_mob, fh, ensure_ascii=False, indent=2)
+
+    if full_path.exists():
+        with full_path.open("r", encoding="utf-8") as fh:
+            full_doc = json.load(fh)
+
+        for puerto_entry in full_doc.get("puertos") or []:
+            especies_list = puerto_entry.get("especies") or []
+            for sp in especies_list:
+                f_iso = str(sp.get("fecha_ultimo_registro") or "").strip()
+                if f_iso:
+                    sp_date = datetime.strptime(f_iso, "%Y-%m-%d").date()
+                    sp["dias_antiguedad"] = max(0, (hoy - sp_date).days)
+            puerto_entry["dias_antiguedad_min"] = (
+                min(s["dias_antiguedad"] for s in especies_list if "dias_antiguedad" in s)
+                if especies_list
+                else None
+            )
+
+        meta = full_doc.setdefault("metadata", {})
+        meta["estado_actualizacion"] = estado_global
+        meta["estado_actualizacion_con_hora"] = estado_global_con_hora
+        meta["ultima_fecha_datos"] = ultima_fecha_str
+        meta["ultima_hora_datos"] = ultima_hora_str
+        meta["ultima_revision_sistema"] = ts_pe.strftime("%d/%m/%Y %H:%M")
+        meta["generado_en_peru"] = ts_pe.isoformat(timespec="seconds")
+        meta["generado_en_utc"] = ts_utc.isoformat(timespec="seconds")
+
+        with full_path.open("w", encoding="utf-8") as fh:
+            json.dump(full_doc, fh, ensure_ascii=False, indent=2)
+
+    return {
+        "hoy_peru": hoy.strftime("%d/%m/%Y"),
+        "estado_actualizacion": estado_global,
+        "estado_actualizacion_con_hora": estado_global_con_hora,
+        "ultima_fecha_datos": ultima_fecha_str,
+        "ultima_revision_sistema": ts_pe.strftime("%d/%m/%Y %H:%M"),
+    }
+
 
