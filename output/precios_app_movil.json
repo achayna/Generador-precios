@@ -1,15 +1,15 @@
 {
-  "estado_actualizacion": "Actualizado hasta ayer 13",
-  "estado_actualizacion_con_hora": "Actualizado hasta ayer 13 (17:39)",
-  "actualizado_peru": "Actualizado hasta ayer 13",
-  "ultima_fecha_datos": "13/11/2026",
-  "ultima_hora_datos": "17:39",
-  "ultima_revision_sistema": "14/11/2026 13:48",
-  "actualizado_iso": "2026-11-14T13:48:49-05:00",
+  "estado_actualizacion": "Actualizado hasta hoy 14",
+  "estado_actualizacion_con_hora": "Actualizado hasta hoy 14 (12:03)",
+  "actualizado_peru": "Actualizado hasta hoy 14",
+  "ultima_fecha_datos": "14/11/2026",
+  "ultima_hora_datos": "12:03",
+  "ultima_revision_sistema": "14/11/2026 16:00",
+  "actualizado_iso": "2026-11-14T16:00:11-05:00",
   "ventana_dias": 7,
   "total_puertos": 65,
   "puertos_con_datos": 41,
-  "total_filas_precios": 613,
+  "total_filas_precios": 614,
   "puertos": {
     "ACAPULCO": {
       "nombre_puerto": "ACAPULCO",
@@ -5365,10 +5365,10 @@
       "nombre_puerto": "PUERTO ETEN",
       "departamento": "LAMBAYEQUE",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "07/11/2026",
-      "ultima_hora_muestreo": "16:47",
-      "estado_puerto": "Actualizado hasta el 07/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 07/11 (16:47)",
+      "ultima_fecha_muestreo": "14/11/2026",
+      "ultima_hora_muestreo": "12:03",
+      "estado_puerto": "Actualizado hasta hoy 14",
+      "estado_puerto_con_hora": "Actualizado hasta hoy 14 (12:03)",
       "precios": [
         {
           "especie_mostrar": "Cachema",
@@ -5376,11 +5376,23 @@
           "nombre_cientifico": "Cynoscion analis",
           "sinonimos_busqueda": "Cachema, ayanque, ayangue",
           "talla": "STANDAR",
-          "precio": 20.0,
-          "precio_mostrar": "S/ 20.00",
-          "hora": "16:39",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:39"
+          "precio": 25.0,
+          "precio_mostrar": "S/ 25.00",
+          "hora": "11:49",
+          "fecha": "10/11/2026",
+          "hora_mostrar": "10/11 11:49"
+        },
+        {
+          "especie_mostrar": "Cocinero",
+          "especie_corta": "Cocinero",
+          "nombre_cientifico": "Hemicaranx zelotes",
+          "sinonimos_busqueda": "Cocinero, chiri, cocinero ñato, chumbo ñato norteño",
+          "talla": "STANDAR",
+          "precio": 2.0,
+          "precio_mostrar": "S/ 2.00",
+          "hora": "12:03",
+          "fecha": "14/11/2026",
+          "hora_mostrar": "Hoy 12:03"
         },
         {
           "especie_mostrar": "Cocinero",
@@ -5395,18 +5407,6 @@
           "hora_mostrar": "07/11 16:40"
         },
         {
-          "especie_mostrar": "Coco (Pequeño)",
-          "especie_corta": "Coco",
-          "nombre_cientifico": "Paralonchurus peruanus",
-          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
-          "talla": "PEQUEÑO",
-          "precio": 12.0,
-          "precio_mostrar": "S/ 12.00",
-          "hora": "16:41",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:41"
-        },
-        {
           "especie_mostrar": "Coco (Mediano)",
           "especie_corta": "Coco",
           "nombre_cientifico": "Paralonchurus peruanus",
@@ -5414,9 +5414,9 @@
           "talla": "MEDIANO",
           "precio": 18.0,
           "precio_mostrar": "S/ 18.00",
-          "hora": "16:42",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:42"
+          "hora": "11:49",
+          "fecha": "10/11/2026",
+          "hora_mostrar": "10/11 11:49"
         },
         {
           "especie_mostrar": "Guitarra común",
@@ -5450,9 +5450,9 @@
           "talla": "STANDAR",
           "precio": 12.0,
           "precio_mostrar": "S/ 12.00",
-          "hora": "16:44",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:44"
+          "hora": "11:44",
+          "fecha": "14/11/2026",
+          "hora_mostrar": "Hoy 11:44"
         },
         {
           "especie_mostrar": "Pámpano (Pequeño)",
@@ -5460,11 +5460,23 @@
           "nombre_cientifico": "Trachinotus paitensis",
           "sinonimos_busqueda": "Pámpano, pampanito, cometrapo, palometa",
           "talla": "PEQUEÑO",
-          "precio": 12.0,
-          "precio_mostrar": "S/ 12.00",
-          "hora": "16:45",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:45"
+          "precio": 18.0,
+          "precio_mostrar": "S/ 18.00",
+          "hora": "11:49",
+          "fecha": "11/11/2026",
+          "hora_mostrar": "11/11 11:49"
+        },
+        {
+          "especie_mostrar": "Raya águila peruana",
+          "especie_corta": "Raya águila peruana",
+          "nombre_cientifico": "Myliobatis peruviana",
+          "sinonimos_busqueda": "Raya águila peruana, raya águila, raya, raya de punta",
+          "talla": "STANDAR",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "11:45",
+          "fecha": "14/11/2026",
+          "hora_mostrar": "Hoy 11:45"
         },
         {
           "especie_mostrar": "Raya batea",
@@ -5474,9 +5486,9 @@
           "talla": "STANDAR",
           "precio": 12.0,
           "precio_mostrar": "S/ 12.00",
-          "hora": "16:46",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:46"
+          "hora": "11:46",
+          "fecha": "14/11/2026",
+          "hora_mostrar": "Hoy 11:46"
         },
         {
           "especie_mostrar": "Raya c. espinas",
@@ -5486,9 +5498,9 @@
           "talla": "STANDAR",
           "precio": 2.0,
           "precio_mostrar": "S/ 2.00",
-          "hora": "16:45",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:45"
+          "hora": "11:47",
+          "fecha": "14/11/2026",
+          "hora_mostrar": "Hoy 11:47"
         },
         {
           "especie_mostrar": "Sierra",
@@ -5498,9 +5510,9 @@
           "talla": "STANDAR",
           "precio": 8.0,
           "precio_mostrar": "S/ 8.00",
-          "hora": "16:47",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:47"
+          "hora": "11:47",
+          "fecha": "14/11/2026",
+          "hora_mostrar": "Hoy 11:47"
         },
         {
           "especie_mostrar": "Tollo manchado",
@@ -5510,9 +5522,9 @@
           "talla": "STANDAR",
           "precio": 15.0,
           "precio_mostrar": "S/ 15.00",
-          "hora": "16:47",
-          "fecha": "07/11/2026",
-          "hora_mostrar": "07/11 16:47"
+          "hora": "11:48",
+          "fecha": "14/11/2026",
+          "hora_mostrar": "Hoy 11:48"
         }
       ]
     },
