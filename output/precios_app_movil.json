@@ -1,11 +1,11 @@
 {
-  "estado_actualizacion": "Actualizado hasta hoy 16",
-  "estado_actualizacion_con_hora": "Actualizado hasta hoy 16 (09:12)",
-  "actualizado_peru": "Actualizado hasta hoy 16",
+  "estado_actualizacion": "Actualizado hasta ayer 16",
+  "estado_actualizacion_con_hora": "Actualizado hasta ayer 16 (09:12)",
+  "actualizado_peru": "Actualizado hasta ayer 16",
   "ultima_fecha_datos": "16/11/2026",
   "ultima_hora_datos": "09:12",
-  "ultima_revision_sistema": "16/11/2026 23:55",
-  "actualizado_iso": "2026-11-16T23:55:05-05:00",
+  "ultima_revision_sistema": "17/11/2026 09:16",
+  "actualizado_iso": "2026-11-17T09:16:44-05:00",
   "ventana_dias": 7,
   "total_puertos": 65,
   "puertos_con_datos": 42,
@@ -1527,8 +1527,8 @@
       "region": "COSTA",
       "ultima_fecha_muestreo": "16/11/2026",
       "ultima_hora_muestreo": "06:16",
-      "estado_puerto": "Actualizado hasta hoy 16",
-      "estado_puerto_con_hora": "Actualizado hasta hoy 16 (06:16)",
+      "estado_puerto": "Actualizado hasta ayer 16",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 16 (06:16)",
       "precios": [
         {
           "especie_mostrar": "Bonito (Mediano)",
@@ -1540,7 +1540,7 @@
           "precio_mostrar": "S/ 10.00",
           "hora": "06:14",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:14"
+          "hora_mostrar": "Ayer 06:14"
         },
         {
           "especie_mostrar": "Cachema (Mediano)",
@@ -1552,7 +1552,7 @@
           "precio_mostrar": "S/ 10.00",
           "hora": "06:15",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:15"
+          "hora_mostrar": "Ayer 06:15"
         },
         {
           "especie_mostrar": "Cangrejo violáceo (Pequeño)",
@@ -1588,7 +1588,7 @@
           "precio_mostrar": "S/ 4.00",
           "hora": "06:15",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:15"
+          "hora_mostrar": "Ayer 06:15"
         },
         {
           "especie_mostrar": "Sierra (Mediano)",
@@ -1600,7 +1600,7 @@
           "precio_mostrar": "S/ 7.00",
           "hora": "06:16",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:16"
+          "hora_mostrar": "Ayer 06:16"
         }
       ]
     },
@@ -2653,8 +2653,8 @@
       "region": "COSTA",
       "ultima_fecha_muestreo": "16/11/2026",
       "ultima_hora_muestreo": "06:19",
-      "estado_puerto": "Actualizado hasta hoy 16",
-      "estado_puerto_con_hora": "Actualizado hasta hoy 16 (06:19)",
+      "estado_puerto": "Actualizado hasta ayer 16",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 16 (06:19)",
       "precios": [
         {
           "especie_mostrar": "Bonito (Grande)",
@@ -2666,7 +2666,7 @@
           "precio_mostrar": "S/ 7.00",
           "hora": "06:19",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:19"
+          "hora_mostrar": "Ayer 06:19"
         },
         {
           "especie_mostrar": "Cachema (Mediano)",
@@ -2678,7 +2678,7 @@
           "precio_mostrar": "S/ 12.00",
           "hora": "06:19",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:19"
+          "hora_mostrar": "Ayer 06:19"
         },
         {
           "especie_mostrar": "Cangrejo violáceo (Pequeño)",
@@ -2690,7 +2690,7 @@
           "precio_mostrar": "S/ 7.00",
           "hora": "06:18",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:18"
+          "hora_mostrar": "Ayer 06:18"
         },
         {
           "especie_mostrar": "Caracol",
@@ -2714,7 +2714,7 @@
           "precio_mostrar": "S/ 10.00",
           "hora": "06:18",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:18"
+          "hora_mostrar": "Ayer 06:18"
         },
         {
           "especie_mostrar": "Lisa",
@@ -2774,7 +2774,7 @@
           "precio_mostrar": "S/ 4.00",
           "hora": "06:16",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 06:16"
+          "hora_mostrar": "Ayer 06:16"
         }
       ]
     },
@@ -2891,8 +2891,8 @@
       "region": "COSTA",
       "ultima_fecha_muestreo": "16/11/2026",
       "ultima_hora_muestreo": "08:59",
-      "estado_puerto": "Actualizado hasta hoy 16",
-      "estado_puerto_con_hora": "Actualizado hasta hoy 16 (08:59)",
+      "estado_puerto": "Actualizado hasta ayer 16",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 16 (08:59)",
       "precios": [
         {
           "especie_mostrar": "Perico",
@@ -2904,7 +2904,7 @@
           "precio_mostrar": "S/ 16.00",
           "hora": "08:59",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 08:59"
+          "hora_mostrar": "Ayer 08:59"
         }
       ]
     },
@@ -7096,8 +7096,8 @@
       "region": "COSTA",
       "ultima_fecha_muestreo": "16/11/2026",
       "ultima_hora_muestreo": "08:25",
-      "estado_puerto": "Actualizado hasta hoy 16",
-      "estado_puerto_con_hora": "Actualizado hasta hoy 16 (08:25)",
+      "estado_puerto": "Actualizado hasta ayer 16",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 16 (08:25)",
       "precios": [
         {
           "especie_mostrar": "Barrilete negro (Pequeño)",
@@ -7109,7 +7109,7 @@
           "precio_mostrar": "S/ 2.90",
           "hora": "08:25",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 08:25"
+          "hora_mostrar": "Ayer 08:25"
         },
         {
           "especie_mostrar": "Bonito (Grande)",
@@ -7121,7 +7121,7 @@
           "precio_mostrar": "S/ 10.20",
           "hora": "08:25",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 08:25"
+          "hora_mostrar": "Ayer 08:25"
         },
         {
           "especie_mostrar": "Cachema (Grande)",
@@ -7265,7 +7265,7 @@
           "precio_mostrar": "S/ 9.00",
           "hora": "08:25",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 08:25"
+          "hora_mostrar": "Ayer 08:25"
         },
         {
           "especie_mostrar": "Trambollo (Grande)",
@@ -7317,8 +7317,8 @@
       "region": "COSTA",
       "ultima_fecha_muestreo": "16/11/2026",
       "ultima_hora_muestreo": "09:10",
-      "estado_puerto": "Actualizado hasta hoy 16",
-      "estado_puerto_con_hora": "Actualizado hasta hoy 16 (09:10)",
+      "estado_puerto": "Actualizado hasta ayer 16",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 16 (09:10)",
       "precios": [
         {
           "especie_mostrar": "Bonito (Grande)",
@@ -7330,7 +7330,7 @@
           "precio_mostrar": "S/ 9.00",
           "hora": "09:07",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:07"
+          "hora_mostrar": "Ayer 09:07"
         },
         {
           "especie_mostrar": "Burro (Grande)",
@@ -7342,7 +7342,7 @@
           "precio_mostrar": "S/ 23.00",
           "hora": "09:09",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:09"
+          "hora_mostrar": "Ayer 09:09"
         },
         {
           "especie_mostrar": "Cachema (Grande)",
@@ -7354,7 +7354,7 @@
           "precio_mostrar": "S/ 12.00",
           "hora": "09:07",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:07"
+          "hora_mostrar": "Ayer 09:07"
         },
         {
           "especie_mostrar": "Coco (Mediano)",
@@ -7366,7 +7366,7 @@
           "precio_mostrar": "S/ 9.00",
           "hora": "09:07",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:07"
+          "hora_mostrar": "Ayer 09:07"
         },
         {
           "especie_mostrar": "Corvina (Mediano)",
@@ -7426,7 +7426,7 @@
           "precio_mostrar": "S/ 4.00",
           "hora": "09:08",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:08"
+          "hora_mostrar": "Ayer 09:08"
         },
         {
           "especie_mostrar": "Perico (Mediano)",
@@ -7438,7 +7438,7 @@
           "precio_mostrar": "S/ 15.00",
           "hora": "09:08",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:08"
+          "hora_mostrar": "Ayer 09:08"
         },
         {
           "especie_mostrar": "Pintadilla (Mediano)",
@@ -7450,7 +7450,7 @@
           "precio_mostrar": "S/ 20.00",
           "hora": "09:09",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:09"
+          "hora_mostrar": "Ayer 09:09"
         },
         {
           "especie_mostrar": "Raya águila chilena (Grande)",
@@ -7486,7 +7486,7 @@
           "precio_mostrar": "S/ 14.00",
           "hora": "09:08",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:08"
+          "hora_mostrar": "Ayer 09:08"
         },
         {
           "especie_mostrar": "Trambollo (Grande)",
@@ -7498,7 +7498,7 @@
           "precio_mostrar": "S/ 25.00",
           "hora": "09:10",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:10"
+          "hora_mostrar": "Ayer 09:10"
         }
       ]
     },
@@ -7601,8 +7601,8 @@
       "region": "COSTA",
       "ultima_fecha_muestreo": "16/11/2026",
       "ultima_hora_muestreo": "09:12",
-      "estado_puerto": "Actualizado hasta hoy 16",
-      "estado_puerto_con_hora": "Actualizado hasta hoy 16 (09:12)",
+      "estado_puerto": "Actualizado hasta ayer 16",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 16 (09:12)",
       "precios": [
         {
           "especie_mostrar": "Bonito (Grande)",
@@ -7626,7 +7626,7 @@
           "precio_mostrar": "S/ 12.00",
           "hora": "09:12",
           "fecha": "16/11/2026",
-          "hora_mostrar": "Hoy 09:12"
+          "hora_mostrar": "Ayer 09:12"
         },
         {
           "especie_mostrar": "Coco",
