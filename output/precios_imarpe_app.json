@@ -3,12 +3,12 @@
     "sistema_origen": "INFOMAR - Instituto del Mar del Perú (IMARPE)",
     "endpoint_principal": "https://infomar.imarpe.gob.pe/v2/api/especies-por-puertos",
     "estado_actualizacion": "Actualizado hasta hoy 18",
-    "estado_actualizacion_con_hora": "Actualizado hasta hoy 18 (12:00)",
+    "estado_actualizacion_con_hora": "Actualizado hasta hoy 18 (17:35)",
     "ultima_fecha_datos": "18/11/2026",
-    "ultima_hora_datos": "12:00",
-    "ultima_revision_sistema": "18/11/2026 16:31",
-    "generado_en_peru": "2026-11-18T16:31:55-05:00",
-    "generado_en_utc": "2026-11-18T21:31:55+00:00",
+    "ultima_hora_datos": "17:35",
+    "ultima_revision_sistema": "18/11/2026 18:00",
+    "generado_en_peru": "2026-11-18T18:00:35-05:00",
+    "generado_en_utc": "2026-11-18T23:00:35+00:00",
     "moneda": "PEN",
     "simbolo_moneda": "S/",
     "unidad": "kg",
@@ -23,8 +23,8 @@
     "estadisticas": {
       "puertos_consultados": 65,
       "puertos_con_datos": 38,
-      "total_especies_vigentes_puerto": 533,
-      "total_muestreos_ventana": 1393,
+      "total_especies_vigentes_puerto": 566,
+      "total_muestreos_ventana": 1530,
       "catalogo_total_lugares": 80,
       "catalogo_total_especies": 362,
       "puertos_con_error": []
@@ -37,9 +37,9 @@
       "region": "COSTA",
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
-      "total_especies_vigentes": 15,
+      "fecha_ultimo_muestreo": "2026-11-17",
+      "dias_antiguedad_min": 1,
+      "total_especies_vigentes": 16,
       "especies": [
         {
           "taxon_id": 122,
@@ -179,19 +179,25 @@
           "nombre_comun_corto": "Castañuela",
           "nombre_cientifico": "Chromis crusma",
           "precio_playa_kg": {
-            "promedio": 3.0,
-            "minimo": 3.0,
-            "maximo": 3.0,
-            "ultimo": 3.0
+            "promedio": 20.0,
+            "minimo": 20.0,
+            "maximo": 20.0,
+            "ultimo": 20.0
           },
           "precios_por_tamano": {
-            "STANDAR": 3.0
+            "STANDAR": 20.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "10:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "10:00",
+              "tamano": "STANDAR",
+              "precio_kg": 20.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "09:00",
@@ -233,19 +239,25 @@
           "nombre_comun_corto": "Guitarra común",
           "nombre_cientifico": "Pseudobatos planiceps",
           "precio_playa_kg": {
-            "promedio": 4.0,
-            "minimo": 4.0,
-            "maximo": 4.0,
-            "ultimo": 4.0
+            "promedio": 3.0,
+            "minimo": 3.0,
+            "maximo": 3.0,
+            "ultimo": 3.0
           },
           "precios_por_tamano": {
-            "STANDAR": 4.0
+            "STANDAR": 3.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "10:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "10:00",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "09:00",
@@ -325,11 +337,17 @@
           "precios_por_tamano": {
             "STANDAR": 25.0
           },
-          "fecha_ultimo_registro": "2026-11-14",
-          "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "10:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "10:00",
+              "tamano": "STANDAR",
+              "precio_kg": 25.0
+            },
             {
               "fecha": "2026-11-14",
               "hora": "08:00",
@@ -470,11 +488,23 @@
             "PEQUEÑO": 10.0,
             "GRANDE": 20.0
           },
-          "fecha_ultimo_registro": "2026-11-14",
-          "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 4,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "13:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "13:00",
+              "tamano": "GRANDE",
+              "precio_kg": 20.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "13:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 10.0
+            },
             {
               "fecha": "2026-11-14",
               "hora": "12:00",
@@ -515,11 +545,17 @@
           "precios_por_tamano": {
             "STANDAR": 3.5
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "10:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "10:00",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-16",
               "hora": "09:00",
@@ -560,6 +596,33 @@
               "precio_kg": 8.0
             }
           ]
+        },
+        {
+          "taxon_id": 246,
+          "nombre_comun": "Tollo manchado, tollo rara",
+          "nombre_comun_corto": "Tollo manchado",
+          "nombre_cientifico": "Triakis maculata",
+          "precio_playa_kg": {
+            "promedio": 7.0,
+            "minimo": 7.0,
+            "maximo": 7.0,
+            "ultimo": 7.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 7.0
+          },
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "10:00",
+          "dias_antiguedad": 1,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "10:00",
+              "tamano": "STANDAR",
+              "precio_kg": 7.0
+            }
+          ]
         }
       ]
     },
@@ -571,7 +634,7 @@
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
       "dias_antiguedad_min": 1,
-      "total_especies_vigentes": 27,
+      "total_especies_vigentes": 26,
       "especies": [
         {
           "taxon_id": 478,
@@ -774,33 +837,6 @@
               "hora": "08:00",
               "tamano": "STANDAR",
               "precio_kg": 17.0
-            }
-          ]
-        },
-        {
-          "taxon_id": 36,
-          "nombre_comun": "Caracol, caracol negro, caracol común, caracol plomo",
-          "nombre_comun_corto": "Caracol",
-          "nombre_cientifico": "Thaisella chocolata",
-          "precio_playa_kg": {
-            "promedio": 50.0,
-            "minimo": 50.0,
-            "maximo": 50.0,
-            "ultimo": 50.0
-          },
-          "precios_por_tamano": {
-            "MEDIANO": 50.0
-          },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 1,
-          "muestreos_ultimo_dia": 1,
-          "historico_reciente": [
-            {
-              "fecha": "2026-11-17",
-              "hora": "12:00",
-              "tamano": "MEDIANO",
-              "precio_kg": 50.0
             }
           ]
         },
@@ -1585,8 +1621,8 @@
       "region": "COSTA",
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "fecha_ultimo_muestreo": "2026-11-17",
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 7,
       "especies": [
         {
@@ -1603,11 +1639,17 @@
           "precios_por_tamano": {
             "STANDAR": 2.5
           },
-          "fecha_ultimo_registro": "2026-11-16",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
-          "muestreos_ultimo_dia": 2,
+          "dias_antiguedad": 1,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "STANDAR",
+              "precio_kg": 2.5
+            },
             {
               "fecha": "2026-11-16",
               "hora": "16:00",
@@ -1660,11 +1702,17 @@
           "precios_por_tamano": {
             "STANDAR": 2.1
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "16:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "STANDAR",
+              "precio_kg": 2.1
+            },
             {
               "fecha": "2026-11-16",
               "hora": "12:00",
@@ -1726,11 +1774,17 @@
           "precios_por_tamano": {
             "STANDAR": 3.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:00",
@@ -1751,19 +1805,25 @@
           "nombre_comun_corto": "Percebes",
           "nombre_cientifico": "Pollicipes elegans",
           "precio_playa_kg": {
-            "promedio": 10.0,
-            "minimo": 10.0,
-            "maximo": 10.0,
-            "ultimo": 10.0
+            "promedio": 7.0,
+            "minimo": 7.0,
+            "maximo": 7.0,
+            "ultimo": 7.0
           },
           "precios_por_tamano": {
-            "STANDAR": 10.0
+            "STANDAR": 7.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "STANDAR",
+              "precio_kg": 7.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:00",
@@ -1790,20 +1850,44 @@
           "nombre_comun_corto": "Pulpo",
           "nombre_cientifico": "Octopus mimus",
           "precio_playa_kg": {
-            "promedio": 15.0,
-            "minimo": 10.0,
+            "promedio": 14.5,
+            "minimo": 9.0,
             "maximo": 20.0,
             "ultimo": 20.0
           },
           "precios_por_tamano": {
-            "PEQUEÑO": 10.0,
+            "PEQUEÑO": 9.0,
             "GRANDE": 20.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 4,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "GRANDE",
+              "precio_kg": 20.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 9.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "12:00",
+              "tamano": "GRANDE",
+              "precio_kg": 20.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "12:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 9.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "16:00",
@@ -1937,9 +2021,9 @@
       "region": "COSTA",
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
-      "total_especies_vigentes": 7,
+      "fecha_ultimo_muestreo": "2026-11-17",
+      "dias_antiguedad_min": 1,
+      "total_especies_vigentes": 8,
       "especies": [
         {
           "taxon_id": 122,
@@ -1955,11 +2039,17 @@
           "precios_por_tamano": {
             "PEQUEÑO": 5.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 5.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "08:00",
@@ -1998,19 +2088,25 @@
           "nombre_comun_corto": "Cabrilla",
           "nombre_cientifico": "Paralabrax humeralis",
           "precio_playa_kg": {
-            "promedio": 7.0,
-            "minimo": 7.0,
-            "maximo": 7.0,
-            "ultimo": 7.0
+            "promedio": 20.0,
+            "minimo": 20.0,
+            "maximo": 20.0,
+            "ultimo": 20.0
           },
           "precios_por_tamano": {
-            "PEQUEÑO": 7.0
+            "GRANDE": 20.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "13:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "13:00",
+              "tamano": "GRANDE",
+              "precio_kg": 20.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "12:00",
@@ -2069,11 +2165,17 @@
           "precios_por_tamano": {
             "STANDAR": 6.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "STANDAR",
+              "precio_kg": 6.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "08:00",
@@ -2129,11 +2231,17 @@
           "precios_por_tamano": {
             "MEDIANO": 5.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "MEDIANO",
+              "precio_kg": 5.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "08:00",
@@ -2170,6 +2278,33 @@
           ]
         },
         {
+          "taxon_id": 214,
+          "nombre_comun": "Pintadilla, pintacha, páramo, boca dulce",
+          "nombre_comun_corto": "Pintadilla",
+          "nombre_cientifico": "Chirodactylus variegatus",
+          "precio_playa_kg": {
+            "promedio": 11.0,
+            "minimo": 11.0,
+            "maximo": 11.0,
+            "ultimo": 11.0
+          },
+          "precios_por_tamano": {
+            "MEDIANO": 11.0
+          },
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "13:00",
+          "dias_antiguedad": 1,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "13:00",
+              "tamano": "MEDIANO",
+              "precio_kg": 11.0
+            }
+          ]
+        },
+        {
           "taxon_id": 238,
           "nombre_comun": "Trambollo, tomollo, chalapo ojos",
           "nombre_comun_corto": "Trambollo",
@@ -2183,11 +2318,17 @@
           "precios_por_tamano": {
             "GRANDE": 18.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "13:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "13:00",
+              "tamano": "GRANDE",
+              "precio_kg": 18.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "12:00",
@@ -2216,9 +2357,9 @@
       "region": "COSTA",
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
-      "total_especies_vigentes": 5,
+      "fecha_ultimo_muestreo": "2026-11-17",
+      "dias_antiguedad_min": 1,
+      "total_especies_vigentes": 6,
       "especies": [
         {
           "taxon_id": 122,
@@ -2265,19 +2406,25 @@
           "nombre_comun_corto": "Guitarra común",
           "nombre_cientifico": "Pseudobatos planiceps",
           "precio_playa_kg": {
-            "promedio": 3.0,
-            "minimo": 3.0,
-            "maximo": 3.0,
-            "ultimo": 3.0
+            "promedio": 3.5,
+            "minimo": 3.5,
+            "maximo": 3.5,
+            "ultimo": 3.5
           },
           "precios_por_tamano": {
-            "STANDAR": 3.0
+            "STANDAR": 3.5
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "12:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "12:00",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-11",
               "hora": "08:00",
@@ -2337,20 +2484,32 @@
           "nombre_comun_corto": "Pulpo",
           "nombre_cientifico": "Octopus mimus",
           "precio_playa_kg": {
-            "promedio": 16.0,
+            "promedio": 14.0,
             "minimo": 10.0,
-            "maximo": 22.0,
-            "ultimo": 22.0
+            "maximo": 18.0,
+            "ultimo": 18.0
           },
           "precios_por_tamano": {
             "PEQUEÑO": 10.0,
-            "GRANDE": 22.0
+            "GRANDE": 18.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "16:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "GRANDE",
+              "precio_kg": 18.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "16:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 10.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "12:00",
@@ -2415,6 +2574,33 @@
               "precio_kg": 2.5
             }
           ]
+        },
+        {
+          "taxon_id": 233,
+          "nombre_comun": "Sierra, verle",
+          "nombre_comun_corto": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "precio_playa_kg": {
+            "promedio": 3.0,
+            "minimo": 3.0,
+            "maximo": 3.0,
+            "ultimo": 3.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 3.0
+          },
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "08:00",
+          "dias_antiguedad": 1,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            }
+          ]
         }
       ]
     },
@@ -2424,8 +2610,8 @@
       "region": "COSTA",
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "fecha_ultimo_muestreo": "2026-11-17",
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 16,
       "especies": [
         {
@@ -2469,11 +2655,23 @@
           "precios_por_tamano": {
             "STANDAR": 10.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
-          "muestreos_ultimo_dia": 1,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "14:00",
+          "dias_antiguedad": 1,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "14:00",
+              "tamano": "STANDAR",
+              "precio_kg": 10.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "STANDAR",
+              "precio_kg": 10.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "08:00",
@@ -2500,19 +2698,31 @@
           "nombre_comun_corto": "Coco",
           "nombre_cientifico": "Paralonchurus peruanus",
           "precio_playa_kg": {
-            "promedio": 3.0,
+            "promedio": 3.25,
             "minimo": 3.0,
-            "maximo": 3.0,
+            "maximo": 3.5,
             "ultimo": 3.0
           },
           "precios_por_tamano": {
-            "PEQUEÑO": 3.0
+            "PEQUEÑO": 3.25
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
-          "muestreos_ultimo_dia": 1,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "14:00",
+          "dias_antiguedad": 1,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "14:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 3.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-16",
               "hora": "08:00",
@@ -2551,13 +2761,19 @@
             "ultimo": 1.2
           },
           "precios_por_tamano": {
-            "STANDAR": 1.2
+            "PEQUEÑO": 1.2
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "14:00",
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "14:00",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 1.2
+            },
             {
               "fecha": "2026-11-12",
               "hora": "08:00",
@@ -2572,19 +2788,25 @@
           "nombre_comun_corto": "Guitarra común",
           "nombre_cientifico": "Pseudobatos planiceps",
           "precio_playa_kg": {
-            "promedio": 2.5,
-            "minimo": 2.5,
-            "maximo": 2.5,
-            "ultimo": 2.5
+            "promedio": 3.0,
+            "minimo": 3.0,
+            "maximo": 3.0,
+            "ultimo": 3.0
           },
           "precios_por_tamano": {
-            "STANDAR": 2.5
+            "STANDAR": 3.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "08:00",
@@ -2625,11 +2847,17 @@
           "precios_por_tamano": {
             "STANDAR": 20.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "STANDAR",
+              "precio_kg": 20.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "08:00",
@@ -2677,19 +2905,31 @@
           "nombre_comun_corto": "Lisa",
           "nombre_cientifico": "Mugil cephalus",
           "precio_playa_kg": {
-            "promedio": 6.0,
-            "minimo": 6.0,
+            "promedio": 5.5,
+            "minimo": 5.0,
             "maximo": 6.0,
-            "ultimo": 6.0
+            "ultimo": 5.0
           },
           "precios_por_tamano": {
-            "STANDAR": 6.0
+            "STANDAR": 5.5
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 1,
+          "fecha_ultimo_registro": "2026-11-17",
+          "hora_ultimo_registro": "14:00",
+          "dias_antiguedad": 1,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "14:00",
+              "tamano": "STANDAR",
+              "precio_kg": 5.0
+            },
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "STANDAR",
+              "precio_kg": 6.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "08:00",
@@ -2772,11 +3012,17 @@
           "precios_por_tamano": {
             "STANDAR": 3.5
           },
-          "fecha_ultimo_registro": "2026-11-16",
+          "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-17",
+              "hora": "08:00",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-16",
               "hora": "08:00",
@@ -2952,8 +3198,8 @@
       "region": "COSTA",
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
       "total_especies_vigentes": 5,
       "especies": [
         {
@@ -3096,11 +3342,17 @@
           "precios_por_tamano": {
             "STANDAR": 45.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "12:27",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:34",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:34",
+              "tamano": "STANDAR",
+              "precio_kg": 45.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "12:27",
@@ -3550,29 +3802,62 @@
       "region": "COSTA",
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
-      "total_especies_vigentes": 4,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 6,
       "especies": [
+        {
+          "taxon_id": 115,
+          "nombre_comun": "Barrilete negro, tamborin, melva, fragata, botellita",
+          "nombre_comun_corto": "Barrilete negro",
+          "nombre_cientifico": "Auxis rochei",
+          "precio_playa_kg": {
+            "promedio": 1.4,
+            "minimo": 1.4,
+            "maximo": 1.4,
+            "ultimo": 1.4
+          },
+          "precios_por_tamano": {
+            "STANDAR": 1.4
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "08:13",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "08:13",
+              "tamano": "STANDAR",
+              "precio_kg": 1.4
+            }
+          ]
+        },
         {
           "taxon_id": 45,
           "nombre_comun": "Lapa",
           "nombre_comun_corto": "Lapa",
           "nombre_cientifico": "Fissurella sp.",
           "precio_playa_kg": {
-            "promedio": 13.33,
-            "minimo": 13.33,
-            "maximo": 13.33,
-            "ultimo": 13.33
+            "promedio": 13.0,
+            "minimo": 13.0,
+            "maximo": 13.0,
+            "ultimo": 13.0
           },
           "precios_por_tamano": {
-            "STANDAR": 13.33
+            "STANDAR": 13.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "16:50",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "STANDAR",
+              "precio_kg": 13.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "16:50",
@@ -3599,19 +3884,25 @@
           "nombre_comun_corto": "Ovas de volador",
           "nombre_cientifico": "Ovas de volador, Cau cau",
           "precio_playa_kg": {
-            "promedio": 45.0,
-            "minimo": 45.0,
-            "maximo": 45.0,
-            "ultimo": 45.0
+            "promedio": 45.5,
+            "minimo": 45.5,
+            "maximo": 45.5,
+            "ultimo": 45.5
           },
           "precios_por_tamano": {
-            "STANDAR": 45.0
+            "STANDAR": 45.5
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:23",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:18",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:18",
+              "tamano": "STANDAR",
+              "precio_kg": 45.5
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:23",
@@ -3644,19 +3935,25 @@
           "nombre_comun_corto": "Perico",
           "nombre_cientifico": "Coryphaena hippurus",
           "precio_playa_kg": {
-            "promedio": 16.5,
+            "promedio": 16.0,
             "minimo": 16.0,
-            "maximo": 17.0,
+            "maximo": 16.0,
             "ultimo": 16.0
           },
           "precios_por_tamano": {
-            "STANDAR": 16.5
+            "STANDAR": 16.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "16:30",
-          "dias_antiguedad": 7,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:18",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:18",
+              "tamano": "STANDAR",
+              "precio_kg": 16.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "16:30",
@@ -3685,11 +3982,17 @@
           "precios_por_tamano": {
             "STANDAR": 20.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "16:50",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "STANDAR",
+              "precio_kg": 20.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "16:50",
@@ -3709,6 +4012,33 @@
               "precio_kg": 20.0
             }
           ]
+        },
+        {
+          "taxon_id": 109,
+          "nombre_comun": "Tiburón azul, chiri, tiburón, tintorera",
+          "nombre_comun_corto": "Tiburón azul",
+          "nombre_cientifico": "Prionace glauca",
+          "precio_playa_kg": {
+            "promedio": 3.0,
+            "minimo": 3.0,
+            "maximo": 3.0,
+            "ultimo": 3.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 3.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:18",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:18",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            }
+          ]
         }
       ]
     },
@@ -3718,8 +4048,8 @@
       "region": "COSTA",
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
       "total_especies_vigentes": 4,
       "especies": [
         {
@@ -3814,11 +4144,17 @@
           "precios_por_tamano": {
             "STANDAR": 46.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "12:06",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "08:02",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "08:02",
+              "tamano": "STANDAR",
+              "precio_kg": 46.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "12:06",
@@ -3874,9 +4210,9 @@
       "region": "COSTA",
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
-      "total_especies_vigentes": 10,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 12,
       "especies": [
         {
           "taxon_id": 52,
@@ -3929,6 +4265,60 @@
               "hora": "16:31",
               "tamano": "STANDAR",
               "precio_kg": 10.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 128,
+          "nombre_comun": "Cabrilla, cagálo, bagalo, cabrilla comun",
+          "nombre_comun_corto": "Cabrilla",
+          "nombre_cientifico": "Paralabrax humeralis",
+          "precio_playa_kg": {
+            "promedio": 18.0,
+            "minimo": 18.0,
+            "maximo": 18.0,
+            "ultimo": 18.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 18.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "STANDAR",
+              "precio_kg": 18.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 36,
+          "nombre_comun": "Caracol, caracol negro, caracol común, caracol plomo",
+          "nombre_comun_corto": "Caracol",
+          "nombre_cientifico": "Thaisella chocolata",
+          "precio_playa_kg": {
+            "promedio": 3.5,
+            "minimo": 3.5,
+            "maximo": 3.5,
+            "ultimo": 3.5
+          },
+          "precios_por_tamano": {
+            "STANDAR": 3.5
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
             }
           ]
         },
@@ -4000,11 +4390,17 @@
           "precios_por_tamano": {
             "STANDAR": 7.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "16:21",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "STANDAR",
+              "precio_kg": 7.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "16:21",
@@ -4027,11 +4423,17 @@
           "precios_por_tamano": {
             "STANDAR": 12.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "16:21",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "16:21",
@@ -4066,11 +4468,17 @@
           "precios_por_tamano": {
             "STANDAR": 44.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "08:23",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "08:02",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "08:02",
+              "tamano": "STANDAR",
+              "precio_kg": 44.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "08:23",
@@ -4123,11 +4531,17 @@
           "precios_por_tamano": {
             "STANDAR": 18.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "08:23",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "08:02",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "08:02",
+              "tamano": "STANDAR",
+              "precio_kg": 18.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "08:23",
@@ -4186,11 +4600,17 @@
           "precios_por_tamano": {
             "STANDAR": 9.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "16:34",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "STANDAR",
+              "precio_kg": 9.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "16:34",
@@ -4205,20 +4625,32 @@
           "nombre_comun_corto": "Pulpo",
           "nombre_cientifico": "Octopus mimus",
           "precio_playa_kg": {
-            "promedio": 17.5,
-            "minimo": 15.0,
-            "maximo": 20.0,
-            "ultimo": 20.0
+            "promedio": 19.0,
+            "minimo": 16.0,
+            "maximo": 22.0,
+            "ultimo": 22.0
           },
           "precios_por_tamano": {
-            "PEQUEÑO": 15.0,
-            "GRANDE": 20.0
+            "PEQUEÑO": 16.0,
+            "GRANDE": 22.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "16:21",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:01",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "GRANDE",
+              "precio_kg": 22.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:01",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 16.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "16:21",
@@ -4259,8 +4691,8 @@
       "region": "COSTA",
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
       "total_especies_vigentes": 4,
       "especies": [
         {
@@ -4302,19 +4734,25 @@
           "nombre_comun_corto": "Ovas de volador",
           "nombre_cientifico": "Ovas de volador, Cau cau",
           "precio_playa_kg": {
-            "promedio": 42.0,
-            "minimo": 42.0,
-            "maximo": 42.0,
-            "ultimo": 42.0
+            "promedio": 44.0,
+            "minimo": 44.0,
+            "maximo": 44.0,
+            "ultimo": 44.0
           },
           "precios_por_tamano": {
-            "STANDAR": 42.0
+            "STANDAR": 44.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "12:13",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:19",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:19",
+              "tamano": "STANDAR",
+              "precio_kg": 44.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "12:13",
@@ -4347,19 +4785,25 @@
           "nombre_comun_corto": "Perico",
           "nombre_cientifico": "Coryphaena hippurus",
           "precio_playa_kg": {
-            "promedio": 16.0,
-            "minimo": 16.0,
-            "maximo": 16.0,
-            "ultimo": 16.0
+            "promedio": 17.0,
+            "minimo": 17.0,
+            "maximo": 17.0,
+            "ultimo": 17.0
           },
           "precios_por_tamano": {
-            "STANDAR": 16.0
+            "STANDAR": 17.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "12:13",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:19",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:19",
+              "tamano": "STANDAR",
+              "precio_kg": 17.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "12:13",
@@ -6826,10 +7270,10 @@
           ]
         },
         {
-          "taxon_id": 220,
-          "nombre_comun": "Raya águila chilena, raya águila, peje águila",
-          "nombre_comun_corto": "Raya águila chilena",
-          "nombre_cientifico": "Myliobatis chilensis",
+          "taxon_id": 221,
+          "nombre_comun": "Raya águila peruana, raya águila, raya, raya de punta",
+          "nombre_comun_corto": "Raya águila peruana",
+          "nombre_cientifico": "Myliobatis peruviana",
           "precio_playa_kg": {
             "promedio": 2.5,
             "minimo": 2.5,
@@ -10378,9 +10822,9 @@
       "region": "COSTA",
       "departamento": "LAMBAYEQUE",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
-      "total_especies_vigentes": 14,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 16,
       "especies": [
         {
           "taxon_id": 130,
@@ -10542,6 +10986,60 @@
           ]
         },
         {
+          "taxon_id": 173,
+          "nombre_comun": "Lisa, lisa común, comebarro, lisa rayada",
+          "nombre_comun_corto": "Lisa",
+          "nombre_cientifico": "Mugil cephalus",
+          "precio_playa_kg": {
+            "promedio": 10.0,
+            "minimo": 10.0,
+            "maximo": 10.0,
+            "ultimo": 10.0
+          },
+          "precios_por_tamano": {
+            "MEDIANO": 10.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:54",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:54",
+              "tamano": "MEDIANO",
+              "precio_kg": 10.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 191,
+          "nombre_comun": "Misho, muchachita, chula, zorro",
+          "nombre_comun_corto": "Misho",
+          "nombre_cientifico": "Menticirrhus elongatus",
+          "precio_playa_kg": {
+            "promedio": 4.0,
+            "minimo": 4.0,
+            "maximo": 4.0,
+            "ultimo": 4.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 4.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:55",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:55",
+              "tamano": "STANDAR",
+              "precio_kg": 4.0
+            }
+          ]
+        },
+        {
           "taxon_id": 410,
           "nombre_comun": "Pampanito, chiri, palometa, chiri lomo negro",
           "nombre_comun_corto": "Pampanito",
@@ -10555,11 +11053,17 @@
           "precios_por_tamano": {
             "STANDAR": 12.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "16:48",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:56",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:56",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "16:48",
@@ -10724,19 +11228,25 @@
           "nombre_comun_corto": "Raya águila peruana",
           "nombre_cientifico": "Myliobatis peruviana",
           "precio_playa_kg": {
-            "promedio": 10.0,
-            "minimo": 10.0,
-            "maximo": 10.0,
-            "ultimo": 10.0
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
           },
           "precios_por_tamano": {
-            "STANDAR": 10.0
+            "STANDAR": 12.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "17:00",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:57",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:57",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "17:00",
@@ -10771,11 +11281,17 @@
           "precios_por_tamano": {
             "STANDAR": 8.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "16:48",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:57",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:57",
+              "tamano": "STANDAR",
+              "precio_kg": 8.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "16:48",
@@ -10837,11 +11353,17 @@
           "precios_por_tamano": {
             "STANDAR": 15.0
           },
-          "fecha_ultimo_registro": "2026-11-16",
-          "hora_ultimo_registro": "16:48",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:58",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:58",
+              "tamano": "STANDAR",
+              "precio_kg": 15.0
+            },
             {
               "fecha": "2026-11-16",
               "hora": "16:48",
@@ -12935,11 +13457,17 @@
           "precios_por_tamano": {
             "GRANDE": 25.0
           },
-          "fecha_ultimo_registro": "2026-11-17",
-          "hora_ultimo_registro": "21:58",
-          "dias_antiguedad": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "17:35",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "17:35",
+              "tamano": "GRANDE",
+              "precio_kg": 25.0
+            },
             {
               "fecha": "2026-11-17",
               "hora": "21:58",
@@ -15719,9 +16247,9 @@
       "region": "COSTA",
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-13",
-      "dias_antiguedad_min": 5,
-      "total_especies_vigentes": 11,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 17,
       "especies": [
         {
           "taxon_id": 477,
@@ -15762,24 +16290,57 @@
           "nombre_comun_corto": "Barbudo azul",
           "nombre_cientifico": "Polydactylus approximans",
           "precio_playa_kg": {
-            "promedio": 3.5,
-            "minimo": 3.5,
-            "maximo": 3.5,
-            "ultimo": 3.5
+            "promedio": 4.0,
+            "minimo": 4.0,
+            "maximo": 4.0,
+            "ultimo": 4.0
           },
           "precios_por_tamano": {
-            "STANDAR": 3.5
+            "STANDAR": 4.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "12:28",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:26",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:26",
+              "tamano": "STANDAR",
+              "precio_kg": 4.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "12:28",
               "tamano": "STANDAR",
               "precio_kg": 3.5
+            }
+          ]
+        },
+        {
+          "taxon_id": 534,
+          "nombre_comun": "Bereche",
+          "nombre_comun_corto": "Bereche",
+          "nombre_cientifico": "Larimus pacificus",
+          "precio_playa_kg": {
+            "promedio": 2.0,
+            "minimo": 2.0,
+            "maximo": 2.0,
+            "ultimo": 2.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 2.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:26",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:26",
+              "tamano": "STANDAR",
+              "precio_kg": 2.0
             }
           ]
         },
@@ -15807,6 +16368,60 @@
               "hora": "16:16",
               "tamano": "STANDAR",
               "precio_kg": 3.5
+            }
+          ]
+        },
+        {
+          "taxon_id": 131,
+          "nombre_comun": "Camiseta, mariposa, cometa, pez asada",
+          "nombre_comun_corto": "Camiseta",
+          "nombre_cientifico": "Chaetodipterus zonatus",
+          "precio_playa_kg": {
+            "promedio": 2.0,
+            "minimo": 2.0,
+            "maximo": 2.0,
+            "ultimo": 2.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 2.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:25",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:25",
+              "tamano": "STANDAR",
+              "precio_kg": 2.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 195,
+          "nombre_comun": "Chiri, palometa, cometrapo, pampano, pampanito",
+          "nombre_comun_corto": "Chiri",
+          "nombre_cientifico": "Peprilus medius",
+          "precio_playa_kg": {
+            "promedio": 10.0,
+            "minimo": 10.0,
+            "maximo": 10.0,
+            "ultimo": 10.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 10.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:24",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:24",
+              "tamano": "STANDAR",
+              "precio_kg": 10.0
             }
           ]
         },
@@ -15849,19 +16464,25 @@
           "nombre_comun_corto": "Corvina dorada",
           "nombre_cientifico": "Micropogonias altipinnis",
           "precio_playa_kg": {
-            "promedio": 6.5,
-            "minimo": 6.5,
-            "maximo": 6.5,
-            "ultimo": 6.5
+            "promedio": 9.0,
+            "minimo": 9.0,
+            "maximo": 9.0,
+            "ultimo": 9.0
           },
           "precios_por_tamano": {
-            "MEDIANO": 6.5
+            "MEDIANO": 9.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "16:23",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:25",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:25",
+              "tamano": "MEDIANO",
+              "precio_kg": 9.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "16:23",
@@ -15909,19 +16530,25 @@
           "nombre_comun_corto": "Espejo",
           "nombre_cientifico": "Selene peruviana",
           "precio_playa_kg": {
-            "promedio": 3.5,
-            "minimo": 3.5,
-            "maximo": 3.5,
-            "ultimo": 3.5
+            "promedio": 2.0,
+            "minimo": 2.0,
+            "maximo": 2.0,
+            "ultimo": 2.0
           },
           "precios_por_tamano": {
-            "STANDAR": 3.5
+            "STANDAR": 2.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "12:24",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:25",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:25",
+              "tamano": "STANDAR",
+              "precio_kg": 2.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "12:24",
@@ -15937,24 +16564,71 @@
           ]
         },
         {
+          "taxon_id": 165,
+          "nombre_comun": "Guavina, corvina guavina, corvina, ayanque cola de rombo, corvinilla",
+          "nombre_comun_corto": "Guavina",
+          "nombre_cientifico": "Cynoscion stolzmanni",
+          "precio_playa_kg": {
+            "promedio": 15.0,
+            "minimo": 12.0,
+            "maximo": 18.0,
+            "ultimo": 18.0
+          },
+          "precios_por_tamano": {
+            "MEDIANO": 12.0,
+            "GRANDE": 18.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:26",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 2,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:26",
+              "tamano": "GRANDE",
+              "precio_kg": 18.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:26",
+              "tamano": "MEDIANO",
+              "precio_kg": 12.0
+            }
+          ]
+        },
+        {
           "taxon_id": 43,
           "nombre_comun": "Langosta",
           "nombre_comun_corto": "Langosta",
           "nombre_cientifico": "Panulirus gracilis",
           "precio_playa_kg": {
             "promedio": 25.0,
-            "minimo": 25.0,
-            "maximo": 25.0,
-            "ultimo": 25.0
+            "minimo": 20.0,
+            "maximo": 30.0,
+            "ultimo": 30.0
           },
           "precios_por_tamano": {
-            "MEDIANO": 25.0
+            "MEDIANO": 20.0,
+            "GRANDE": 30.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "16:24",
-          "dias_antiguedad": 7,
-          "muestreos_ultimo_dia": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:25",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:25",
+              "tamano": "GRANDE",
+              "precio_kg": 30.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:24",
+              "tamano": "MEDIANO",
+              "precio_kg": 20.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "16:24",
@@ -16010,24 +16684,57 @@
           ]
         },
         {
+          "taxon_id": 176,
+          "nombre_comun": "Machete de hebra, dinamarca, machelo hebra pinchagua",
+          "nombre_comun_corto": "Machete de hebra",
+          "nombre_cientifico": "Opisthonema libertate",
+          "precio_playa_kg": {
+            "promedio": 1.0,
+            "minimo": 1.0,
+            "maximo": 1.0,
+            "ultimo": 1.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 1.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:25",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:25",
+              "tamano": "STANDAR",
+              "precio_kg": 1.0
+            }
+          ]
+        },
+        {
           "taxon_id": 189,
           "nombre_comun": "Mojarrilla, mojarrilla común",
           "nombre_comun_corto": "Mojarrilla",
           "nombre_cientifico": "Stellifer minor",
           "precio_playa_kg": {
-            "promedio": 3.5,
-            "minimo": 3.5,
-            "maximo": 3.5,
-            "ultimo": 3.5
+            "promedio": 3.0,
+            "minimo": 3.0,
+            "maximo": 3.0,
+            "ultimo": 3.0
           },
           "precios_por_tamano": {
-            "STANDAR": 3.5
+            "STANDAR": 3.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:16",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:26",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:26",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:16",
@@ -16054,19 +16761,25 @@
           "nombre_comun_corto": "Periche",
           "nombre_cientifico": "Diapterus peruvianus",
           "precio_playa_kg": {
-            "promedio": 3.0,
-            "minimo": 3.0,
-            "maximo": 3.0,
-            "ultimo": 3.0
+            "promedio": 4.0,
+            "minimo": 4.0,
+            "maximo": 4.0,
+            "ultimo": 4.0
           },
           "precios_por_tamano": {
-            "STANDAR": 3.0
+            "STANDAR": 4.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:16",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:24",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:24",
+              "tamano": "STANDAR",
+              "precio_kg": 4.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:16",
@@ -16084,6 +16797,33 @@
               "hora": "12:28",
               "tamano": "STANDAR",
               "precio_kg": 3.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 233,
+          "nombre_comun": "Sierra, verle",
+          "nombre_comun_corto": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "precio_playa_kg": {
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 12.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:23",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:23",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
             }
           ]
         }
@@ -16521,9 +17261,9 @@
       "region": "COSTA",
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-13",
-      "dias_antiguedad_min": 5,
-      "total_especies_vigentes": 48,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 57,
       "especies": [
         {
           "taxon_id": 105,
@@ -16566,11 +17306,17 @@
           "precios_por_tamano": {
             "PEQUEÑO": 1.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
+          "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:12",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:12",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 1.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:12",
@@ -16625,24 +17371,57 @@
           ]
         },
         {
+          "taxon_id": 113,
+          "nombre_comun": "Barbudo azul, barbudo, piñarro, barbudo común, barbon",
+          "nombre_comun_corto": "Barbudo azul",
+          "nombre_cientifico": "Polydactylus approximans",
+          "precio_playa_kg": {
+            "promedio": 3.0,
+            "minimo": 3.0,
+            "maximo": 3.0,
+            "ultimo": 3.0
+          },
+          "precios_por_tamano": {
+            "MEDIANO": 3.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:10",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:10",
+              "tamano": "MEDIANO",
+              "precio_kg": 3.0
+            }
+          ]
+        },
+        {
           "taxon_id": 334,
           "nombre_comun": "Barracuda, picuda, agujilla",
           "nombre_comun_corto": "Barracuda",
           "nombre_cientifico": "Sphyraena ensis",
           "precio_playa_kg": {
-            "promedio": 9.0,
-            "minimo": 9.0,
-            "maximo": 9.0,
-            "ultimo": 9.0
+            "promedio": 6.0,
+            "minimo": 6.0,
+            "maximo": 6.0,
+            "ultimo": 6.0
           },
           "precios_por_tamano": {
-            "STANDAR": 9.0
+            "PEQUEÑO": 6.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:15",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:15",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 6.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "12:14",
@@ -16654,6 +17433,33 @@
               "hora": "08:08",
               "tamano": "STANDAR",
               "precio_kg": 9.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 118,
+          "nombre_comun": "Bereche",
+          "nombre_comun_corto": "Bereche",
+          "nombre_cientifico": "Larimus spp.",
+          "precio_playa_kg": {
+            "promedio": 2.0,
+            "minimo": 2.0,
+            "maximo": 2.0,
+            "ultimo": 2.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 2.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:11",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:11",
+              "tamano": "STANDAR",
+              "precio_kg": 2.0
             }
           ]
         },
@@ -16745,24 +17551,57 @@
           ]
         },
         {
+          "taxon_id": 120,
+          "nombre_comun": "Bio-bio, congrio culebra",
+          "nombre_comun_corto": "Bio-bio",
+          "nombre_cientifico": "Cynoponticus coniceps",
+          "precio_playa_kg": {
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 12.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:15",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:15",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            }
+          ]
+        },
+        {
           "taxon_id": 128,
           "nombre_comun": "Cabrilla, cagálo, bagalo, cabrilla comun",
           "nombre_comun_corto": "Cabrilla",
           "nombre_cientifico": "Paralabrax humeralis",
           "precio_playa_kg": {
-            "promedio": 14.0,
-            "minimo": 14.0,
-            "maximo": 14.0,
-            "ultimo": 14.0
+            "promedio": 15.0,
+            "minimo": 15.0,
+            "maximo": 15.0,
+            "ultimo": 15.0
           },
           "precios_por_tamano": {
-            "MEDIANO": 14.0
+            "MEDIANO": 15.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:14",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:14",
+              "tamano": "MEDIANO",
+              "precio_kg": 15.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:11",
@@ -16784,6 +17623,33 @@
           ]
         },
         {
+          "taxon_id": 130,
+          "nombre_comun": "Cachema, ayanque, ayangue",
+          "nombre_comun_corto": "Cachema",
+          "nombre_cientifico": "Cynoscion analis",
+          "precio_playa_kg": {
+            "promedio": 5.0,
+            "minimo": 5.0,
+            "maximo": 5.0,
+            "ultimo": 5.0
+          },
+          "precios_por_tamano": {
+            "MEDIANO": 5.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:12",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:12",
+              "tamano": "MEDIANO",
+              "precio_kg": 5.0
+            }
+          ]
+        },
+        {
           "taxon_id": 264,
           "nombre_comun": "Callana, corcovado",
           "nombre_comun_corto": "Callana",
@@ -16797,11 +17663,17 @@
           "precios_por_tamano": {
             "STANDAR": 3.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "12:37",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:10",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:10",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "12:37",
@@ -16824,11 +17696,17 @@
           "precios_por_tamano": {
             "STANDAR": 7.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "16:09",
-          "dias_antiguedad": 6,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:11",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:11",
+              "tamano": "STANDAR",
+              "precio_kg": 7.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "16:09",
@@ -16909,19 +17787,25 @@
           "nombre_comun_corto": "Chiri",
           "nombre_cientifico": "Peprilus medius",
           "precio_playa_kg": {
-            "promedio": 7.0,
-            "minimo": 7.0,
-            "maximo": 7.0,
-            "ultimo": 7.0
+            "promedio": 6.0,
+            "minimo": 6.0,
+            "maximo": 6.0,
+            "ultimo": 6.0
           },
           "precios_por_tamano": {
-            "STANDAR": 7.0
+            "STANDAR": 6.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "12:38",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:08",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:08",
+              "tamano": "STANDAR",
+              "precio_kg": 6.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "12:38",
@@ -16963,20 +17847,32 @@
           "nombre_comun_corto": "Congrio aleta pintada",
           "nombre_cientifico": "Lepophidium negropinna",
           "precio_playa_kg": {
-            "promedio": 8.0,
+            "promedio": 8.5,
             "minimo": 6.0,
-            "maximo": 10.0,
-            "ultimo": 10.0
+            "maximo": 11.0,
+            "ultimo": 11.0
           },
           "precios_por_tamano": {
             "PEQUEÑO": 6.0,
-            "GRANDE": 10.0
+            "GRANDE": 11.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "12:36",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:15",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:15",
+              "tamano": "GRANDE",
+              "precio_kg": 11.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:14",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 6.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "12:36",
@@ -17019,25 +17915,64 @@
           ]
         },
         {
+          "taxon_id": 146,
+          "nombre_comun": "Corvina dorada, guavina, charela",
+          "nombre_comun_corto": "Corvina dorada",
+          "nombre_cientifico": "Micropogonias altipinnis",
+          "precio_playa_kg": {
+            "promedio": 8.0,
+            "minimo": 8.0,
+            "maximo": 8.0,
+            "ultimo": 8.0
+          },
+          "precios_por_tamano": {
+            "MEDIANO": 8.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:17",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:17",
+              "tamano": "MEDIANO",
+              "precio_kg": 8.0
+            }
+          ]
+        },
+        {
           "taxon_id": 158,
           "nombre_comun": "Doncella, princesa",
           "nombre_comun_corto": "Doncella",
           "nombre_cientifico": "Hemanthias peruanus",
           "precio_playa_kg": {
-            "promedio": 6.0,
+            "promedio": 7.5,
             "minimo": 5.0,
-            "maximo": 7.0,
-            "ultimo": 7.0
+            "maximo": 10.0,
+            "ultimo": 10.0
           },
           "precios_por_tamano": {
             "PEQUEÑO": 5.0,
-            "MEDIANO": 7.0
+            "MEDIANO": 10.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "12:35",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:09",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:09",
+              "tamano": "MEDIANO",
+              "precio_kg": 10.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:09",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 5.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "12:35",
@@ -17058,24 +17993,57 @@
           "nombre_comun_corto": "Espejo",
           "nombre_cientifico": "Selene peruviana",
           "precio_playa_kg": {
-            "promedio": 3.0,
-            "minimo": 3.0,
-            "maximo": 3.0,
-            "ultimo": 3.0
+            "promedio": 2.0,
+            "minimo": 2.0,
+            "maximo": 2.0,
+            "ultimo": 2.0
           },
           "precios_por_tamano": {
-            "GRANDE": 3.0
+            "MEDIANO": 2.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:09",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:09",
+              "tamano": "MEDIANO",
+              "precio_kg": 2.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "12:14",
               "tamano": "GRANDE",
               "precio_kg": 3.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 388,
+          "nombre_comun": "Falso volador, vocador, cabrilla voladora",
+          "nombre_comun_corto": "Falso volador",
+          "nombre_cientifico": "Prionotus stephanophrys",
+          "precio_playa_kg": {
+            "promedio": 8.0,
+            "minimo": 8.0,
+            "maximo": 8.0,
+            "ultimo": 8.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 8.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:18",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:18",
+              "tamano": "STANDAR",
+              "precio_kg": 8.0
             }
           ]
         },
@@ -17112,19 +18080,25 @@
           "nombre_comun_corto": "Guitarra común",
           "nombre_cientifico": "Pseudobatos planiceps",
           "precio_playa_kg": {
-            "promedio": 6.0,
-            "minimo": 6.0,
-            "maximo": 6.0,
-            "ultimo": 6.0
+            "promedio": 5.0,
+            "minimo": 5.0,
+            "maximo": 5.0,
+            "ultimo": 5.0
           },
           "precios_por_tamano": {
-            "GRANDE": 6.0
+            "GRANDE": 5.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:10",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:10",
+              "tamano": "GRANDE",
+              "precio_kg": 5.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:11",
@@ -17223,20 +18197,32 @@
           "nombre_comun_corto": "Langostino",
           "nombre_cientifico": "Litopenaeus spp.",
           "precio_playa_kg": {
-            "promedio": 21.0,
+            "promedio": 24.0,
             "minimo": 14.0,
-            "maximo": 28.0,
-            "ultimo": 28.0
+            "maximo": 34.0,
+            "ultimo": 34.0
           },
           "precios_por_tamano": {
             "MEDIANO": 14.0,
-            "GRANDE": 28.0
+            "GRANDE": 34.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 4,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:12",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:12",
+              "tamano": "GRANDE",
+              "precio_kg": 34.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:11",
+              "tamano": "MEDIANO",
+              "precio_kg": 14.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:11",
@@ -17313,11 +18299,17 @@
           "precios_por_tamano": {
             "STANDAR": 8.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:10",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:15",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:15",
+              "tamano": "STANDAR",
+              "precio_kg": 8.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:10",
@@ -17346,11 +18338,17 @@
           "precios_por_tamano": {
             "STANDAR": 12.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:08",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:08",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:11",
@@ -17489,6 +18487,33 @@
           ]
         },
         {
+          "taxon_id": 259,
+          "nombre_comun": "Lisa plateada",
+          "nombre_comun_corto": "Lisa plateada",
+          "nombre_cientifico": "Mugil curema",
+          "precio_playa_kg": {
+            "promedio": 7.0,
+            "minimo": 7.0,
+            "maximo": 7.0,
+            "ultimo": 7.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 7.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:17",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:17",
+              "tamano": "STANDAR",
+              "precio_kg": 7.0
+            }
+          ]
+        },
+        {
           "taxon_id": 176,
           "nombre_comun": "Machete de hebra, dinamarca, machelo hebra pinchagua",
           "nombre_comun_corto": "Machete de hebra",
@@ -17521,19 +18546,25 @@
           "nombre_comun_corto": "Merluza peruana",
           "nombre_cientifico": "Merluccius gayi peruanus",
           "precio_playa_kg": {
-            "promedio": 3.0,
-            "minimo": 3.0,
-            "maximo": 3.0,
-            "ultimo": 3.0
+            "promedio": 1.5,
+            "minimo": 1.5,
+            "maximo": 1.5,
+            "ultimo": 1.5
           },
           "precios_por_tamano": {
-            "STANDAR": 3.0
+            "STANDAR": 1.5
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:08",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:08",
+              "tamano": "STANDAR",
+              "precio_kg": 1.5
+            },
             {
               "fecha": "2026-11-12",
               "hora": "16:08",
@@ -17583,11 +18614,23 @@
           "precios_por_tamano": {
             "STANDAR": 3.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "08:04",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 1,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:12",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:12",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:10",
+              "tamano": "STANDAR",
+              "precio_kg": 3.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "08:04",
@@ -17626,20 +18669,25 @@
           "nombre_comun_corto": "Pampanito",
           "nombre_cientifico": "Peprilus snyderi",
           "precio_playa_kg": {
-            "promedio": 6.5,
-            "minimo": 5.0,
-            "maximo": 8.0,
-            "ultimo": 8.0
+            "promedio": 9.0,
+            "minimo": 9.0,
+            "maximo": 9.0,
+            "ultimo": 9.0
           },
           "precios_por_tamano": {
-            "MEDIANO": 5.0,
-            "GRANDE": 8.0
+            "STANDAR": 9.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "12:38",
-          "dias_antiguedad": 6,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:17",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:17",
+              "tamano": "STANDAR",
+              "precio_kg": 9.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "12:38",
@@ -17754,20 +18802,25 @@
           "nombre_comun_corto": "Princesa",
           "nombre_cientifico": "Hemanthias signifer",
           "precio_playa_kg": {
-            "promedio": 6.0,
+            "promedio": 5.0,
             "minimo": 5.0,
-            "maximo": 7.0,
-            "ultimo": 7.0
+            "maximo": 5.0,
+            "ultimo": 5.0
           },
           "precios_por_tamano": {
-            "PEQUEÑO": 5.0,
-            "MEDIANO": 7.0
+            "PEQUEÑO": 5.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 6,
-          "muestreos_ultimo_dia": 4,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:16",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:16",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 5.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "16:11",
@@ -17827,19 +18880,25 @@
           "nombre_comun_corto": "Pámpano",
           "nombre_cientifico": "Trachinotus paitensis",
           "precio_playa_kg": {
-            "promedio": 15.0,
-            "minimo": 15.0,
-            "maximo": 15.0,
-            "ultimo": 15.0
+            "promedio": 8.0,
+            "minimo": 8.0,
+            "maximo": 8.0,
+            "ultimo": 8.0
           },
           "precios_por_tamano": {
-            "STANDAR": 15.0
+            "PEQUEÑO": 8.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "12:13",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:17",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:17",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 8.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "12:13",
@@ -17899,6 +18958,33 @@
               "hora": "12:36",
               "tamano": "STANDAR",
               "precio_kg": 2.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 222,
+          "nombre_comun": "Raya mariposa, raya papel, raya tuyo",
+          "nombre_comun_corto": "Raya mariposa",
+          "nombre_cientifico": "Gymnura marmorata",
+          "precio_playa_kg": {
+            "promedio": 5.0,
+            "minimo": 5.0,
+            "maximo": 5.0,
+            "ultimo": 5.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 5.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:07",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:07",
+              "tamano": "STANDAR",
+              "precio_kg": 5.0
             }
           ]
         },
@@ -18067,19 +19153,25 @@
           "nombre_comun_corto": "Sierra",
           "nombre_cientifico": "Scomberomorus sierra",
           "precio_playa_kg": {
-            "promedio": 11.0,
-            "minimo": 11.0,
-            "maximo": 11.0,
-            "ultimo": 11.0
+            "promedio": 6.0,
+            "minimo": 6.0,
+            "maximo": 6.0,
+            "ultimo": 6.0
           },
           "precios_por_tamano": {
-            "GRANDE": 11.0
+            "MEDIANO": 6.0
           },
-          "fecha_ultimo_registro": "2026-11-11",
-          "hora_ultimo_registro": "08:07",
-          "dias_antiguedad": 7,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:17",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:17",
+              "tamano": "MEDIANO",
+              "precio_kg": 6.0
+            },
             {
               "fecha": "2026-11-11",
               "hora": "08:07",
@@ -18114,6 +19206,33 @@
               "precio_kg": 2.0
             }
           ]
+        },
+        {
+          "taxon_id": 245,
+          "nombre_comun": "Tollo común, tollo mamita, tollo prieto, piruche",
+          "nombre_comun_corto": "Tollo común",
+          "nombre_cientifico": "Mustelus whitneyi",
+          "precio_playa_kg": {
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 12.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:14",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:14",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            }
+          ]
         }
       ]
     },
@@ -18123,9 +19242,9 @@
       "region": "COSTA",
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-13",
-      "dias_antiguedad_min": 5,
-      "total_especies_vigentes": 47,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 53,
       "especies": [
         {
           "taxon_id": 487,
@@ -18263,26 +19382,64 @@
           ]
         },
         {
+          "taxon_id": 127,
+          "nombre_comun": "Cabinza serranida, indio",
+          "nombre_comun_corto": "Cabinza serranida",
+          "nombre_cientifico": "Paranthias colonus",
+          "precio_playa_kg": {
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 12.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:20",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:20",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            }
+          ]
+        },
+        {
           "taxon_id": 128,
           "nombre_comun": "Cabrilla, cagálo, bagalo, cabrilla comun",
           "nombre_comun_corto": "Cabrilla",
           "nombre_cientifico": "Paralabrax humeralis",
           "precio_playa_kg": {
-            "promedio": 23.6,
-            "minimo": 20.0,
-            "maximo": 26.0,
-            "ultimo": 26.0
+            "promedio": 22.0,
+            "minimo": 21.0,
+            "maximo": 23.0,
+            "ultimo": 23.0
           },
           "precios_por_tamano": {
-            "PEQUEÑO": 20.0,
-            "MEDIANO": 23.0,
-            "GRANDE": 26.0
+            "MEDIANO": 21.0,
+            "GRANDE": 23.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:23",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:23",
+              "tamano": "GRANDE",
+              "precio_kg": 23.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:23",
+              "tamano": "MEDIANO",
+              "precio_kg": 21.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "12:25",
@@ -18405,6 +19562,33 @@
           ]
         },
         {
+          "taxon_id": 264,
+          "nombre_comun": "Callana, corcovado",
+          "nombre_comun_corto": "Callana",
+          "nombre_cientifico": "Orthopristis chalcea",
+          "precio_playa_kg": {
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 12.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:07",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:07",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            }
+          ]
+        },
+        {
           "taxon_id": 132,
           "nombre_comun": "Camotillo, camote, cabrilla, cagua",
           "nombre_comun_corto": "Camotillo",
@@ -18440,6 +19624,33 @@
               "hora": "12:41",
               "tamano": "STANDAR",
               "precio_kg": 14.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 384,
+          "nombre_comun": "Camotillo, camote, carajito",
+          "nombre_comun_corto": "Camotillo",
+          "nombre_cientifico": "Diplectrum pacificum",
+          "precio_playa_kg": {
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 12.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:07",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:07",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
             }
           ]
         },
@@ -18609,11 +19820,17 @@
           "precios_por_tamano": {
             "MEDIANO": 8.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:09",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:09",
+              "tamano": "MEDIANO",
+              "precio_kg": 8.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "12:25",
@@ -18679,19 +19896,25 @@
           "nombre_comun_corto": "Corvina cherela",
           "nombre_cientifico": "Cynoscion phoxocephalus",
           "precio_playa_kg": {
-            "promedio": 34.0,
-            "minimo": 34.0,
-            "maximo": 34.0,
-            "ultimo": 34.0
+            "promedio": 18.0,
+            "minimo": 18.0,
+            "maximo": 18.0,
+            "ultimo": 18.0
           },
           "precios_por_tamano": {
-            "GRANDE": 34.0
+            "GRANDE": 18.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "08:35",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:21",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:21",
+              "tamano": "GRANDE",
+              "precio_kg": 18.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "08:35",
@@ -18832,19 +20055,25 @@
           "nombre_comun_corto": "Falso volador",
           "nombre_cientifico": "Prionotus stephanophrys",
           "precio_playa_kg": {
-            "promedio": 10.0,
-            "minimo": 10.0,
-            "maximo": 10.0,
-            "ultimo": 10.0
+            "promedio": 8.0,
+            "minimo": 8.0,
+            "maximo": 8.0,
+            "ultimo": 8.0
           },
           "precios_por_tamano": {
-            "STANDAR": 10.0
+            "STANDAR": 8.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "16:13",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:08",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:08",
+              "tamano": "STANDAR",
+              "precio_kg": 8.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "16:13",
@@ -18940,19 +20169,25 @@
           "nombre_comun_corto": "Langostino café",
           "nombre_cientifico": "Penaeus (Farfantepenaeus) californiensis",
           "precio_playa_kg": {
-            "promedio": 12.0,
-            "minimo": 12.0,
-            "maximo": 12.0,
-            "ultimo": 12.0
+            "promedio": 10.0,
+            "minimo": 10.0,
+            "maximo": 10.0,
+            "ultimo": 10.0
           },
           "precios_por_tamano": {
-            "STANDAR": 12.0
+            "STANDAR": 10.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:08",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:08",
+              "tamano": "STANDAR",
+              "precio_kg": 10.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "12:25",
@@ -18987,11 +20222,17 @@
           "precios_por_tamano": {
             "MEDIANO": 18.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "16:13",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:08",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:08",
+              "tamano": "MEDIANO",
+              "precio_kg": 18.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "16:13",
@@ -19006,19 +20247,25 @@
           "nombre_comun_corto": "Lenguado común",
           "nombre_cientifico": "Paralichthys adspersus",
           "precio_playa_kg": {
-            "promedio": 38.0,
-            "minimo": 38.0,
-            "maximo": 38.0,
-            "ultimo": 38.0
+            "promedio": 40.0,
+            "minimo": 40.0,
+            "maximo": 40.0,
+            "ultimo": 40.0
           },
           "precios_por_tamano": {
-            "GRANDE": 38.0
+            "GRANDE": 40.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "16:12",
-          "dias_antiguedad": 6,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:09",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:09",
+              "tamano": "GRANDE",
+              "precio_kg": 40.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "16:12",
@@ -19249,19 +20496,25 @@
           "nombre_comun_corto": "Mojarrilla",
           "nombre_cientifico": "Stellifer minor",
           "precio_playa_kg": {
-            "promedio": 4.5,
-            "minimo": 4.5,
-            "maximo": 4.5,
-            "ultimo": 4.5
+            "promedio": 5.0,
+            "minimo": 5.0,
+            "maximo": 5.0,
+            "ultimo": 5.0
           },
           "precios_por_tamano": {
-            "STANDAR": 4.5
+            "STANDAR": 5.0
           },
-          "fecha_ultimo_registro": "2026-11-12",
-          "hora_ultimo_registro": "16:13",
-          "dias_antiguedad": 6,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:09",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:09",
+              "tamano": "STANDAR",
+              "precio_kg": 5.0
+            },
             {
               "fecha": "2026-11-12",
               "hora": "16:13",
@@ -19331,6 +20584,33 @@
           ]
         },
         {
+          "taxon_id": 296,
+          "nombre_comun": "Pardo, fortuno",
+          "nombre_comun_corto": "Pardo",
+          "nombre_cientifico": "Seriola peruana",
+          "precio_playa_kg": {
+            "promedio": 18.0,
+            "minimo": 18.0,
+            "maximo": 18.0,
+            "ultimo": 18.0
+          },
+          "precios_por_tamano": {
+            "GRANDE": 18.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:22",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:22",
+              "tamano": "GRANDE",
+              "precio_kg": 18.0
+            }
+          ]
+        },
+        {
           "taxon_id": 199,
           "nombre_comun": "Pardo, pez hojita, citarita, chuyes, riki riki, parbo",
           "nombre_comun_corto": "Pardo",
@@ -19354,6 +20634,33 @@
               "hora": "08:46",
               "tamano": "STANDAR",
               "precio_kg": 0.8
+            }
+          ]
+        },
+        {
+          "taxon_id": 200,
+          "nombre_comun": "Pargo, pargo rojo, paramo",
+          "nombre_comun_corto": "Pargo",
+          "nombre_cientifico": "Lutjanus jordani L. guttatus",
+          "precio_playa_kg": {
+            "promedio": 18.0,
+            "minimo": 18.0,
+            "maximo": 18.0,
+            "ultimo": 18.0
+          },
+          "precios_por_tamano": {
+            "GRANDE": 18.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:21",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:21",
+              "tamano": "GRANDE",
+              "precio_kg": 18.0
             }
           ]
         },
@@ -19515,19 +20822,31 @@
           "nombre_comun_corto": "Princesa",
           "nombre_cientifico": "Hemanthias signifer",
           "precio_playa_kg": {
-            "promedio": 13.0,
-            "minimo": 13.0,
-            "maximo": 13.0,
-            "ultimo": 13.0
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
           },
           "precios_por_tamano": {
-            "STANDAR": 13.0
+            "STANDAR": 12.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "12:26",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:09",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:09",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:23",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "12:26",
@@ -19642,6 +20961,33 @@
           ]
         },
         {
+          "taxon_id": 233,
+          "nombre_comun": "Sierra, verle",
+          "nombre_comun_corto": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "precio_playa_kg": {
+            "promedio": 19.0,
+            "minimo": 19.0,
+            "maximo": 19.0,
+            "ultimo": 19.0
+          },
+          "precios_por_tamano": {
+            "GRANDE": 19.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:22",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:22",
+              "tamano": "GRANDE",
+              "precio_kg": 19.0
+            }
+          ]
+        },
+        {
           "taxon_id": 566,
           "nombre_comun": "Suco rayado",
           "nombre_comun_corto": "Suco rayado",
@@ -19708,9 +21054,9 @@
       "region": "COSTA",
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-13",
-      "dias_antiguedad_min": 5,
-      "total_especies_vigentes": 11,
+      "fecha_ultimo_muestreo": "2026-11-18",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 15,
       "especies": [
         {
           "taxon_id": 477,
@@ -19718,19 +21064,25 @@
           "nombre_comun_corto": "Barbudo amarillo",
           "nombre_cientifico": "Polydactylus opercularis",
           "precio_playa_kg": {
-            "promedio": 3.0,
-            "minimo": 3.0,
-            "maximo": 3.0,
-            "ultimo": 3.0
+            "promedio": 3.5,
+            "minimo": 3.5,
+            "maximo": 3.5,
+            "ultimo": 3.5
           },
           "precios_por_tamano": {
-            "STANDAR": 3.0
+            "STANDAR": 3.5
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:11",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:11",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:15",
@@ -19811,13 +21163,26 @@
             "ultimo": 3.5
           },
           "precios_por_tamano": {
+            "MEDIANO": 3.5,
             "STANDAR": 3.5
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:11",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:11",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:20",
+              "tamano": "MEDIANO",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:15",
@@ -19904,20 +21269,32 @@
           "nombre_comun_corto": "Langostino",
           "nombre_cientifico": "Litopenaeus spp.",
           "precio_playa_kg": {
-            "promedio": 22.67,
-            "minimo": 18.0,
+            "promedio": 26.0,
+            "minimo": 20.0,
             "maximo": 32.0,
             "ultimo": 32.0
           },
           "precios_por_tamano": {
-            "MEDIANO": 18.0,
+            "MEDIANO": 20.0,
             "GRANDE": 32.0
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 3,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:10",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:10",
+              "tamano": "GRANDE",
+              "precio_kg": 32.0
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:10",
+              "tamano": "MEDIANO",
+              "precio_kg": 20.0
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:15",
@@ -19964,11 +21341,17 @@
           "precios_por_tamano": {
             "STANDAR": 3.5
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 5,
-          "muestreos_ultimo_dia": 2,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:11",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:11",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:15",
@@ -19990,6 +21373,87 @@
           ]
         },
         {
+          "taxon_id": 173,
+          "nombre_comun": "Lisa, lisa común, comebarro, lisa rayada",
+          "nombre_comun_corto": "Lisa",
+          "nombre_cientifico": "Mugil cephalus",
+          "precio_playa_kg": {
+            "promedio": 1.5,
+            "minimo": 1.5,
+            "maximo": 1.5,
+            "ultimo": 1.5
+          },
+          "precios_por_tamano": {
+            "STANDAR": 1.5
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:19",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:19",
+              "tamano": "STANDAR",
+              "precio_kg": 1.5
+            }
+          ]
+        },
+        {
+          "taxon_id": 259,
+          "nombre_comun": "Lisa plateada",
+          "nombre_comun_corto": "Lisa plateada",
+          "nombre_cientifico": "Mugil curema",
+          "precio_playa_kg": {
+            "promedio": 9.0,
+            "minimo": 9.0,
+            "maximo": 9.0,
+            "ultimo": 9.0
+          },
+          "precios_por_tamano": {
+            "GRANDE": 9.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:19",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:19",
+              "tamano": "GRANDE",
+              "precio_kg": 9.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 176,
+          "nombre_comun": "Machete de hebra, dinamarca, machelo hebra pinchagua",
+          "nombre_comun_corto": "Machete de hebra",
+          "nombre_cientifico": "Opisthonema libertate",
+          "precio_playa_kg": {
+            "promedio": 1.5,
+            "minimo": 1.5,
+            "maximo": 1.5,
+            "ultimo": 1.5
+          },
+          "precios_por_tamano": {
+            "STANDAR": 1.5
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:18",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:18",
+              "tamano": "STANDAR",
+              "precio_kg": 1.5
+            }
+          ]
+        },
+        {
           "taxon_id": 189,
           "nombre_comun": "Mojarrilla, mojarrilla común",
           "nombre_comun_corto": "Mojarrilla",
@@ -20003,11 +21467,23 @@
           "precios_por_tamano": {
             "STANDAR": 3.5
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:10",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:10",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:20",
+              "tamano": "STANDAR",
+              "precio_kg": 3.5
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:15",
@@ -20042,11 +21518,23 @@
           "precios_por_tamano": {
             "STANDAR": 2.5
           },
-          "fecha_ultimo_registro": "2026-11-13",
-          "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 5,
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "16:11",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "16:11",
+              "tamano": "STANDAR",
+              "precio_kg": 2.5
+            },
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:19",
+              "tamano": "STANDAR",
+              "precio_kg": 2.5
+            },
             {
               "fecha": "2026-11-13",
               "hora": "16:15",
@@ -20110,6 +21598,33 @@
               "hora": "12:20",
               "tamano": "PEQUEÑO",
               "precio_kg": 2.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 233,
+          "nombre_comun": "Sierra, verle",
+          "nombre_comun_corto": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "precio_playa_kg": {
+            "promedio": 13.0,
+            "minimo": 13.0,
+            "maximo": 13.0,
+            "ultimo": 13.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 13.0
+          },
+          "fecha_ultimo_registro": "2026-11-18",
+          "hora_ultimo_registro": "12:19",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-18",
+              "hora": "12:19",
+              "tamano": "STANDAR",
+              "precio_kg": 13.0
             }
           ]
         }
