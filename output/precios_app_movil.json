@@ -4,8 +4,8 @@
   "actualizado_peru": "Actualizado hasta hoy 18",
   "ultima_fecha_datos": "18/11/2026",
   "ultima_hora_datos": "12:00",
-  "ultima_revision_sistema": "18/11/2026 08:47",
-  "actualizado_iso": "2026-11-18T08:47:58-05:00",
+  "ultima_revision_sistema": "18/11/2026 11:49",
+  "actualizado_iso": "2026-11-18T11:49:13-05:00",
   "ventana_dias": 7,
   "total_puertos": 65,
   "puertos_con_datos": 38,
@@ -1299,10 +1299,10 @@
       "nombre_puerto": "CERRO AZUL",
       "departamento": "LIMA",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "13/11/2026",
-      "ultima_hora_muestreo": "11:45",
-      "estado_puerto": "Actualizado hasta el 13/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 13/11 (11:45)",
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "10:07",
+      "estado_puerto": "Actualizado hasta hoy 18",
+      "estado_puerto_con_hora": "Actualizado hasta hoy 18 (10:07)",
       "precios": [
         {
           "especie_mostrar": "Cangrejo violáceo",
@@ -1312,9 +1312,9 @@
           "talla": "STANDAR",
           "precio": 20.0,
           "precio_mostrar": "S/ 20.00",
-          "hora": "11:45",
-          "fecha": "13/11/2026",
-          "hora_mostrar": "13/11 11:45"
+          "hora": "10:07",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "Hoy 10:07"
         },
         {
           "especie_mostrar": "Corvina",
@@ -1334,11 +1334,11 @@
           "nombre_cientifico": "Mugil cephalus",
           "sinonimos_busqueda": "Lisa, lisa común, comebarro, lisa rayada",
           "talla": "STANDAR",
-          "precio": 5.5,
-          "precio_mostrar": "S/ 5.50",
-          "hora": "11:45",
-          "fecha": "13/11/2026",
-          "hora_mostrar": "13/11 11:45"
+          "precio": 7.0,
+          "precio_mostrar": "S/ 7.00",
+          "hora": "10:07",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "Hoy 10:07"
         },
         {
           "especie_mostrar": "Mismis",
