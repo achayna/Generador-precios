@@ -34,8 +34,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--days",
         type=int,
-        default=7,
-        help="Ventana de búsqueda hacia atrás en días desde la fecha de corte (por defecto: 7).",
+        default=3,
+        help="Ventana exacta de últimos N días calendario incluyendo hoy (por defecto: 3 -> dias_antiguedad <= 2).",
     )
     parser.add_argument(
         "--include-selva",
@@ -111,11 +111,18 @@ def main() -> int:
                 detail,
                 fecha_ref.isoformat(),
             )
-            summary = recalculate_existing_outputs(out_dir, hoy_peru=fecha_ref)
+            summary = recalculate_existing_outputs(
+                out_dir,
+                hoy_peru=fecha_ref,
+                dias_ventana=args.days,
+            )
             logger.info(
-                "Recálculo offline completado | hoy_peru=%s | estado_actualizacion='%s' | "
-                "ultima_fecha_datos=%s | ultima_revision_sistema='%s'",
+                "Recálculo offline completado | hoy_peru=%s | ventana_dias=%d | puertos_con_datos=%d | "
+                "filas_movil=%d | estado_actualizacion='%s' | ultima_fecha_datos=%s | ultima_revision_sistema='%s'",
                 summary["hoy_peru"],
+                summary["ventana_dias"],
+                summary["puertos_con_datos"],
+                summary["total_filas_precios"],
                 summary["estado_actualizacion"],
                 summary["ultima_fecha_datos"],
                 summary["ultima_revision_sistema"],

@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -111,7 +111,19 @@ def export_to_excel(result: NationalExtractionResult, output_path: Path) -> Path
     _style_header_row(ws1, len(headers_1))
     ws1.freeze_panes = "A2"
 
-    for idx, item in enumerate(result.vigentes, start=2):
+    vigentes_sorted = sorted(
+        result.vigentes,
+        key=lambda v: (
+            v.region,
+            v.departamento,
+            v.puerto,
+            v.dias_antiguedad,
+            normalize_port_key(v.nombre_comun_principal),
+            normalize_port_key(v.nombre_comun),
+        ),
+    )
+
+    for idx, item in enumerate(vigentes_sorted, start=2):
         ws1.append(
             [
                 item.region,
@@ -346,7 +358,14 @@ def export_to_json(result: NationalExtractionResult, output_path: Path) -> Path:
 
     puertos_payload: List[Dict[str, Any]] = []
     for lug in result.lugares_consultados:
-        items = vigentes_por_puerto.get(lug.lugar_id, [])
+        items = sorted(
+            vigentes_por_puerto.get(lug.lugar_id, []),
+            key=lambda sp: (
+                sp.dias_antiguedad,
+                normalize_port_key(sp.nombre_comun_principal),
+                normalize_port_key(sp.nombre_comun),
+            ),
+        )
         ultimo_muestreo_puerto = (
             max(i.fecha_ultimo_registro_iso for i in items) if items else None
         )
@@ -494,7 +513,14 @@ def export_to_mobile_json(result: NationalExtractionResult, output_path: Path) -
 
     for lug in lugares_sorted:
         port_key = normalize_port_key(lug.nombre_lugar)
-        filas = items_por_puerto.get(lug.lugar_id, [])
+        filas = sorted(
+            items_por_puerto.get(lug.lugar_id, []),
+            key=lambda f: (
+                f.dias_antiguedad,
+                normalize_port_key(f.especie_mostrar),
+                f.especie_mostrar.lower(),
+            ),
+        )
 
         port_pairs: List[Tuple[date, str]] = []
         for f in filas:
@@ -564,16 +590,23 @@ def export_to_mobile_json(result: NationalExtractionResult, output_path: Path) -
 def recalculate_existing_outputs(
     output_dir: Path,
     hoy_peru: Optional[date] = None,
+    dias_ventana: int = 3,
 ) -> Dict[str, Any]:
     """
     Recalcula en modo offline (cuando GitHub Actions corre desde IP bloqueada por Geo-IP de IMARPE)
-    todas las etiquetas relativas al día actual en Perú (UTC-5):
-      - precios_app_movil.json: hora_mostrar, estado_puerto, estado_actualizacion, actualizado_peru, ultima_revision_sistema
-      - precios_imarpe_app.json: dias_antiguedad, dias_antiguedad_min, estado_actualizacion, ultima_revision_sistema
+    todas las etiquetas relativas al día actual en Perú (UTC-5), depura registros fuera de la ventana
+    (dias_antiguedad > dias_ventana - 1, por defecto > 2), reordena más recientes arriba + A-Z y
+    recalcula todos los contadores:
+      - precios_app_movil.json: precios depurados y ordenados, hora_mostrar, estado_puerto,
+        puertos_con_datos, total_filas_precios, estado_actualizacion, actualizado_peru
+      - precios_imarpe_app.json: especies e historico_reciente depurados y ordenados,
+        dias_antiguedad, estadisticas, estado_actualizacion
     """
     ts_pe = now_peru()
     ts_utc = datetime.now(timezone.utc)
     hoy = hoy_peru or ts_pe.date()
+    max_antiguedad = max(0, dias_ventana - 1)
+    fecha_desde = hoy - timedelta(days=max_antiguedad)
 
     mobile_path = output_dir / "precios_app_movil.json"
     full_path = output_dir / "precios_imarpe_app.json"
@@ -582,6 +615,8 @@ def recalculate_existing_outputs(
     estado_global_con_hora = "Sin reportes recientes"
     ultima_fecha_str: Optional[str] = None
     ultima_hora_str: Optional[str] = None
+    puertos_con_datos_movil = 0
+    total_filas_movil = 0
 
     if mobile_path.exists():
         with mobile_path.open("r", encoding="utf-8") as fh:
@@ -593,15 +628,34 @@ def recalculate_existing_outputs(
         for _, port_data in puertos_obj.items():
             precios_list = port_data.get("precios") or []
             port_pairs: List[Tuple[date, str]] = []
+            kept_with_age: List[Tuple[int, Dict[str, Any]]] = []
+
             for item in precios_list:
                 f_str = str(item.get("fecha") or "").strip()
                 h_str = str(item.get("hora") or "").strip()
                 if not f_str:
                     continue
                 f_date = datetime.strptime(f_str, "%d/%m/%Y").date()
+                antiguedad = (hoy - f_date).days
+                if antiguedad < 0 or antiguedad > max_antiguedad:
+                    continue
                 item["hora_mostrar"] = format_hora_mostrar(f_date, h_str, hoy)
+                kept_with_age.append((antiguedad, item))
                 port_pairs.append((f_date, h_str))
                 nacional_pairs.append((f_date, h_str))
+
+            kept_with_age.sort(
+                key=lambda pair: (
+                    pair[0],
+                    normalize_port_key(str(pair[1].get("especie_mostrar") or "")),
+                    str(pair[1].get("especie_mostrar") or "").lower(),
+                )
+            )
+            filtered_precios = [pair[1] for pair in kept_with_age]
+
+            if filtered_precios:
+                puertos_con_datos_movil += 1
+                total_filas_movil += len(filtered_precios)
 
             max_f_port, max_h_port = _max_date_and_hour(port_pairs)
             est_puerto = format_estado_actualizacion(max_f_port, hoy)
@@ -618,7 +672,7 @@ def recalculate_existing_outputs(
                 "ultima_hora_muestreo": max_h_port or None,
                 "estado_puerto": est_puerto,
                 "estado_puerto_con_hora": est_puerto_hora,
-                "precios": precios_list,
+                "precios": filtered_precios,
             }
             port_data.clear()
             port_data.update(rebuilt_port)
@@ -639,10 +693,10 @@ def recalculate_existing_outputs(
             "ultima_hora_datos": ultima_hora_str,
             "ultima_revision_sistema": ts_pe.strftime("%d/%m/%Y %H:%M"),
             "actualizado_iso": ts_pe.isoformat(timespec="seconds"),
-            "ventana_dias": mob.get("ventana_dias", 7),
-            "total_puertos": mob.get("total_puertos", len(puertos_obj)),
-            "puertos_con_datos": mob.get("puertos_con_datos", 0),
-            "total_filas_precios": mob.get("total_filas_precios", 0),
+            "ventana_dias": dias_ventana,
+            "total_puertos": len(puertos_obj),
+            "puertos_con_datos": puertos_con_datos_movil,
+            "total_filas_precios": total_filas_movil,
             "puertos": puertos_obj,
         }
         with mobile_path.open("w", encoding="utf-8") as fh:
@@ -652,18 +706,74 @@ def recalculate_existing_outputs(
         with full_path.open("r", encoding="utf-8") as fh:
             full_doc = json.load(fh)
 
-        for puerto_entry in full_doc.get("puertos") or []:
+        puertos_con_datos_full = 0
+        total_especies_vigentes_full = 0
+        total_muestreos_full = 0
+
+        puertos_entries = full_doc.get("puertos") or []
+        for puerto_entry in puertos_entries:
             especies_list = puerto_entry.get("especies") or []
+            filtered_especies: List[Dict[str, Any]] = []
+
             for sp in especies_list:
                 f_iso = str(sp.get("fecha_ultimo_registro") or "").strip()
-                if f_iso:
-                    sp_date = datetime.strptime(f_iso, "%Y-%m-%d").date()
-                    sp["dias_antiguedad"] = max(0, (hoy - sp_date).days)
-            puerto_entry["dias_antiguedad_min"] = (
-                min(s["dias_antiguedad"] for s in especies_list if "dias_antiguedad" in s)
-                if especies_list
+                if not f_iso:
+                    continue
+                sp_date = datetime.strptime(f_iso, "%Y-%m-%d").date()
+                antiguedad = (hoy - sp_date).days
+                if antiguedad < 0 or antiguedad > max_antiguedad:
+                    continue
+                sp["dias_antiguedad"] = antiguedad
+
+                # Depurar también el historial interno fuera de la ventana
+                hist_raw = sp.get("historico_reciente") or []
+                hist_kept: List[Dict[str, Any]] = []
+                for h_item in hist_raw:
+                    hf_iso = str(h_item.get("fecha") or "").strip()
+                    if not hf_iso:
+                        continue
+                    hf_date = datetime.strptime(hf_iso, "%Y-%m-%d").date()
+                    h_age = (hoy - hf_date).days
+                    if 0 <= h_age <= max_antiguedad:
+                        hist_kept.append(h_item)
+                sp["historico_reciente"] = hist_kept
+                total_muestreos_full += len(hist_kept)
+                filtered_especies.append(sp)
+
+            filtered_especies.sort(
+                key=lambda sp: (
+                    sp.get("dias_antiguedad", 999),
+                    normalize_port_key(str(sp.get("nombre_comun_corto") or sp.get("nombre_comun") or "")),
+                    normalize_port_key(str(sp.get("nombre_comun") or "")),
+                )
+            )
+
+            puerto_entry["especies"] = filtered_especies
+            puerto_entry["total_especies_vigentes"] = len(filtered_especies)
+            puerto_entry["tiene_datos_recientes"] = bool(filtered_especies)
+            puerto_entry["fecha_ultimo_muestreo"] = (
+                max(str(s["fecha_ultimo_registro"]) for s in filtered_especies)
+                if filtered_especies
                 else None
             )
+            puerto_entry["dias_antiguedad_min"] = (
+                min(s["dias_antiguedad"] for s in filtered_especies)
+                if filtered_especies
+                else None
+            )
+
+            if filtered_especies:
+                puertos_con_datos_full += 1
+                total_especies_vigentes_full += len(filtered_especies)
+
+        puertos_entries.sort(
+            key=lambda p: (
+                0 if p.get("tiene_datos_recientes") else 1,
+                str(p.get("region") or ""),
+                str(p.get("departamento") or ""),
+                str(p.get("puerto") or ""),
+            )
+        )
 
         meta = full_doc.setdefault("metadata", {})
         meta["estado_actualizacion"] = estado_global
@@ -673,12 +783,25 @@ def recalculate_existing_outputs(
         meta["ultima_revision_sistema"] = ts_pe.strftime("%d/%m/%Y %H:%M")
         meta["generado_en_peru"] = ts_pe.isoformat(timespec="seconds")
         meta["generado_en_utc"] = ts_utc.isoformat(timespec="seconds")
+        meta["ventana_consulta"] = {
+            "fecha_desde": fecha_desde.isoformat(),
+            "fecha_hasta": hoy.isoformat(),
+            "dias_ventana": dias_ventana,
+        }
+        stats = meta.setdefault("estadisticas", {})
+        stats["puertos_consultados"] = len(puertos_entries)
+        stats["puertos_con_datos"] = puertos_con_datos_full
+        stats["total_especies_vigentes_puerto"] = total_especies_vigentes_full
+        stats["total_muestreos_ventana"] = total_muestreos_full
 
         with full_path.open("w", encoding="utf-8") as fh:
             json.dump(full_doc, fh, ensure_ascii=False, indent=2)
 
     return {
         "hoy_peru": hoy.strftime("%d/%m/%Y"),
+        "ventana_dias": dias_ventana,
+        "puertos_con_datos": puertos_con_datos_movil,
+        "total_filas_precios": total_filas_movil,
         "estado_actualizacion": estado_global,
         "estado_actualizacion_con_hora": estado_global_con_hora,
         "ultima_fecha_datos": ultima_fecha_str,

@@ -27,7 +27,7 @@ Las etiquetas de vigencia **nunca confunden la hora de revisión del script con 
   "ultima_hora_datos": "16:00",
   "ultima_revision_sistema": "13/11/2026 06:48",
   "actualizado_iso": "2026-11-13T06:48:00-05:00",
-  "ventana_dias": 7,
+  "ventana_dias": 3,
   "total_puertos": 65,
   "puertos_con_datos": 42,
   "total_filas_precios": 710,

@@ -27,7 +27,7 @@ if exist ".git" (
 )
 
 echo [%DATE% %TIME%] Iniciando extraccion nacional INFOMAR - IMARPE >> "%LOG_FILE%"
-"%PYTHON_EXE%" main.py --days 7 %* >> "%LOG_FILE%" 2>&1
+"%PYTHON_EXE%" main.py --days 3 %* >> "%LOG_FILE%" 2>&1
 set EXIT_CODE=%ERRORLEVEL%
 
 REM Publicar output/ en GitHub automaticamente tras sincronizar sin conflictos

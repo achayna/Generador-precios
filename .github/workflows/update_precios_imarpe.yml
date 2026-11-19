@@ -19,9 +19,9 @@ on:
   workflow_dispatch:
     inputs:
       days:
-        description: "Ventana de días hacia atrás a consultar"
+        description: "Ventana de días hacia atrás a consultar (por defecto: 3 -> hoy, ayer y anteayer)"
         required: false
-        default: "7"
+        default: "3"
       include_selva:
         description: "Incluir puertos fluviales de SELVA (true/false)"
         required: false
@@ -60,7 +60,7 @@ jobs:
           TZ: America/Lima
           IMARPE_PROXY_URL: ${{ secrets.IMARPE_PROXY_URL }}
         run: |
-          DAYS="${{ github.event.inputs.days || '7' }}"
+          DAYS="${{ github.event.inputs.days || '3' }}"
           EXTRA_FLAGS=""
           if [ "${{ github.event.inputs.include_selva }}" = "true" ]; then
             EXTRA_FLAGS="--include-selva"

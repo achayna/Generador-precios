@@ -169,7 +169,7 @@ class NationalExtractionResult:
 
 
 def run_national_extraction(
-    dias_ventana: int = 7,
+    dias_ventana: int = 3,
     include_selva: bool = False,
     fecha_referencia: Optional[date] = None,
     max_workers: int = 6,
@@ -180,16 +180,16 @@ def run_national_extraction(
     Ejecuta el barrido nacional completo contra INFOMAR:
       1. Descarga catálogos oficiales de Puertos (80) y Especies (~362).
       2. Filtra puertos objetivo (COSTA por defecto, + SELVA si include_selva=True).
-      3. Consulta concurrentemente la ventana [fecha_hasta - (dias_ventana - 1), fecha_hasta]
-         o últimos N días calendario hasta hoy.
-      4. Construye Histórico Reciente y Último Precio Vigente por Puerto y Especie.
+      3. Consulta concurrentemente la ventana exacta de últimos N días calendario
+         [fecha_hasta - (dias_ventana - 1), fecha_hasta] (ej. N=3 -> hoy, ayer y anteayer; dias_antiguedad <= 2).
+      4. Construye Histórico Reciente, Último Precio Vigente y Filas Móviles ordenadas por fecha reciente + A-Z.
     """
     if dias_ventana < 1:
         raise ValueError("dias_ventana debe ser >= 1")
 
     fecha_hasta = fecha_referencia or now_peru().date()
-    # Ventana de últimos N días (ej. N=7 -> desde hoy-7 hasta hoy inclusive, cubriendo rezagos de carga)
-    fecha_desde = fecha_hasta - timedelta(days=dias_ventana)
+    max_antiguedad = dias_ventana - 1  # N=3 -> max_antiguedad=2 (hoy=0, ayer=1, anteayer=2)
+    fecha_desde = fecha_hasta - timedelta(days=max_antiguedad)
 
     with InfomarClient(timeout_seconds=timeout_seconds, pool_maxsize=max(12, max_workers * 2)) as client:
         logger.info("Descargando catálogos maestros de INFOMAR (/v2/api/lugares y /v2/api/especies)...")
@@ -271,6 +271,11 @@ def run_national_extraction(
             obs_date = parse_infomar_date(row)
             if obs_date is None:
                 continue
+            if obs_date < fecha_desde or obs_date > fecha_hasta:
+                continue
+            antiguedad = (fecha_hasta - obs_date).days
+            if antiguedad > max_antiguedad:
+                continue
             raw_precio = row.get("PRECIO")
             if raw_precio is None:
                 continue
@@ -290,7 +295,6 @@ def run_national_extraction(
             tamano = " ".join(str(row.get("TAMANO") or "STANDAR").strip().split()).upper() or "STANDAR"
             hora = str(row.get("HORA_STRING") or "").strip()
             taxon_id = matcher.resolve(nombre_comun, nombre_cientifico)
-            antiguedad = max(0, (fecha_hasta - obs_date).days)
 
             dedup_key = (
                 lugar_id,
@@ -403,6 +407,7 @@ def run_national_extraction(
                     hora=last_sz_obs.hora,
                     fecha=last_sz_obs.fecha_display,
                     hora_mostrar=format_hora_mostrar(last_sz_obs.fecha, last_sz_obs.hora, fecha_hasta),
+                    dias_antiguedad=last_sz_obs.dias_antiguedad,
                 )
             )
 
@@ -437,16 +442,17 @@ def run_national_extraction(
             v.region,
             v.departamento,
             v.puerto,
-            v.nombre_comun_principal.lower(),
-            v.nombre_comun.lower(),
+            v.dias_antiguedad,
+            normalize_port_key(v.nombre_comun_principal),
+            normalize_port_key(v.nombre_comun),
         )
     )
 
     items_movil.sort(
         key=lambda m: (
             normalize_port_key(m.puerto),
-            normalize_port_key(m.especie_corta),
-            SIZE_ORDER.get(m.talla, 99),
+            m.dias_antiguedad,
+            normalize_port_key(m.especie_mostrar),
             m.especie_mostrar.lower(),
         )
     )

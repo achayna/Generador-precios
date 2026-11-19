@@ -92,4 +92,5 @@ class ItemPrecioMovil:
     hora: str                  # Ej. "16:00"
     fecha: str                 # Ej. "10/11/2026"
     hora_mostrar: str          # Columna 3: ej. "Hoy 16:00", "Ayer 16:00" o "10/11 16:00"
+    dias_antiguedad: int = 0   # 0 = Hoy, 1 = Ayer, 2 = Anteayer
 
