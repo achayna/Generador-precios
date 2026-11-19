@@ -2,13 +2,13 @@
   "metadata": {
     "sistema_origen": "INFOMAR - Instituto del Mar del Perú (IMARPE)",
     "endpoint_principal": "https://infomar.imarpe.gob.pe/v2/api/especies-por-puertos",
-    "estado_actualizacion": "Actualizado hasta hoy 18",
-    "estado_actualizacion_con_hora": "Actualizado hasta hoy 18 (17:35)",
+    "estado_actualizacion": "Actualizado hasta ayer 18",
+    "estado_actualizacion_con_hora": "Actualizado hasta ayer 18 (17:35)",
     "ultima_fecha_datos": "18/11/2026",
     "ultima_hora_datos": "17:35",
-    "ultima_revision_sistema": "18/11/2026 22:55",
-    "generado_en_peru": "2026-11-18T22:55:45-05:00",
-    "generado_en_utc": "2026-11-19T03:55:45+00:00",
+    "ultima_revision_sistema": "19/11/2026 09:17",
+    "generado_en_peru": "2026-11-19T09:17:24-05:00",
+    "generado_en_utc": "2026-11-19T14:17:24+00:00",
     "moneda": "PEN",
     "simbolo_moneda": "S/",
     "unidad": "kg",
@@ -38,7 +38,7 @@
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "dias_antiguedad_min": 2,
       "total_especies_vigentes": 16,
       "especies": [
         {
@@ -57,7 +57,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -96,7 +96,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -123,7 +123,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -150,7 +150,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -189,7 +189,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -222,7 +222,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -249,7 +249,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -300,7 +300,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -339,7 +339,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -396,7 +396,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -429,7 +429,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -462,7 +462,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -490,7 +490,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -547,7 +547,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -586,7 +586,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -613,7 +613,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -633,7 +633,7 @@
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "dias_antiguedad_min": 2,
       "total_especies_vigentes": 26,
       "especies": [
         {
@@ -652,7 +652,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -679,7 +679,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -706,7 +706,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -735,7 +735,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -787,7 +787,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -856,7 +856,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -895,7 +895,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -958,7 +958,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -997,7 +997,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1024,7 +1024,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1069,7 +1069,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1120,7 +1120,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1147,7 +1147,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1174,7 +1174,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1207,7 +1207,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1240,7 +1240,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1273,7 +1273,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1300,7 +1300,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1340,7 +1340,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -1397,7 +1397,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1424,7 +1424,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1451,7 +1451,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1478,7 +1478,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1517,7 +1517,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1545,7 +1545,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -1602,7 +1602,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1622,7 +1622,7 @@
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "dias_antiguedad_min": 2,
       "total_especies_vigentes": 7,
       "especies": [
         {
@@ -1641,7 +1641,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1704,7 +1704,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1749,7 +1749,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1776,7 +1776,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1815,7 +1815,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -1861,7 +1861,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 4,
           "historico_reciente": [
             {
@@ -1990,7 +1990,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2022,7 +2022,7 @@
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "dias_antiguedad_min": 2,
       "total_especies_vigentes": 8,
       "especies": [
         {
@@ -2041,7 +2041,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2098,7 +2098,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2167,7 +2167,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2200,7 +2200,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2233,7 +2233,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2266,7 +2266,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2293,7 +2293,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2320,7 +2320,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2358,7 +2358,7 @@
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "dias_antiguedad_min": 2,
       "total_especies_vigentes": 6,
       "especies": [
         {
@@ -2377,7 +2377,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2416,7 +2416,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2449,7 +2449,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2495,7 +2495,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -2564,7 +2564,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2591,7 +2591,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2611,7 +2611,7 @@
       "departamento": "ANCASH",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "dias_antiguedad_min": 2,
       "total_especies_vigentes": 16,
       "especies": [
         {
@@ -2630,7 +2630,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2657,7 +2657,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "14:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -2708,7 +2708,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "14:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -2765,7 +2765,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "14:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2798,7 +2798,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2849,7 +2849,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2882,7 +2882,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2915,7 +2915,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "14:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -2960,7 +2960,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -2987,7 +2987,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3014,7 +3014,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3059,7 +3059,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3092,7 +3092,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3119,7 +3119,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3146,7 +3146,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3173,7 +3173,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3199,7 +3199,7 @@
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 5,
       "especies": [
         {
@@ -3218,7 +3218,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "12:27",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3257,7 +3257,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:50",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3290,7 +3290,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:48",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3317,7 +3317,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:48",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3344,7 +3344,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:34",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3394,7 +3394,7 @@
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-17",
-      "dias_antiguedad_min": 1,
+      "dias_antiguedad_min": 2,
       "total_especies_vigentes": 10,
       "especies": [
         {
@@ -3413,7 +3413,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:52",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3446,7 +3446,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:43",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -3498,7 +3498,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:43",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -3543,7 +3543,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:44",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3570,7 +3570,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:49",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3615,7 +3615,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:44",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3642,7 +3642,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:49",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3687,7 +3687,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "12:45",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3738,7 +3738,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:43",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3771,7 +3771,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:49",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3803,7 +3803,7 @@
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 6,
       "especies": [
         {
@@ -3822,7 +3822,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:13",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3849,7 +3849,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3894,7 +3894,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:18",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3945,7 +3945,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:18",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -3984,7 +3984,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4029,7 +4029,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:18",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4049,7 +4049,7 @@
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 4,
       "especies": [
         {
@@ -4068,7 +4068,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "12:06",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4113,7 +4113,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "12:06",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4146,7 +4146,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:02",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4191,7 +4191,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:20",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4211,7 +4211,7 @@
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 12,
       "especies": [
         {
@@ -4230,7 +4230,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:34",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4257,7 +4257,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:31",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4284,7 +4284,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4311,7 +4311,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4338,7 +4338,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:21",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4365,7 +4365,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:34",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4392,7 +4392,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4425,7 +4425,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4470,7 +4470,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:02",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4533,7 +4533,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:02",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4602,7 +4602,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4636,7 +4636,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:01",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -4692,7 +4692,7 @@
       "departamento": "AREQUIPA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 4,
       "especies": [
         {
@@ -4711,7 +4711,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "12:17",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4744,7 +4744,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:19",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4795,7 +4795,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:19",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4846,7 +4846,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:18",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -4866,7 +4866,7 @@
       "departamento": "CALLAO",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "dias_antiguedad_min": 3,
       "total_especies_vigentes": 28,
       "especies": [
         {
@@ -4885,7 +4885,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -4925,7 +4925,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5000,7 +5000,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5028,7 +5028,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5109,7 +5109,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5190,7 +5190,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5236,7 +5236,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5306,7 +5306,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 4,
           "historico_reciente": [
             {
@@ -5417,7 +5417,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5444,7 +5444,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5471,7 +5471,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5498,7 +5498,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5531,7 +5531,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5570,7 +5570,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5603,7 +5603,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5630,7 +5630,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5700,7 +5700,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5739,7 +5739,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5766,7 +5766,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5805,7 +5805,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5832,7 +5832,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5859,7 +5859,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -5905,7 +5905,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -5974,7 +5974,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6025,7 +6025,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6066,7 +6066,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -6135,7 +6135,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6163,7 +6163,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -6237,7 +6237,7 @@
       "departamento": "ICA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 16,
       "especies": [
         {
@@ -6256,7 +6256,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:25",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6301,7 +6301,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6370,7 +6370,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "07:54",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6421,7 +6421,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "15:45",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6472,7 +6472,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "07:54",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6523,7 +6523,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "15:45",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6550,7 +6550,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "15:45",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6577,7 +6577,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6610,7 +6610,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "19:50",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6649,7 +6649,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "15:45",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6700,7 +6700,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "07:54",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6763,7 +6763,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:23",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6790,7 +6790,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:23",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6817,7 +6817,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6850,7 +6850,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "07:54",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6907,7 +6907,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "15:45",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -6951,7 +6951,7 @@
       "departamento": "ICA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-13",
-      "dias_antiguedad_min": 5,
+      "dias_antiguedad_min": 6,
       "total_especies_vigentes": 15,
       "especies": [
         {
@@ -6970,7 +6970,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7009,7 +7009,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7036,7 +7036,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7063,7 +7063,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7090,7 +7090,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7117,7 +7117,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7150,7 +7150,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7177,7 +7177,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7204,7 +7204,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7231,7 +7231,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7258,7 +7258,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7285,7 +7285,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "18:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7312,7 +7312,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "18:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7339,7 +7339,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7366,7 +7366,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "18:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7386,7 +7386,7 @@
       "departamento": "LA LIBERTAD",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "dias_antiguedad_min": 3,
       "total_especies_vigentes": 20,
       "especies": [
         {
@@ -7405,7 +7405,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7432,7 +7432,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7460,7 +7460,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -7535,7 +7535,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7568,7 +7568,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7596,7 +7596,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -7665,7 +7665,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7698,7 +7698,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7731,7 +7731,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7770,7 +7770,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7803,7 +7803,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7848,7 +7848,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7893,7 +7893,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7933,7 +7933,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -7966,7 +7966,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -7999,7 +7999,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8038,7 +8038,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8083,7 +8083,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8116,7 +8116,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8149,7 +8149,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8181,7 +8181,7 @@
       "departamento": "LA LIBERTAD",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "dias_antiguedad_min": 3,
       "total_especies_vigentes": 18,
       "especies": [
         {
@@ -8200,7 +8200,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8240,7 +8240,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -8310,7 +8310,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -8369,7 +8369,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -8463,7 +8463,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -8502,7 +8502,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8529,7 +8529,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8562,7 +8562,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8607,7 +8607,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8646,7 +8646,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8691,7 +8691,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8730,7 +8730,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8770,7 +8770,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -8803,7 +8803,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8842,7 +8842,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8875,7 +8875,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8903,7 +8903,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -8942,7 +8942,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -8980,7 +8980,7 @@
       "departamento": "LA LIBERTAD",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-14",
-      "dias_antiguedad_min": 4,
+      "dias_antiguedad_min": 5,
       "total_especies_vigentes": 19,
       "especies": [
         {
@@ -8999,7 +8999,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9026,7 +9026,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9053,7 +9053,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9082,7 +9082,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -9139,7 +9139,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9166,7 +9166,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9194,7 +9194,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -9228,7 +9228,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -9285,7 +9285,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9312,7 +9312,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9339,7 +9339,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9372,7 +9372,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9399,7 +9399,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9426,7 +9426,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9453,7 +9453,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9480,7 +9480,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9513,7 +9513,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9541,7 +9541,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -9574,7 +9574,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9606,7 +9606,7 @@
       "departamento": "LA LIBERTAD",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "dias_antiguedad_min": 3,
       "total_especies_vigentes": 28,
       "especies": [
         {
@@ -9625,7 +9625,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9659,7 +9659,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -9692,7 +9692,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -9744,7 +9744,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -9815,7 +9815,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -9891,7 +9891,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -9950,7 +9950,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -10043,7 +10043,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10070,7 +10070,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10097,7 +10097,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10130,7 +10130,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10169,7 +10169,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10208,7 +10208,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10247,7 +10247,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10274,7 +10274,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10313,7 +10313,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10352,7 +10352,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10391,7 +10391,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10436,7 +10436,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10465,7 +10465,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -10529,7 +10529,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -10592,7 +10592,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10631,7 +10631,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10658,7 +10658,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10691,7 +10691,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10719,7 +10719,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -10764,7 +10764,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10791,7 +10791,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10823,7 +10823,7 @@
       "departamento": "LAMBAYEQUE",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 16,
       "especies": [
         {
@@ -10842,7 +10842,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:55",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10875,7 +10875,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "12:03",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10908,7 +10908,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:57",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10947,7 +10947,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:59",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -10974,7 +10974,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "17:00",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11001,7 +11001,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:54",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11028,7 +11028,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:55",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11055,7 +11055,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:56",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11100,7 +11100,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "16:58",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11127,7 +11127,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "11:49",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11154,7 +11154,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "17:02",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11193,7 +11193,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "17:02",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11238,7 +11238,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:57",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11283,7 +11283,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:57",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11328,7 +11328,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "17:03",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11355,7 +11355,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:58",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11387,7 +11387,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "dias_antiguedad_min": 3,
       "total_especies_vigentes": 20,
       "especies": [
         {
@@ -11406,7 +11406,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11433,7 +11433,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11472,7 +11472,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11511,7 +11511,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11550,7 +11550,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11595,7 +11595,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11622,7 +11622,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11649,7 +11649,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11694,7 +11694,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11733,7 +11733,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11766,7 +11766,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11793,7 +11793,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -11856,7 +11856,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11901,7 +11901,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11940,7 +11940,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -11967,7 +11967,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12012,7 +12012,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12039,7 +12039,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12066,7 +12066,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12093,7 +12093,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12125,7 +12125,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 5,
       "especies": [
         {
@@ -12144,7 +12144,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "10:07",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12189,7 +12189,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:25",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12216,7 +12216,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "10:07",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12261,7 +12261,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "11:45",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12288,7 +12288,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "11:44",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12314,7 +12314,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 7,
       "especies": [
         {
@@ -12333,7 +12333,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:02",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12390,7 +12390,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:06",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12447,7 +12447,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:07",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12480,7 +12480,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:06",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12525,7 +12525,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "07:08",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12552,7 +12552,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "07:08",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12585,7 +12585,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:06",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12605,7 +12605,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-14",
-      "dias_antiguedad_min": 4,
+      "dias_antiguedad_min": 5,
       "total_especies_vigentes": 13,
       "especies": [
         {
@@ -12625,7 +12625,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -12665,7 +12665,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "20:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -12728,7 +12728,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "20:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12767,7 +12767,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12795,7 +12795,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "20:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -12852,7 +12852,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "20:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12879,7 +12879,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12906,7 +12906,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12939,7 +12939,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -12966,7 +12966,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13017,7 +13017,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13044,7 +13044,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "20:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13071,7 +13071,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13097,7 +13097,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 15,
       "especies": [
         {
@@ -13116,7 +13116,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:12",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13173,7 +13173,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:13",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13219,7 +13219,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "17:16",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -13264,7 +13264,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "17:16",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13297,7 +13297,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "06:18",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13324,7 +13324,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:02",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13363,7 +13363,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:14",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13432,7 +13432,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "17:15",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13459,7 +13459,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "17:35",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13510,7 +13510,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:14",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13537,7 +13537,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "06:16",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13564,7 +13564,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:14",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13591,7 +13591,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:13",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13618,7 +13618,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:13",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13651,7 +13651,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:15",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13671,7 +13671,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "dias_antiguedad_min": 3,
       "total_especies_vigentes": 3,
       "especies": [
         {
@@ -13690,7 +13690,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13723,7 +13723,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13750,7 +13750,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -13818,7 +13818,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 15,
       "especies": [
         {
@@ -13837,7 +13837,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13894,7 +13894,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -13945,7 +13945,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14002,7 +14002,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:08",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14029,7 +14029,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14086,7 +14086,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:20",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14113,7 +14113,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:19",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14140,7 +14140,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14191,7 +14191,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:12",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14230,7 +14230,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14263,7 +14263,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:11",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14308,7 +14308,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:20",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14335,7 +14335,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:07",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14374,7 +14374,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14431,7 +14431,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14475,7 +14475,7 @@
       "departamento": "LIMA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 3,
       "especies": [
         {
@@ -14494,7 +14494,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:01",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14533,7 +14533,7 @@
           },
           "fecha_ultimo_registro": "2026-11-17",
           "hora_ultimo_registro": "08:05",
-          "dias_antiguedad": 1,
+          "dias_antiguedad": 2,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14572,7 +14572,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "08:19",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14592,7 +14592,7 @@
       "departamento": "MOQUEGUA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-16",
-      "dias_antiguedad_min": 2,
+      "dias_antiguedad_min": 3,
       "total_especies_vigentes": 1,
       "especies": [
         {
@@ -14611,7 +14611,7 @@
           },
           "fecha_ultimo_registro": "2026-11-16",
           "hora_ultimo_registro": "08:59",
-          "dias_antiguedad": 2,
+          "dias_antiguedad": 3,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14631,7 +14631,7 @@
       "departamento": "PIURA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-14",
-      "dias_antiguedad_min": 4,
+      "dias_antiguedad_min": 5,
       "total_especies_vigentes": 9,
       "especies": [
         {
@@ -14650,7 +14650,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14683,7 +14683,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14716,7 +14716,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14743,7 +14743,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14776,7 +14776,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14803,7 +14803,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14830,7 +14830,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14857,7 +14857,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14890,7 +14890,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14910,7 +14910,7 @@
       "departamento": "PIURA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-14",
-      "dias_antiguedad_min": 4,
+      "dias_antiguedad_min": 5,
       "total_especies_vigentes": 15,
       "especies": [
         {
@@ -14929,7 +14929,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14956,7 +14956,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -14995,7 +14995,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15028,7 +15028,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15061,7 +15061,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15088,7 +15088,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15121,7 +15121,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15154,7 +15154,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15181,7 +15181,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15214,7 +15214,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15241,7 +15241,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15274,7 +15274,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "13:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15307,7 +15307,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15346,7 +15346,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "12:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15379,7 +15379,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "11:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15405,7 +15405,7 @@
       "departamento": "PIURA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-14",
-      "dias_antiguedad_min": 4,
+      "dias_antiguedad_min": 5,
       "total_especies_vigentes": 19,
       "especies": [
         {
@@ -15424,7 +15424,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "15:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15451,7 +15451,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "15:15",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15496,7 +15496,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15523,7 +15523,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15550,7 +15550,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "14:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15607,7 +15607,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15634,7 +15634,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "13:30",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15661,7 +15661,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "14:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15688,7 +15688,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "15:30",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15733,7 +15733,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15784,7 +15784,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15817,7 +15817,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15844,7 +15844,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "15:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15871,7 +15871,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15910,7 +15910,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "15:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15937,7 +15937,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -15964,7 +15964,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "15:30",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16009,7 +16009,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "09:00",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16036,7 +16036,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "10:00",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16056,7 +16056,7 @@
       "departamento": "TACNA",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-14",
-      "dias_antiguedad_min": 4,
+      "dias_antiguedad_min": 5,
       "total_especies_vigentes": 6,
       "especies": [
         {
@@ -16075,7 +16075,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "09:31",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16108,7 +16108,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "09:31",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16147,7 +16147,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "09:29",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16174,7 +16174,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "09:29",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16201,7 +16201,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "09:29",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16228,7 +16228,7 @@
           },
           "fecha_ultimo_registro": "2026-11-14",
           "hora_ultimo_registro": "09:31",
-          "dias_antiguedad": 4,
+          "dias_antiguedad": 5,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16248,7 +16248,7 @@
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 17,
       "especies": [
         {
@@ -16267,7 +16267,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:24",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16300,7 +16300,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:26",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16333,7 +16333,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:26",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16360,7 +16360,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:16",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16387,7 +16387,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16414,7 +16414,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:24",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16441,7 +16441,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:24",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16474,7 +16474,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16507,7 +16507,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:24",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16540,7 +16540,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16580,7 +16580,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:26",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -16614,7 +16614,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -16654,7 +16654,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:16",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -16699,7 +16699,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:25",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16726,7 +16726,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:26",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16771,7 +16771,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:24",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16816,7 +16816,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:23",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16836,7 +16836,7 @@
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-12",
-      "dias_antiguedad_min": 6,
+      "dias_antiguedad_min": 7,
       "total_especies_vigentes": 13,
       "especies": [
         {
@@ -16857,7 +16857,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -16896,7 +16896,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16923,7 +16923,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -16952,7 +16952,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -16993,7 +16993,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -17032,7 +17032,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17061,7 +17061,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -17100,7 +17100,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17127,7 +17127,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17154,7 +17154,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17181,7 +17181,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17208,7 +17208,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17236,7 +17236,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -17262,7 +17262,7 @@
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 57,
       "especies": [
         {
@@ -17281,7 +17281,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:09",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17308,7 +17308,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:12",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17359,7 +17359,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17386,7 +17386,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17413,7 +17413,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:15",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17452,7 +17452,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:11",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17479,7 +17479,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:36",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17512,7 +17512,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:36",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17539,7 +17539,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17566,7 +17566,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:15",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17593,7 +17593,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17638,7 +17638,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:12",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17665,7 +17665,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17698,7 +17698,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:11",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17743,7 +17743,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:37",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17770,7 +17770,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:13",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17797,7 +17797,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17830,7 +17830,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17858,7 +17858,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:15",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -17903,7 +17903,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:38",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17930,7 +17930,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:17",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -17958,7 +17958,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -18003,7 +18003,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18036,7 +18036,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:18",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18063,7 +18063,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:08",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18090,7 +18090,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18147,7 +18147,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:10",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -18180,7 +18180,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18208,7 +18208,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:12",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -18301,7 +18301,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:15",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18340,7 +18340,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18385,7 +18385,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:09",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -18418,7 +18418,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -18469,7 +18469,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:03",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18502,7 +18502,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:17",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18529,7 +18529,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18556,7 +18556,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18589,7 +18589,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:13",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18616,7 +18616,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:12",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -18679,7 +18679,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:17",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18719,7 +18719,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:37",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -18752,7 +18752,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:03",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18785,7 +18785,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "16:13",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18812,7 +18812,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:16",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18863,7 +18863,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:10",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18890,7 +18890,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:17",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18923,7 +18923,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18950,7 +18950,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:36",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -18977,7 +18977,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:07",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19004,7 +19004,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "08:10",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19031,7 +19031,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:10",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19064,7 +19064,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:37",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -19109,7 +19109,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19136,7 +19136,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19163,7 +19163,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:17",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19196,7 +19196,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19223,7 +19223,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:14",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19243,7 +19243,7 @@
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 53,
       "especies": [
         {
@@ -19262,7 +19262,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:35",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19289,7 +19289,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:46",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19316,7 +19316,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:46",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19343,7 +19343,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:36",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19370,7 +19370,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:40",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19397,7 +19397,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:20",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19425,7 +19425,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:23",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -19508,7 +19508,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:44",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -19577,7 +19577,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19604,7 +19604,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:26",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19643,7 +19643,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:07",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19670,7 +19670,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:40",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19697,7 +19697,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:41",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19724,7 +19724,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:39",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19753,7 +19753,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:44",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -19822,7 +19822,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19867,7 +19867,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:12",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -19906,7 +19906,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:21",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19939,7 +19939,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:44",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -19978,7 +19978,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:39",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20005,7 +20005,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "12:26",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -20038,7 +20038,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:45",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20065,7 +20065,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20098,7 +20098,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:46",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20125,7 +20125,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:14",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20152,7 +20152,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:45",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20179,7 +20179,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20224,7 +20224,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:08",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20257,7 +20257,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20290,7 +20290,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:37",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20317,7 +20317,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:14",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20344,7 +20344,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:38",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20371,7 +20371,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:45",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20398,7 +20398,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:40",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20425,7 +20425,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:36",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20452,7 +20452,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:40",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20479,7 +20479,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "08:36",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20506,7 +20506,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20545,7 +20545,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:45",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20572,7 +20572,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:14",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20599,7 +20599,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:22",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20626,7 +20626,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:46",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20653,7 +20653,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:21",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20682,7 +20682,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:46",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -20739,7 +20739,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -20772,7 +20772,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:39",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20799,7 +20799,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:46",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20832,7 +20832,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:09",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -20889,7 +20889,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "16:14",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20916,7 +20916,7 @@
           },
           "fecha_ultimo_registro": "2026-11-12",
           "hora_ultimo_registro": "12:40",
-          "dias_antiguedad": 6,
+          "dias_antiguedad": 7,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -20949,7 +20949,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:45",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -20976,7 +20976,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:22",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21005,7 +21005,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "08:44",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 3,
           "historico_reciente": [
             {
@@ -21055,7 +21055,7 @@
       "departamento": "TUMBES",
       "tiene_datos_recientes": true,
       "fecha_ultimo_muestreo": "2026-11-18",
-      "dias_antiguedad_min": 0,
+      "dias_antiguedad_min": 1,
       "total_especies_vigentes": 15,
       "especies": [
         {
@@ -21074,7 +21074,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21113,7 +21113,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:17",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21140,7 +21140,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:16",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21168,7 +21168,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -21219,7 +21219,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:16",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -21252,7 +21252,7 @@
           },
           "fecha_ultimo_registro": "2026-11-11",
           "hora_ultimo_registro": "12:16",
-          "dias_antiguedad": 7,
+          "dias_antiguedad": 8,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21280,7 +21280,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -21343,7 +21343,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21388,7 +21388,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:19",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21415,7 +21415,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:19",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21442,7 +21442,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:18",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
@@ -21469,7 +21469,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:10",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -21520,7 +21520,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "16:11",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -21584,7 +21584,7 @@
           },
           "fecha_ultimo_registro": "2026-11-13",
           "hora_ultimo_registro": "16:15",
-          "dias_antiguedad": 5,
+          "dias_antiguedad": 6,
           "muestreos_ultimo_dia": 2,
           "historico_reciente": [
             {
@@ -21617,7 +21617,7 @@
           },
           "fecha_ultimo_registro": "2026-11-18",
           "hora_ultimo_registro": "12:19",
-          "dias_antiguedad": 0,
+          "dias_antiguedad": 1,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
             {
