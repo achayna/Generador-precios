@@ -1,25 +1,121 @@
 {
-  "estado_actualizacion": "Actualizado hasta ayer 19",
-  "estado_actualizacion_con_hora": "Actualizado hasta ayer 19 (11:40)",
-  "actualizado_peru": "Actualizado hasta ayer 19",
-  "ultima_fecha_datos": "19/11/2026",
-  "ultima_hora_datos": "11:40",
+  "estado_actualizacion": "Actualizado hasta hoy 20",
+  "estado_actualizacion_con_hora": "Actualizado hasta hoy 20 (07:54)",
+  "actualizado_peru": "Actualizado hasta hoy 20",
+  "ultima_fecha_datos": "20/11/2026",
+  "ultima_hora_datos": "07:54",
   "ultima_revision_sistema": "20/11/2026 08:57",
-  "actualizado_iso": "2026-11-20T08:57:04-05:00",
+  "actualizado_iso": "2026-11-20T08:57:30-05:00",
   "ventana_dias": 3,
   "total_puertos": 65,
-  "puertos_con_datos": 19,
-  "total_filas_precios": 170,
+  "puertos_con_datos": 27,
+  "total_filas_precios": 253,
   "puertos": {
     "ACAPULCO": {
       "nombre_puerto": "ACAPULCO",
       "departamento": "TUMBES",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "18/11/2026",
-      "ultima_hora_muestreo": "12:26",
-      "estado_puerto": "Actualizado hasta el 18/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (12:26)",
+      "ultima_fecha_muestreo": "19/11/2026",
+      "ultima_hora_muestreo": "12:44",
+      "estado_puerto": "Actualizado hasta ayer 19",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (12:44)",
       "precios": [
+        {
+          "especie_mostrar": "Chiri",
+          "especie_corta": "Chiri",
+          "nombre_cientifico": "Peprilus medius",
+          "sinonimos_busqueda": "Chiri, palometa, cometrapo, pampano, pampanito",
+          "talla": "STANDAR",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "12:43",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:43"
+        },
+        {
+          "especie_mostrar": "Corvina dorada (Grande)",
+          "especie_corta": "Corvina dorada",
+          "nombre_cientifico": "Micropogonias altipinnis",
+          "sinonimos_busqueda": "Corvina dorada, guavina, charela",
+          "talla": "GRANDE",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "12:42",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:42"
+        },
+        {
+          "especie_mostrar": "Espejo",
+          "especie_corta": "Espejo",
+          "nombre_cientifico": "Selene peruviana",
+          "sinonimos_busqueda": "Espejo, pampanito, jorobadito, pámpano, reloj",
+          "talla": "STANDAR",
+          "precio": 2.0,
+          "precio_mostrar": "S/ 2.00",
+          "hora": "12:43",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:43"
+        },
+        {
+          "especie_mostrar": "Langosta (Grande)",
+          "especie_corta": "Langosta",
+          "nombre_cientifico": "Panulirus gracilis",
+          "sinonimos_busqueda": "Langosta",
+          "talla": "GRANDE",
+          "precio": 30.0,
+          "precio_mostrar": "S/ 30.00",
+          "hora": "12:43",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:43"
+        },
+        {
+          "especie_mostrar": "Langosta (Mediano)",
+          "especie_corta": "Langosta",
+          "nombre_cientifico": "Panulirus gracilis",
+          "sinonimos_busqueda": "Langosta",
+          "talla": "MEDIANO",
+          "precio": 20.0,
+          "precio_mostrar": "S/ 20.00",
+          "hora": "12:43",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:43"
+        },
+        {
+          "especie_mostrar": "Páramo",
+          "especie_corta": "Páramo",
+          "nombre_cientifico": "Oligoplites altus",
+          "sinonimos_busqueda": "Páramo, cometrapo, pajaritos",
+          "talla": "STANDAR",
+          "precio": 4.0,
+          "precio_mostrar": "S/ 4.00",
+          "hora": "12:44",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:44"
+        },
+        {
+          "especie_mostrar": "Pardo",
+          "especie_corta": "Pardo",
+          "nombre_cientifico": "Chloroscombrus orqueta",
+          "sinonimos_busqueda": "Pardo, pez hojita, citarita, chuyes, riki riki, parbo",
+          "talla": "STANDAR",
+          "precio": 1.0,
+          "precio_mostrar": "S/ 1.00",
+          "hora": "12:43",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:43"
+        },
+        {
+          "especie_mostrar": "Sierra",
+          "especie_corta": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "sinonimos_busqueda": "Sierra, verle",
+          "talla": "STANDAR",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "12:44",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:44"
+        },
         {
           "especie_mostrar": "Barbudo azul",
           "especie_corta": "Barbudo azul",
@@ -57,42 +153,6 @@
           "hora_mostrar": "18/11 12:25"
         },
         {
-          "especie_mostrar": "Chiri",
-          "especie_corta": "Chiri",
-          "nombre_cientifico": "Peprilus medius",
-          "sinonimos_busqueda": "Chiri, palometa, cometrapo, pampano, pampanito",
-          "talla": "STANDAR",
-          "precio": 10.0,
-          "precio_mostrar": "S/ 10.00",
-          "hora": "12:24",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:24"
-        },
-        {
-          "especie_mostrar": "Corvina dorada (Mediano)",
-          "especie_corta": "Corvina dorada",
-          "nombre_cientifico": "Micropogonias altipinnis",
-          "sinonimos_busqueda": "Corvina dorada, guavina, charela",
-          "talla": "MEDIANO",
-          "precio": 9.0,
-          "precio_mostrar": "S/ 9.00",
-          "hora": "12:25",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:25"
-        },
-        {
-          "especie_mostrar": "Espejo",
-          "especie_corta": "Espejo",
-          "nombre_cientifico": "Selene peruviana",
-          "sinonimos_busqueda": "Espejo, pampanito, jorobadito, pámpano, reloj",
-          "talla": "STANDAR",
-          "precio": 2.0,
-          "precio_mostrar": "S/ 2.00",
-          "hora": "12:25",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:25"
-        },
-        {
           "especie_mostrar": "Guavina (Grande)",
           "especie_corta": "Guavina",
           "nombre_cientifico": "Cynoscion stolzmanni",
@@ -115,30 +175,6 @@
           "hora": "12:26",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 12:26"
-        },
-        {
-          "especie_mostrar": "Langosta (Grande)",
-          "especie_corta": "Langosta",
-          "nombre_cientifico": "Panulirus gracilis",
-          "sinonimos_busqueda": "Langosta",
-          "talla": "GRANDE",
-          "precio": 30.0,
-          "precio_mostrar": "S/ 30.00",
-          "hora": "12:25",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:25"
-        },
-        {
-          "especie_mostrar": "Langosta (Mediano)",
-          "especie_corta": "Langosta",
-          "nombre_cientifico": "Panulirus gracilis",
-          "sinonimos_busqueda": "Langosta",
-          "talla": "MEDIANO",
-          "precio": 20.0,
-          "precio_mostrar": "S/ 20.00",
-          "hora": "12:24",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:24"
         },
         {
           "especie_mostrar": "Machete de hebra",
@@ -175,18 +211,6 @@
           "hora": "12:24",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 12:24"
-        },
-        {
-          "especie_mostrar": "Sierra",
-          "especie_corta": "Sierra",
-          "nombre_cientifico": "Scomberomorus sierra",
-          "sinonimos_busqueda": "Sierra, verle",
-          "talla": "STANDAR",
-          "precio": 12.0,
-          "precio_mostrar": "S/ 12.00",
-          "hora": "12:23",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:23"
         }
       ]
     },
@@ -194,21 +218,202 @@
       "nombre_puerto": "ANCON",
       "departamento": "LIMA",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "16:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Barrilete negro",
+          "especie_corta": "Barrilete negro",
+          "nombre_cientifico": "Euthynnus lineatus",
+          "sinonimos_busqueda": "Barrilete negro, barrilete perla, bonito negro, macarela",
+          "talla": "STANDAR",
+          "precio": 1.0,
+          "precio_mostrar": "S/ 1.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Bonito (Pequeño)",
+          "especie_corta": "Bonito",
+          "nombre_cientifico": "Sarda chiliensis",
+          "sinonimos_busqueda": "Bonito, chauchilla, cerrajon, mono, marrajo",
+          "talla": "PEQUEÑO",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Cachema (Mediano)",
+          "especie_corta": "Cachema",
+          "nombre_cientifico": "Cynoscion analis",
+          "sinonimos_busqueda": "Cachema, ayanque, ayangue",
+          "talla": "MEDIANO",
+          "precio": 15.0,
+          "precio_mostrar": "S/ 15.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Cangrejo violáceo (Mediano)",
+          "especie_corta": "Cangrejo violáceo",
+          "nombre_cientifico": "Platyxanthus orbignyi",
+          "sinonimos_busqueda": "Cangrejo violáceo",
+          "talla": "MEDIANO",
+          "precio": 13.0,
+          "precio_mostrar": "S/ 13.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Cangrejo violáceo (Pequeño)",
+          "especie_corta": "Cangrejo violáceo",
+          "nombre_cientifico": "Platyxanthus orbignyi",
+          "sinonimos_busqueda": "Cangrejo violáceo",
+          "talla": "PEQUEÑO",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Coco (Mediano)",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "MEDIANO",
+          "precio": 15.0,
+          "precio_mostrar": "S/ 15.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Lisa (Mediano)",
+          "especie_corta": "Lisa",
+          "nombre_cientifico": "Mugil cephalus",
+          "sinonimos_busqueda": "Lisa, lisa común, comebarro, lisa rayada",
+          "talla": "MEDIANO",
+          "precio": 8.5,
+          "precio_mostrar": "S/ 8.50",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Pejerrey",
+          "especie_corta": "Pejerrey",
+          "nombre_cientifico": "Odontesthes regia",
+          "sinonimos_busqueda": "Pejerrey",
+          "talla": "STANDAR",
+          "precio": 40.0,
+          "precio_mostrar": "S/ 40.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Pintadilla (Mediano)",
+          "especie_corta": "Pintadilla",
+          "nombre_cientifico": "Chirodactylus variegatus",
+          "sinonimos_busqueda": "Pintadilla, pintacha, páramo, boca dulce",
+          "talla": "MEDIANO",
+          "precio": 22.0,
+          "precio_mostrar": "S/ 22.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Pintadilla (Pequeño)",
+          "especie_corta": "Pintadilla",
+          "nombre_cientifico": "Chirodactylus variegatus",
+          "sinonimos_busqueda": "Pintadilla, pintacha, páramo, boca dulce",
+          "talla": "PEQUEÑO",
+          "precio": 17.0,
+          "precio_mostrar": "S/ 17.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Pota",
+          "especie_corta": "Pota",
+          "nombre_cientifico": "Dosidicus gigas",
+          "sinonimos_busqueda": "Pota, calamar gigante",
+          "talla": "STANDAR",
+          "precio": 3.6,
+          "precio_mostrar": "S/ 3.60",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Pulpo (Grande)",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "GRANDE",
+          "precio": 21.0,
+          "precio_mostrar": "S/ 21.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Trambollo (Mediano)",
+          "especie_corta": "Trambollo",
+          "nombre_cientifico": "Labrisomus philippii",
+          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
+          "talla": "MEDIANO",
+          "precio": 26.0,
+          "precio_mostrar": "S/ 26.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Trambollo (Pequeño)",
+          "especie_corta": "Trambollo",
+          "nombre_cientifico": "Labrisomus philippii",
+          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
+          "talla": "PEQUEÑO",
+          "precio": 20.0,
+          "precio_mostrar": "S/ 20.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        }
+      ]
     },
     "ATICO": {
       "nombre_puerto": "ATICO",
       "departamento": "AREQUIPA",
       "region": "COSTA",
       "ultima_fecha_muestreo": "19/11/2026",
-      "ultima_hora_muestreo": "08:30",
+      "ultima_hora_muestreo": "16:38",
       "estado_puerto": "Actualizado hasta ayer 19",
-      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (08:30)",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (16:38)",
       "precios": [
+        {
+          "especie_mostrar": "Lapa",
+          "especie_corta": "Lapa",
+          "nombre_cientifico": "Fissurella sp.",
+          "sinonimos_busqueda": "Lapa",
+          "talla": "STANDAR",
+          "precio": 46.0,
+          "precio_mostrar": "S/ 46.00",
+          "hora": "16:38",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 16:38"
+        },
         {
           "especie_mostrar": "Ovas de volador",
           "especie_corta": "Ovas de volador",
@@ -217,9 +422,9 @@
           "talla": "STANDAR",
           "precio": 45.0,
           "precio_mostrar": "S/ 45.00",
-          "hora": "08:30",
+          "hora": "16:38",
           "fecha": "19/11/2026",
-          "hora_mostrar": "Ayer 08:30"
+          "hora_mostrar": "Ayer 16:38"
         },
         {
           "especie_mostrar": "Perico",
@@ -232,6 +437,18 @@
           "hora": "08:30",
           "fecha": "19/11/2026",
           "hora_mostrar": "Ayer 08:30"
+        },
+        {
+          "especie_mostrar": "Pulpo",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "STANDAR",
+          "precio": 25.0,
+          "precio_mostrar": "S/ 25.00",
+          "hora": "16:38",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 16:38"
         },
         {
           "especie_mostrar": "Tiburón azul",
@@ -394,11 +611,252 @@
       "nombre_puerto": "CALLAO",
       "departamento": "CALLAO",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "16:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Bonito (Grande)",
+          "especie_corta": "Bonito",
+          "nombre_cientifico": "Sarda chiliensis",
+          "sinonimos_busqueda": "Bonito, chauchilla, cerrajon, mono, marrajo",
+          "talla": "GRANDE",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Bonito (Pequeño)",
+          "especie_corta": "Bonito",
+          "nombre_cientifico": "Sarda chiliensis",
+          "sinonimos_busqueda": "Bonito, chauchilla, cerrajon, mono, marrajo",
+          "talla": "PEQUEÑO",
+          "precio": 7.0,
+          "precio_mostrar": "S/ 7.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Cabrilla (Grande)",
+          "especie_corta": "Cabrilla",
+          "nombre_cientifico": "Paralabrax humeralis",
+          "sinonimos_busqueda": "Cabrilla, cagálo, bagalo, cabrilla comun",
+          "talla": "GRANDE",
+          "precio": 28.0,
+          "precio_mostrar": "S/ 28.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Cabrilla (Pequeño)",
+          "especie_corta": "Cabrilla",
+          "nombre_cientifico": "Paralabrax humeralis",
+          "sinonimos_busqueda": "Cabrilla, cagálo, bagalo, cabrilla comun",
+          "talla": "PEQUEÑO",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Cachema (Grande)",
+          "especie_corta": "Cachema",
+          "nombre_cientifico": "Cynoscion analis",
+          "sinonimos_busqueda": "Cachema, ayanque, ayangue",
+          "talla": "GRANDE",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Caracol",
+          "especie_corta": "Caracol",
+          "nombre_cientifico": "Thaisella chocolata",
+          "sinonimos_busqueda": "Caracol, caracol negro, caracol común, caracol plomo",
+          "talla": "STANDAR",
+          "precio": 2.5,
+          "precio_mostrar": "S/ 2.50",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Chita (Mediano)",
+          "especie_corta": "Chita",
+          "nombre_cientifico": "Anisotremus scapularis",
+          "sinonimos_busqueda": "Chita, sargo del sur",
+          "talla": "MEDIANO",
+          "precio": 30.0,
+          "precio_mostrar": "S/ 30.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Chita (Pequeño)",
+          "especie_corta": "Chita",
+          "nombre_cientifico": "Anisotremus scapularis",
+          "sinonimos_busqueda": "Chita, sargo del sur",
+          "talla": "PEQUEÑO",
+          "precio": 20.0,
+          "precio_mostrar": "S/ 20.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Coco (Mediano)",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "MEDIANO",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Coco (Pequeño)",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "PEQUEÑO",
+          "precio": 4.0,
+          "precio_mostrar": "S/ 4.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Concha de abanico",
+          "especie_corta": "Concha de abanico",
+          "nombre_cientifico": "Argopecten purpuratus",
+          "sinonimos_busqueda": "Concha de abanico, señorita",
+          "talla": "STANDAR",
+          "precio": 3.5,
+          "precio_mostrar": "S/ 3.50",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Lisa",
+          "especie_corta": "Lisa",
+          "nombre_cientifico": "Mugil cephalus",
+          "sinonimos_busqueda": "Lisa, lisa común, comebarro, lisa rayada",
+          "talla": "STANDAR",
+          "precio": 9.0,
+          "precio_mostrar": "S/ 9.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Lorna (Pequeño)",
+          "especie_corta": "Lorna",
+          "nombre_cientifico": "Callaus deliciosa",
+          "sinonimos_busqueda": "Lorna, cholo, roncacho, losna",
+          "talla": "PEQUEÑO",
+          "precio": 5.0,
+          "precio_mostrar": "S/ 5.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Misho (Mediano)",
+          "especie_corta": "Misho",
+          "nombre_cientifico": "Menticirrhus elongatus",
+          "sinonimos_busqueda": "Misho, muchachita, chula, zorro",
+          "talla": "MEDIANO",
+          "precio": 7.0,
+          "precio_mostrar": "S/ 7.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Pulpo (Grande)",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "GRANDE",
+          "precio": 17.0,
+          "precio_mostrar": "S/ 17.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Pulpo (Pequeño)",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "PEQUEÑO",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Sierra",
+          "especie_corta": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "sinonimos_busqueda": "Sierra, verle",
+          "talla": "STANDAR",
+          "precio": 9.0,
+          "precio_mostrar": "S/ 9.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Sierra (Grande)",
+          "especie_corta": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "sinonimos_busqueda": "Sierra, verle",
+          "talla": "GRANDE",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Trambollo (Grande)",
+          "especie_corta": "Trambollo",
+          "nombre_cientifico": "Labrisomus philippii",
+          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
+          "talla": "GRANDE",
+          "precio": 20.0,
+          "precio_mostrar": "S/ 20.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Trambollo (Pequeño)",
+          "especie_corta": "Trambollo",
+          "nombre_cientifico": "Labrisomus philippii",
+          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
+          "talla": "PEQUEÑO",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        }
+      ]
     },
     "CAMANA": {
       "nombre_puerto": "CAMANA",
@@ -434,11 +892,96 @@
       "nombre_puerto": "CASMA",
       "departamento": "ANCASH",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "12:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (12:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Bonito",
+          "especie_corta": "Bonito",
+          "nombre_cientifico": "Sarda chiliensis",
+          "sinonimos_busqueda": "Bonito, chauchilla, cerrajon, mono, marrajo",
+          "talla": "STANDAR",
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "09:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 09:00"
+        },
+        {
+          "especie_mostrar": "Castañuela",
+          "especie_corta": "Castañuela",
+          "nombre_cientifico": "Chromis crusma",
+          "sinonimos_busqueda": "Castañuela, castañeta, castañeta manchada, catañeta comun, chavela",
+          "talla": "STANDAR",
+          "precio": 1.5,
+          "precio_mostrar": "S/ 1.50",
+          "hora": "09:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 09:00"
+        },
+        {
+          "especie_mostrar": "Guitarra común",
+          "especie_corta": "Guitarra común",
+          "nombre_cientifico": "Pseudobatos planiceps",
+          "sinonimos_busqueda": "Guitarra común, guitarra",
+          "talla": "STANDAR",
+          "precio": 3.0,
+          "precio_mostrar": "S/ 3.00",
+          "hora": "09:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 09:00"
+        },
+        {
+          "especie_mostrar": "Jurel (Pequeño)",
+          "especie_corta": "Jurel",
+          "nombre_cientifico": "Trachurus murphyi",
+          "sinonimos_busqueda": "Jurel, furel, cairel, jurel del Pacífico Sur, jurelillo",
+          "talla": "PEQUEÑO",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "09:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 09:00"
+        },
+        {
+          "especie_mostrar": "Lisa (Pequeño)",
+          "especie_corta": "Lisa",
+          "nombre_cientifico": "Mugil cephalus",
+          "sinonimos_busqueda": "Lisa, lisa común, comebarro, lisa rayada",
+          "talla": "PEQUEÑO",
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "09:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 09:00"
+        },
+        {
+          "especie_mostrar": "Pulpo (Grande)",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "GRANDE",
+          "precio": 20.0,
+          "precio_mostrar": "S/ 20.00",
+          "hora": "12:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 12:00"
+        },
+        {
+          "especie_mostrar": "Pulpo (Pequeño)",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "PEQUEÑO",
+          "precio": 7.0,
+          "precio_mostrar": "S/ 7.00",
+          "hora": "12:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 12:00"
+        }
+      ]
     },
     "CERRO AZUL": {
       "nombre_puerto": "CERRO AZUL",
@@ -491,10 +1034,10 @@
       "nombre_puerto": "CHALA",
       "departamento": "AREQUIPA",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "18/11/2026",
-      "ultima_hora_muestreo": "16:30",
-      "estado_puerto": "Actualizado hasta el 18/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:30)",
+      "ultima_fecha_muestreo": "19/11/2026",
+      "ultima_hora_muestreo": "16:29",
+      "estado_puerto": "Actualizado hasta ayer 19",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (16:29)",
       "precios": [
         {
           "especie_mostrar": "Chanque",
@@ -504,9 +1047,21 @@
           "talla": "STANDAR",
           "precio": 6.0,
           "precio_mostrar": "S/ 6.00",
-          "hora": "16:30",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:30"
+          "hora": "16:22",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 16:22"
+        },
+        {
+          "especie_mostrar": "Erizo",
+          "especie_corta": "Erizo",
+          "nombre_cientifico": "Loxechinus albus",
+          "sinonimos_busqueda": "Erizo",
+          "talla": "STANDAR",
+          "precio": 4.0,
+          "precio_mostrar": "S/ 4.00",
+          "hora": "16:29",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 16:29"
         },
         {
           "especie_mostrar": "Lapa",
@@ -516,9 +1071,9 @@
           "talla": "STANDAR",
           "precio": 15.0,
           "precio_mostrar": "S/ 15.00",
-          "hora": "16:30",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:30"
+          "hora": "16:22",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 16:22"
         },
         {
           "especie_mostrar": "Pulpo",
@@ -528,9 +1083,9 @@
           "talla": "STANDAR",
           "precio": 22.0,
           "precio_mostrar": "S/ 22.00",
-          "hora": "16:30",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:30"
+          "hora": "16:22",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 16:22"
         }
       ]
     },
@@ -653,11 +1208,132 @@
       "nombre_puerto": "CHORRILLOS",
       "departamento": "LIMA",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "20:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (20:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Barrilete negro",
+          "especie_corta": "Barrilete negro",
+          "nombre_cientifico": "Euthynnus lineatus",
+          "sinonimos_busqueda": "Barrilete negro, barrilete perla, bonito negro, macarela",
+          "talla": "STANDAR",
+          "precio": 1.0,
+          "precio_mostrar": "S/ 1.00",
+          "hora": "20:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 20:00"
+        },
+        {
+          "especie_mostrar": "Cachema (Grande)",
+          "especie_corta": "Cachema",
+          "nombre_cientifico": "Cynoscion analis",
+          "sinonimos_busqueda": "Cachema, ayanque, ayangue",
+          "talla": "GRANDE",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "20:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 20:00"
+        },
+        {
+          "especie_mostrar": "Cachema (Pequeño)",
+          "especie_corta": "Cachema",
+          "nombre_cientifico": "Cynoscion analis",
+          "sinonimos_busqueda": "Cachema, ayanque, ayangue",
+          "talla": "PEQUEÑO",
+          "precio": 9.0,
+          "precio_mostrar": "S/ 9.00",
+          "hora": "20:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 20:00"
+        },
+        {
+          "especie_mostrar": "Caracol",
+          "especie_corta": "Caracol",
+          "nombre_cientifico": "Thaisella chocolata",
+          "sinonimos_busqueda": "Caracol, caracol negro, caracol común, caracol plomo",
+          "talla": "STANDAR",
+          "precio": 3.5,
+          "precio_mostrar": "S/ 3.50",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Coco",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "STANDAR",
+          "precio": 5.0,
+          "precio_mostrar": "S/ 5.00",
+          "hora": "20:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 20:00"
+        },
+        {
+          "especie_mostrar": "Lisa",
+          "especie_corta": "Lisa",
+          "nombre_cientifico": "Mugil cephalus",
+          "sinonimos_busqueda": "Lisa, lisa común, comebarro, lisa rayada",
+          "talla": "STANDAR",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "20:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 20:00"
+        },
+        {
+          "especie_mostrar": "Lorna",
+          "especie_corta": "Lorna",
+          "nombre_cientifico": "Callaus deliciosa",
+          "sinonimos_busqueda": "Lorna, cholo, roncacho, losna",
+          "talla": "STANDAR",
+          "precio": 5.0,
+          "precio_mostrar": "S/ 5.00",
+          "hora": "20:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 20:00"
+        },
+        {
+          "especie_mostrar": "Pámpano (Pequeño)",
+          "especie_corta": "Pámpano",
+          "nombre_cientifico": "Trachinotus paitensis",
+          "sinonimos_busqueda": "Pámpano, pampanito, cometrapo, palometa",
+          "talla": "PEQUEÑO",
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Sierra (Grande)",
+          "especie_corta": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "sinonimos_busqueda": "Sierra, verle",
+          "talla": "GRANDE",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Sierra (Pequeño)",
+          "especie_corta": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "sinonimos_busqueda": "Sierra, verle",
+          "talla": "PEQUEÑO",
+          "precio": 7.0,
+          "precio_mostrar": "S/ 7.00",
+          "hora": "20:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 20:00"
+        }
+      ]
     },
     "CONSTANTE": {
       "nombre_puerto": "CONSTANTE",
@@ -866,11 +1542,60 @@
       "nombre_puerto": "HUARMEY",
       "departamento": "ANCASH",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "13:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (13:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Bonito (Pequeño)",
+          "especie_corta": "Bonito",
+          "nombre_cientifico": "Sarda chiliensis",
+          "sinonimos_busqueda": "Bonito, chauchilla, cerrajon, mono, marrajo",
+          "talla": "PEQUEÑO",
+          "precio": 5.0,
+          "precio_mostrar": "S/ 5.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Cabrilla (Grande)",
+          "especie_corta": "Cabrilla",
+          "nombre_cientifico": "Paralabrax humeralis",
+          "sinonimos_busqueda": "Cabrilla, cagálo, bagalo, cabrilla comun",
+          "talla": "GRANDE",
+          "precio": 22.0,
+          "precio_mostrar": "S/ 22.00",
+          "hora": "13:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 13:00"
+        },
+        {
+          "especie_mostrar": "Coco",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "STANDAR",
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "13:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 13:00"
+        },
+        {
+          "especie_mostrar": "Trambollo (Grande)",
+          "especie_corta": "Trambollo",
+          "nombre_cientifico": "Labrisomus philippii",
+          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
+          "talla": "GRANDE",
+          "precio": 18.0,
+          "precio_mostrar": "S/ 18.00",
+          "hora": "13:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 13:00"
+        }
+      ]
     },
     "ILO": {
       "nombre_puerto": "ILO",
@@ -906,11 +1631,179 @@
       "nombre_puerto": "LA CRUZ",
       "departamento": "TUMBES",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "18/11/2026",
-      "ultima_hora_muestreo": "16:12",
-      "estado_puerto": "Actualizado hasta el 18/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:12)",
+      "ultima_fecha_muestreo": "19/11/2026",
+      "ultima_hora_muestreo": "12:42",
+      "estado_puerto": "Actualizado hasta ayer 19",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (12:42)",
       "precios": [
+        {
+          "especie_mostrar": "Cabrilla (Mediano)",
+          "especie_corta": "Cabrilla",
+          "nombre_cientifico": "Paralabrax humeralis",
+          "sinonimos_busqueda": "Cabrilla, cagálo, bagalo, cabrilla comun",
+          "talla": "MEDIANO",
+          "precio": 15.0,
+          "precio_mostrar": "S/ 15.00",
+          "hora": "12:40",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:40"
+        },
+        {
+          "especie_mostrar": "Congrio aleta pintada (Grande)",
+          "especie_corta": "Congrio aleta pintada",
+          "nombre_cientifico": "Lepophidium negropinna",
+          "sinonimos_busqueda": "Congrio aleta pintada, congrio gato, congrio perlita",
+          "talla": "GRANDE",
+          "precio": 11.0,
+          "precio_mostrar": "S/ 11.00",
+          "hora": "12:42",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:42"
+        },
+        {
+          "especie_mostrar": "Congrio aleta pintada (Pequeño)",
+          "especie_corta": "Congrio aleta pintada",
+          "nombre_cientifico": "Lepophidium negropinna",
+          "sinonimos_busqueda": "Congrio aleta pintada, congrio gato, congrio perlita",
+          "talla": "PEQUEÑO",
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "12:42",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:42"
+        },
+        {
+          "especie_mostrar": "Doncella (Mediano)",
+          "especie_corta": "Doncella",
+          "nombre_cientifico": "Hemanthias peruanus",
+          "sinonimos_busqueda": "Doncella, princesa",
+          "talla": "MEDIANO",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "12:41",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:41"
+        },
+        {
+          "especie_mostrar": "Doncella (Pequeño)",
+          "especie_corta": "Doncella",
+          "nombre_cientifico": "Hemanthias peruanus",
+          "sinonimos_busqueda": "Doncella, princesa",
+          "talla": "PEQUEÑO",
+          "precio": 4.0,
+          "precio_mostrar": "S/ 4.00",
+          "hora": "12:41",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:41"
+        },
+        {
+          "especie_mostrar": "Espejo (Mediano)",
+          "especie_corta": "Espejo",
+          "nombre_cientifico": "Selene peruviana",
+          "sinonimos_busqueda": "Espejo, pampanito, jorobadito, pámpano, reloj",
+          "talla": "MEDIANO",
+          "precio": 2.0,
+          "precio_mostrar": "S/ 2.00",
+          "hora": "12:39",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:39"
+        },
+        {
+          "especie_mostrar": "Falso volador",
+          "especie_corta": "Falso volador",
+          "nombre_cientifico": "Prionotus stephanophrys",
+          "sinonimos_busqueda": "Falso volador, vocador, cabrilla voladora",
+          "talla": "STANDAR",
+          "precio": 7.0,
+          "precio_mostrar": "S/ 7.00",
+          "hora": "12:35",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:35"
+        },
+        {
+          "especie_mostrar": "Guitarra común (Grande)",
+          "especie_corta": "Guitarra común",
+          "nombre_cientifico": "Pseudobatos planiceps",
+          "sinonimos_busqueda": "Guitarra común, guitarra",
+          "talla": "GRANDE",
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "12:40",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:40"
+        },
+        {
+          "especie_mostrar": "Lenguado común",
+          "especie_corta": "Lenguado común",
+          "nombre_cientifico": "Paralichthys adspersus",
+          "sinonimos_busqueda": "Lenguado común, lenguado, lenguado fino",
+          "talla": "STANDAR",
+          "precio": 25.0,
+          "precio_mostrar": "S/ 25.00",
+          "hora": "12:42",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:42"
+        },
+        {
+          "especie_mostrar": "Lenguado con caninos",
+          "especie_corta": "Lenguado con caninos",
+          "nombre_cientifico": "Cyclopsetta querna",
+          "sinonimos_busqueda": "Lenguado con caninos, lenguado dientudo, cingua",
+          "talla": "STANDAR",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "12:41",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:41"
+        },
+        {
+          "especie_mostrar": "Lenguado de cuatro ocelos",
+          "especie_corta": "Lenguado de cuatro ocelos",
+          "nombre_cientifico": "Hippoglossina tetrophthalma",
+          "sinonimos_busqueda": "Lenguado de cuatro ocelos, lenguado cuatro ojos",
+          "talla": "STANDAR",
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "12:35",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:35"
+        },
+        {
+          "especie_mostrar": "Merluza peruana",
+          "especie_corta": "Merluza peruana",
+          "nombre_cientifico": "Merluccius gayi peruanus",
+          "sinonimos_busqueda": "Merluza peruana, merluza, pescadilla, pescada, peje palo, huaycuya, merlango",
+          "talla": "STANDAR",
+          "precio": 2.0,
+          "precio_mostrar": "S/ 2.00",
+          "hora": "12:41",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:41"
+        },
+        {
+          "especie_mostrar": "Mojarrilla",
+          "especie_corta": "Mojarrilla",
+          "nombre_cientifico": "Stellifer minor",
+          "sinonimos_busqueda": "Mojarrilla, mojarrilla común",
+          "talla": "STANDAR",
+          "precio": 3.0,
+          "precio_mostrar": "S/ 3.00",
+          "hora": "12:42",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:42"
+        },
+        {
+          "especie_mostrar": "Pampanito",
+          "especie_corta": "Pampanito",
+          "nombre_cientifico": "Peprilus snyderi",
+          "sinonimos_busqueda": "Pampanito, chiri, palometa, chiri lomo negro",
+          "talla": "STANDAR",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "12:39",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:39"
+        },
         {
           "especie_mostrar": "Bagre blanco (Pequeño)",
           "especie_corta": "Bagre blanco",
@@ -972,18 +1865,6 @@
           "hora_mostrar": "18/11 12:15"
         },
         {
-          "especie_mostrar": "Cabrilla (Mediano)",
-          "especie_corta": "Cabrilla",
-          "nombre_cientifico": "Paralabrax humeralis",
-          "sinonimos_busqueda": "Cabrilla, cagálo, bagalo, cabrilla comun",
-          "talla": "MEDIANO",
-          "precio": 15.0,
-          "precio_mostrar": "S/ 15.00",
-          "hora": "12:14",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:14"
-        },
-        {
           "especie_mostrar": "Cachema (Mediano)",
           "especie_corta": "Cachema",
           "nombre_cientifico": "Cynoscion analis",
@@ -1032,30 +1913,6 @@
           "hora_mostrar": "18/11 12:08"
         },
         {
-          "especie_mostrar": "Congrio aleta pintada (Grande)",
-          "especie_corta": "Congrio aleta pintada",
-          "nombre_cientifico": "Lepophidium negropinna",
-          "sinonimos_busqueda": "Congrio aleta pintada, congrio gato, congrio perlita",
-          "talla": "GRANDE",
-          "precio": 11.0,
-          "precio_mostrar": "S/ 11.00",
-          "hora": "12:15",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:15"
-        },
-        {
-          "especie_mostrar": "Congrio aleta pintada (Pequeño)",
-          "especie_corta": "Congrio aleta pintada",
-          "nombre_cientifico": "Lepophidium negropinna",
-          "sinonimos_busqueda": "Congrio aleta pintada, congrio gato, congrio perlita",
-          "talla": "PEQUEÑO",
-          "precio": 6.0,
-          "precio_mostrar": "S/ 6.00",
-          "hora": "12:14",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:14"
-        },
-        {
           "especie_mostrar": "Corvina dorada (Mediano)",
           "especie_corta": "Corvina dorada",
           "nombre_cientifico": "Micropogonias altipinnis",
@@ -1066,66 +1923,6 @@
           "hora": "12:17",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 12:17"
-        },
-        {
-          "especie_mostrar": "Doncella (Mediano)",
-          "especie_corta": "Doncella",
-          "nombre_cientifico": "Hemanthias peruanus",
-          "sinonimos_busqueda": "Doncella, princesa",
-          "talla": "MEDIANO",
-          "precio": 10.0,
-          "precio_mostrar": "S/ 10.00",
-          "hora": "12:09",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:09"
-        },
-        {
-          "especie_mostrar": "Doncella (Pequeño)",
-          "especie_corta": "Doncella",
-          "nombre_cientifico": "Hemanthias peruanus",
-          "sinonimos_busqueda": "Doncella, princesa",
-          "talla": "PEQUEÑO",
-          "precio": 5.0,
-          "precio_mostrar": "S/ 5.00",
-          "hora": "12:09",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:09"
-        },
-        {
-          "especie_mostrar": "Espejo (Mediano)",
-          "especie_corta": "Espejo",
-          "nombre_cientifico": "Selene peruviana",
-          "sinonimos_busqueda": "Espejo, pampanito, jorobadito, pámpano, reloj",
-          "talla": "MEDIANO",
-          "precio": 2.0,
-          "precio_mostrar": "S/ 2.00",
-          "hora": "12:09",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:09"
-        },
-        {
-          "especie_mostrar": "Falso volador",
-          "especie_corta": "Falso volador",
-          "nombre_cientifico": "Prionotus stephanophrys",
-          "sinonimos_busqueda": "Falso volador, vocador, cabrilla voladora",
-          "talla": "STANDAR",
-          "precio": 8.0,
-          "precio_mostrar": "S/ 8.00",
-          "hora": "12:18",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:18"
-        },
-        {
-          "especie_mostrar": "Guitarra común (Grande)",
-          "especie_corta": "Guitarra común",
-          "nombre_cientifico": "Pseudobatos planiceps",
-          "sinonimos_busqueda": "Guitarra común, guitarra",
-          "talla": "GRANDE",
-          "precio": 5.0,
-          "precio_mostrar": "S/ 5.00",
-          "hora": "12:10",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:10"
         },
         {
           "especie_mostrar": "Langostino (Grande)",
@@ -1164,18 +1961,6 @@
           "hora_mostrar": "18/11 12:15"
         },
         {
-          "especie_mostrar": "Lenguado con caninos",
-          "especie_corta": "Lenguado con caninos",
-          "nombre_cientifico": "Cyclopsetta querna",
-          "sinonimos_busqueda": "Lenguado con caninos, lenguado dientudo, cingua",
-          "talla": "STANDAR",
-          "precio": 12.0,
-          "precio_mostrar": "S/ 12.00",
-          "hora": "12:08",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:08"
-        },
-        {
           "especie_mostrar": "Lisa plateada",
           "especie_corta": "Lisa plateada",
           "nombre_cientifico": "Mugil curema",
@@ -1183,42 +1968,6 @@
           "talla": "STANDAR",
           "precio": 7.0,
           "precio_mostrar": "S/ 7.00",
-          "hora": "12:17",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:17"
-        },
-        {
-          "especie_mostrar": "Merluza peruana",
-          "especie_corta": "Merluza peruana",
-          "nombre_cientifico": "Merluccius gayi peruanus",
-          "sinonimos_busqueda": "Merluza peruana, merluza, pescadilla, pescada, peje palo, huaycuya, merlango",
-          "talla": "STANDAR",
-          "precio": 1.5,
-          "precio_mostrar": "S/ 1.50",
-          "hora": "12:08",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:08"
-        },
-        {
-          "especie_mostrar": "Mojarrilla",
-          "especie_corta": "Mojarrilla",
-          "nombre_cientifico": "Stellifer minor",
-          "sinonimos_busqueda": "Mojarrilla, mojarrilla común",
-          "talla": "STANDAR",
-          "precio": 3.0,
-          "precio_mostrar": "S/ 3.00",
-          "hora": "16:12",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:12"
-        },
-        {
-          "especie_mostrar": "Pampanito",
-          "especie_corta": "Pampanito",
-          "nombre_cientifico": "Peprilus snyderi",
-          "sinonimos_busqueda": "Pampanito, chiri, palometa, chiri lomo negro",
-          "talla": "STANDAR",
-          "precio": 9.0,
-          "precio_mostrar": "S/ 9.00",
           "hora": "12:17",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 12:17"
@@ -1290,9 +2039,9 @@
       "departamento": "AREQUIPA",
       "region": "COSTA",
       "ultima_fecha_muestreo": "19/11/2026",
-      "ultima_hora_muestreo": "08:11",
+      "ultima_hora_muestreo": "16:12",
       "estado_puerto": "Actualizado hasta ayer 19",
-      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (08:11)",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (16:12)",
       "precios": [
         {
           "especie_mostrar": "Ovas de volador",
@@ -1302,9 +2051,9 @@
           "talla": "STANDAR",
           "precio": 45.0,
           "precio_mostrar": "S/ 45.00",
-          "hora": "08:11",
+          "hora": "12:50",
           "fecha": "19/11/2026",
-          "hora_mostrar": "Ayer 08:11"
+          "hora_mostrar": "Ayer 12:50"
         },
         {
           "especie_mostrar": "Perico",
@@ -1312,11 +2061,35 @@
           "nombre_cientifico": "Coryphaena hippurus",
           "sinonimos_busqueda": "Perico, dorado",
           "talla": "STANDAR",
-          "precio": 16.0,
-          "precio_mostrar": "S/ 16.00",
-          "hora": "08:11",
+          "precio": 17.0,
+          "precio_mostrar": "S/ 17.00",
+          "hora": "12:50",
           "fecha": "19/11/2026",
-          "hora_mostrar": "Ayer 08:11"
+          "hora_mostrar": "Ayer 12:50"
+        },
+        {
+          "especie_mostrar": "Pulpo",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "STANDAR",
+          "precio": 20.0,
+          "precio_mostrar": "S/ 20.00",
+          "hora": "16:12",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 16:12"
+        },
+        {
+          "especie_mostrar": "Tiburón azul",
+          "especie_corta": "Tiburón azul",
+          "nombre_cientifico": "Prionace glauca",
+          "sinonimos_busqueda": "Tiburón azul, chiri, tiburón, tintorera",
+          "talla": "STANDAR",
+          "precio": 4.0,
+          "precio_mostrar": "S/ 4.00",
+          "hora": "12:50",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:50"
         },
         {
           "especie_mostrar": "Barrilete negro",
@@ -1341,30 +2114,6 @@
           "hora": "16:01",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 16:01"
-        },
-        {
-          "especie_mostrar": "Pulpo",
-          "especie_corta": "Pulpo",
-          "nombre_cientifico": "Octopus mimus",
-          "sinonimos_busqueda": "Pulpo",
-          "talla": "STANDAR",
-          "precio": 20.0,
-          "precio_mostrar": "S/ 20.00",
-          "hora": "16:01",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:01"
-        },
-        {
-          "especie_mostrar": "Tiburón azul",
-          "especie_corta": "Tiburón azul",
-          "nombre_cientifico": "Prionace glauca",
-          "sinonimos_busqueda": "Tiburón azul, chiri, tiburón, tintorera",
-          "talla": "STANDAR",
-          "precio": 3.0,
-          "precio_mostrar": "S/ 3.00",
-          "hora": "12:18",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 12:18"
         }
       ]
     },
@@ -1435,11 +2184,48 @@
       "nombre_puerto": "LOS CHIMUS",
       "departamento": "ANCASH",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "16:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Guitarra común",
+          "especie_corta": "Guitarra común",
+          "nombre_cientifico": "Pseudobatos planiceps",
+          "sinonimos_busqueda": "Guitarra común, guitarra",
+          "talla": "STANDAR",
+          "precio": 3.5,
+          "precio_mostrar": "S/ 3.50",
+          "hora": "12:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 12:00"
+        },
+        {
+          "especie_mostrar": "Pulpo (Grande)",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "GRANDE",
+          "precio": 18.0,
+          "precio_mostrar": "S/ 18.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Pulpo (Pequeño)",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "PEQUEÑO",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        }
+      ]
     },
     "LOS ORGANOS": {
       "nombre_puerto": "LOS ORGANOS",
@@ -1664,32 +2450,177 @@
       "nombre_puerto": "PUCUSANA",
       "departamento": "LIMA",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "16:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Bonito",
+          "especie_corta": "Bonito",
+          "nombre_cientifico": "Sarda chiliensis",
+          "sinonimos_busqueda": "Bonito, chauchilla, cerrajon, mono, marrajo",
+          "talla": "STANDAR",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Caracol",
+          "especie_corta": "Caracol",
+          "nombre_cientifico": "Thaisella chocolata",
+          "sinonimos_busqueda": "Caracol, caracol negro, caracol común, caracol plomo",
+          "talla": "STANDAR",
+          "precio": 3.5,
+          "precio_mostrar": "S/ 3.50",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        },
+        {
+          "especie_mostrar": "Perico",
+          "especie_corta": "Perico",
+          "nombre_cientifico": "Coryphaena hippurus",
+          "sinonimos_busqueda": "Perico, dorado",
+          "talla": "STANDAR",
+          "precio": 16.0,
+          "precio_mostrar": "S/ 16.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Pota",
+          "especie_corta": "Pota",
+          "nombre_cientifico": "Dosidicus gigas",
+          "sinonimos_busqueda": "Pota, calamar gigante",
+          "talla": "STANDAR",
+          "precio": 3.5,
+          "precio_mostrar": "S/ 3.50",
+          "hora": "16:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 16:00"
+        }
+      ]
     },
     "PUERTO ETEN": {
       "nombre_puerto": "PUERTO ETEN",
       "departamento": "LAMBAYEQUE",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "18/11/2026",
-      "ultima_hora_muestreo": "16:58",
-      "estado_puerto": "Actualizado hasta el 18/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:58)",
+      "ultima_fecha_muestreo": "19/11/2026",
+      "ultima_hora_muestreo": "14:59",
+      "estado_puerto": "Actualizado hasta ayer 19",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (14:59)",
       "precios": [
+        {
+          "especie_mostrar": "Cachema",
+          "especie_corta": "Cachema",
+          "nombre_cientifico": "Cynoscion analis",
+          "sinonimos_busqueda": "Cachema, ayanque, ayangue",
+          "talla": "STANDAR",
+          "precio": 18.0,
+          "precio_mostrar": "S/ 18.00",
+          "hora": "14:52",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:52"
+        },
+        {
+          "especie_mostrar": "Guitarra común",
+          "especie_corta": "Guitarra común",
+          "nombre_cientifico": "Pseudobatos planiceps",
+          "sinonimos_busqueda": "Guitarra común, guitarra",
+          "talla": "STANDAR",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "14:53",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:53"
+        },
         {
           "especie_mostrar": "Lisa (Mediano)",
           "especie_corta": "Lisa",
           "nombre_cientifico": "Mugil cephalus",
           "sinonimos_busqueda": "Lisa, lisa común, comebarro, lisa rayada",
           "talla": "MEDIANO",
+          "precio": 7.0,
+          "precio_mostrar": "S/ 7.00",
+          "hora": "14:54",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:54"
+        },
+        {
+          "especie_mostrar": "Pampanito",
+          "especie_corta": "Pampanito",
+          "nombre_cientifico": "Peprilus snyderi",
+          "sinonimos_busqueda": "Pampanito, chiri, palometa, chiri lomo negro",
+          "talla": "STANDAR",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "14:55",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:55"
+        },
+        {
+          "especie_mostrar": "Raya águila peruana",
+          "especie_corta": "Raya águila peruana",
+          "nombre_cientifico": "Myliobatis peruviana",
+          "sinonimos_busqueda": "Raya águila peruana, raya águila, raya, raya de punta",
+          "talla": "STANDAR",
           "precio": 10.0,
           "precio_mostrar": "S/ 10.00",
-          "hora": "16:54",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:54"
+          "hora": "14:55",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:55"
+        },
+        {
+          "especie_mostrar": "Raya batea",
+          "especie_corta": "Raya batea",
+          "nombre_cientifico": "Dasyatis brevis",
+          "sinonimos_busqueda": "Raya batea, batana, tembladera, raya redonda",
+          "talla": "STANDAR",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "14:58",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:58"
+        },
+        {
+          "especie_mostrar": "Raya c. espinas",
+          "especie_corta": "Raya c. espinas",
+          "nombre_cientifico": "Urotrygon sp.",
+          "sinonimos_busqueda": "Raya c. espinas, tapadera",
+          "talla": "STANDAR",
+          "precio": 2.0,
+          "precio_mostrar": "S/ 2.00",
+          "hora": "14:58",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:58"
+        },
+        {
+          "especie_mostrar": "Sierra",
+          "especie_corta": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "sinonimos_busqueda": "Sierra, verle",
+          "talla": "STANDAR",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "14:58",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:58"
+        },
+        {
+          "especie_mostrar": "Tollo manchado",
+          "especie_corta": "Tollo manchado",
+          "nombre_cientifico": "Triakis maculata",
+          "sinonimos_busqueda": "Tollo manchado, tollo rara",
+          "talla": "STANDAR",
+          "precio": 15.0,
+          "precio_mostrar": "S/ 15.00",
+          "hora": "14:59",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 14:59"
         },
         {
           "especie_mostrar": "Misho",
@@ -1702,54 +2633,6 @@
           "hora": "16:55",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 16:55"
-        },
-        {
-          "especie_mostrar": "Pampanito",
-          "especie_corta": "Pampanito",
-          "nombre_cientifico": "Peprilus snyderi",
-          "sinonimos_busqueda": "Pampanito, chiri, palometa, chiri lomo negro",
-          "talla": "STANDAR",
-          "precio": 12.0,
-          "precio_mostrar": "S/ 12.00",
-          "hora": "16:56",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:56"
-        },
-        {
-          "especie_mostrar": "Raya águila peruana",
-          "especie_corta": "Raya águila peruana",
-          "nombre_cientifico": "Myliobatis peruviana",
-          "sinonimos_busqueda": "Raya águila peruana, raya águila, raya, raya de punta",
-          "talla": "STANDAR",
-          "precio": 12.0,
-          "precio_mostrar": "S/ 12.00",
-          "hora": "16:57",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:57"
-        },
-        {
-          "especie_mostrar": "Sierra",
-          "especie_corta": "Sierra",
-          "nombre_cientifico": "Scomberomorus sierra",
-          "sinonimos_busqueda": "Sierra, verle",
-          "talla": "STANDAR",
-          "precio": 8.0,
-          "precio_mostrar": "S/ 8.00",
-          "hora": "16:57",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:57"
-        },
-        {
-          "especie_mostrar": "Tollo manchado",
-          "especie_corta": "Tollo manchado",
-          "nombre_cientifico": "Triakis maculata",
-          "sinonimos_busqueda": "Tollo manchado, tollo rara",
-          "talla": "STANDAR",
-          "precio": 15.0,
-          "precio_mostrar": "S/ 15.00",
-          "hora": "16:58",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:58"
         }
       ]
     },
@@ -1757,11 +2640,95 @@
       "nombre_puerto": "PUERTO PIZARRO",
       "departamento": "TUMBES",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "18/11/2026",
-      "ultima_hora_muestreo": "16:09",
-      "estado_puerto": "Actualizado hasta el 18/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (16:09)",
+      "ultima_fecha_muestreo": "19/11/2026",
+      "ultima_hora_muestreo": "12:46",
+      "estado_puerto": "Actualizado hasta ayer 19",
+      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (12:46)",
       "precios": [
+        {
+          "especie_mostrar": "Camotillo",
+          "especie_corta": "Camotillo",
+          "nombre_cientifico": "Diplectrum conceptione",
+          "sinonimos_busqueda": "Camotillo, camote, cabrilla, cagua",
+          "talla": "STANDAR",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "12:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:45"
+        },
+        {
+          "especie_mostrar": "Congrio aleta pintada (Mediano)",
+          "especie_corta": "Congrio aleta pintada",
+          "nombre_cientifico": "Lepophidium negropinna",
+          "sinonimos_busqueda": "Congrio aleta pintada, congrio gato, congrio perlita",
+          "talla": "MEDIANO",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "12:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:45"
+        },
+        {
+          "especie_mostrar": "Falso volador",
+          "especie_corta": "Falso volador",
+          "nombre_cientifico": "Prionotus stephanophrys",
+          "sinonimos_busqueda": "Falso volador, vocador, cabrilla voladora",
+          "talla": "STANDAR",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "12:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:45"
+        },
+        {
+          "especie_mostrar": "Langostino café",
+          "especie_corta": "Langostino café",
+          "nombre_cientifico": "Penaeus (Farfantepenaeus) californiensis",
+          "sinonimos_busqueda": "Langostino café",
+          "talla": "STANDAR",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "12:46",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:46"
+        },
+        {
+          "especie_mostrar": "Lenguado (Mediano)",
+          "especie_corta": "Lenguado",
+          "nombre_cientifico": "Paralichthys woolmani",
+          "sinonimos_busqueda": "Lenguado, lenguado veteado",
+          "talla": "MEDIANO",
+          "precio": 18.0,
+          "precio_mostrar": "S/ 18.00",
+          "hora": "12:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:45"
+        },
+        {
+          "especie_mostrar": "Lenguado común (Grande)",
+          "especie_corta": "Lenguado común",
+          "nombre_cientifico": "Paralichthys adspersus",
+          "sinonimos_busqueda": "Lenguado común, lenguado, lenguado fino",
+          "talla": "GRANDE",
+          "precio": 40.0,
+          "precio_mostrar": "S/ 40.00",
+          "hora": "12:44",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:44"
+        },
+        {
+          "especie_mostrar": "Mojarrilla",
+          "especie_corta": "Mojarrilla",
+          "nombre_cientifico": "Stellifer minor",
+          "sinonimos_busqueda": "Mojarrilla, mojarrilla común",
+          "talla": "STANDAR",
+          "precio": 4.0,
+          "precio_mostrar": "S/ 4.00",
+          "hora": "12:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 12:45"
+        },
         {
           "especie_mostrar": "Cabinza serranida",
           "especie_corta": "Cabinza serranida",
@@ -1823,18 +2790,6 @@
           "hora_mostrar": "18/11 16:07"
         },
         {
-          "especie_mostrar": "Congrio aleta pintada (Mediano)",
-          "especie_corta": "Congrio aleta pintada",
-          "nombre_cientifico": "Lepophidium negropinna",
-          "sinonimos_busqueda": "Congrio aleta pintada, congrio gato, congrio perlita",
-          "talla": "MEDIANO",
-          "precio": 8.0,
-          "precio_mostrar": "S/ 8.00",
-          "hora": "16:09",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:09"
-        },
-        {
           "especie_mostrar": "Corvina cherela (Grande)",
           "especie_corta": "Corvina cherela",
           "nombre_cientifico": "Cynoscion phoxocephalus",
@@ -1845,66 +2800,6 @@
           "hora": "12:21",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 12:21"
-        },
-        {
-          "especie_mostrar": "Falso volador",
-          "especie_corta": "Falso volador",
-          "nombre_cientifico": "Prionotus stephanophrys",
-          "sinonimos_busqueda": "Falso volador, vocador, cabrilla voladora",
-          "talla": "STANDAR",
-          "precio": 8.0,
-          "precio_mostrar": "S/ 8.00",
-          "hora": "16:08",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:08"
-        },
-        {
-          "especie_mostrar": "Langostino café",
-          "especie_corta": "Langostino café",
-          "nombre_cientifico": "Penaeus (Farfantepenaeus) californiensis",
-          "sinonimos_busqueda": "Langostino café",
-          "talla": "STANDAR",
-          "precio": 10.0,
-          "precio_mostrar": "S/ 10.00",
-          "hora": "16:08",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:08"
-        },
-        {
-          "especie_mostrar": "Lenguado (Mediano)",
-          "especie_corta": "Lenguado",
-          "nombre_cientifico": "Paralichthys woolmani",
-          "sinonimos_busqueda": "Lenguado, lenguado veteado",
-          "talla": "MEDIANO",
-          "precio": 18.0,
-          "precio_mostrar": "S/ 18.00",
-          "hora": "16:08",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:08"
-        },
-        {
-          "especie_mostrar": "Lenguado común (Grande)",
-          "especie_corta": "Lenguado común",
-          "nombre_cientifico": "Paralichthys adspersus",
-          "sinonimos_busqueda": "Lenguado común, lenguado, lenguado fino",
-          "talla": "GRANDE",
-          "precio": 40.0,
-          "precio_mostrar": "S/ 40.00",
-          "hora": "16:09",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:09"
-        },
-        {
-          "especie_mostrar": "Mojarrilla",
-          "especie_corta": "Mojarrilla",
-          "nombre_cientifico": "Stellifer minor",
-          "sinonimos_busqueda": "Mojarrilla, mojarrilla común",
-          "talla": "STANDAR",
-          "precio": 5.0,
-          "precio_mostrar": "S/ 5.00",
-          "hora": "16:09",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 16:09"
         },
         {
           "especie_mostrar": "Pardo (Grande)",
@@ -2178,20 +3073,117 @@
       "nombre_puerto": "SAMANCO",
       "departamento": "ANCASH",
       "region": "COSTA",
-      "ultima_fecha_muestreo": null,
-      "ultima_hora_muestreo": null,
-      "estado_puerto": "Sin reportes recientes",
-      "estado_puerto_con_hora": "Sin reportes recientes",
-      "precios": []
+      "ultima_fecha_muestreo": "18/11/2026",
+      "ultima_hora_muestreo": "08:00",
+      "estado_puerto": "Actualizado hasta el 18/11",
+      "estado_puerto_con_hora": "Actualizado hasta el 18/11 (08:00)",
+      "precios": [
+        {
+          "especie_mostrar": "Bonito (Mediano)",
+          "especie_corta": "Bonito",
+          "nombre_cientifico": "Sarda chiliensis",
+          "sinonimos_busqueda": "Bonito, chauchilla, cerrajon, mono, marrajo",
+          "talla": "MEDIANO",
+          "precio": 5.0,
+          "precio_mostrar": "S/ 5.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Cachema",
+          "especie_corta": "Cachema",
+          "nombre_cientifico": "Cynoscion analis",
+          "sinonimos_busqueda": "Cachema, ayanque, ayangue",
+          "talla": "STANDAR",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Coco (Pequeño)",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "PEQUEÑO",
+          "precio": 3.0,
+          "precio_mostrar": "S/ 3.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Espejo (Pequeño)",
+          "especie_corta": "Espejo",
+          "nombre_cientifico": "Selene peruviana",
+          "sinonimos_busqueda": "Espejo, pampanito, jorobadito, pámpano, reloj",
+          "talla": "PEQUEÑO",
+          "precio": 1.2,
+          "precio_mostrar": "S/ 1.20",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Guitarra común",
+          "especie_corta": "Guitarra común",
+          "nombre_cientifico": "Pseudobatos planiceps",
+          "sinonimos_busqueda": "Guitarra común, guitarra",
+          "talla": "STANDAR",
+          "precio": 3.0,
+          "precio_mostrar": "S/ 3.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Lisa",
+          "especie_corta": "Lisa",
+          "nombre_cientifico": "Mugil cephalus",
+          "sinonimos_busqueda": "Lisa, lisa común, comebarro, lisa rayada",
+          "talla": "STANDAR",
+          "precio": 5.5,
+          "precio_mostrar": "S/ 5.50",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Raya águila peruana",
+          "especie_corta": "Raya águila peruana",
+          "nombre_cientifico": "Myliobatis peruviana",
+          "sinonimos_busqueda": "Raya águila peruana, raya águila, raya, raya de punta",
+          "talla": "STANDAR",
+          "precio": 3.5,
+          "precio_mostrar": "S/ 3.50",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        },
+        {
+          "especie_mostrar": "Tollo manchado",
+          "especie_corta": "Tollo manchado",
+          "nombre_cientifico": "Triakis maculata",
+          "sinonimos_busqueda": "Tollo manchado, tollo rara",
+          "talla": "STANDAR",
+          "precio": 10.0,
+          "precio_mostrar": "S/ 10.00",
+          "hora": "08:00",
+          "fecha": "18/11/2026",
+          "hora_mostrar": "18/11 08:00"
+        }
+      ]
     },
     "SAN ANDRES": {
       "nombre_puerto": "SAN ANDRES",
       "departamento": "ICA",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "19/11/2026",
-      "ultima_hora_muestreo": "07:52",
-      "estado_puerto": "Actualizado hasta ayer 19",
-      "estado_puerto_con_hora": "Actualizado hasta ayer 19 (07:52)",
+      "ultima_fecha_muestreo": "20/11/2026",
+      "ultima_hora_muestreo": "07:54",
+      "estado_puerto": "Actualizado hasta hoy 20",
+      "estado_puerto_con_hora": "Actualizado hasta hoy 20 (07:54)",
       "precios": [
         {
           "especie_mostrar": "Cachema (Grande)",
@@ -2201,9 +3193,9 @@
           "talla": "GRANDE",
           "precio": 9.0,
           "precio_mostrar": "S/ 9.00",
-          "hora": "07:52",
-          "fecha": "19/11/2026",
-          "hora_mostrar": "Ayer 07:52"
+          "hora": "07:54",
+          "fecha": "20/11/2026",
+          "hora_mostrar": "Hoy 07:54"
         },
         {
           "especie_mostrar": "Coco (Pequeño)",
@@ -2211,11 +3203,11 @@
           "nombre_cientifico": "Paralonchurus peruanus",
           "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
           "talla": "PEQUEÑO",
-          "precio": 5.5,
-          "precio_mostrar": "S/ 5.50",
-          "hora": "07:52",
-          "fecha": "19/11/2026",
-          "hora_mostrar": "Ayer 07:52"
+          "precio": 6.0,
+          "precio_mostrar": "S/ 6.00",
+          "hora": "07:54",
+          "fecha": "20/11/2026",
+          "hora_mostrar": "Hoy 07:54"
         },
         {
           "especie_mostrar": "Mismis (Mediano)",
@@ -2223,11 +3215,11 @@
           "nombre_cientifico": "Menticirrhus ophicephalus",
           "sinonimos_busqueda": "Mismis, misho, bobo, miscuy",
           "talla": "MEDIANO",
-          "precio": 18.0,
-          "precio_mostrar": "S/ 18.00",
-          "hora": "07:52",
-          "fecha": "19/11/2026",
-          "hora_mostrar": "Ayer 07:52"
+          "precio": 19.0,
+          "precio_mostrar": "S/ 19.00",
+          "hora": "07:54",
+          "fecha": "20/11/2026",
+          "hora_mostrar": "Hoy 07:54"
         },
         {
           "especie_mostrar": "Sierra (Grande)",
@@ -2235,11 +3227,11 @@
           "nombre_cientifico": "Scomberomorus sierra",
           "sinonimos_busqueda": "Sierra, verle",
           "talla": "GRANDE",
-          "precio": 7.0,
-          "precio_mostrar": "S/ 7.00",
-          "hora": "07:52",
-          "fecha": "19/11/2026",
-          "hora_mostrar": "Ayer 07:52"
+          "precio": 8.5,
+          "precio_mostrar": "S/ 8.50",
+          "hora": "07:54",
+          "fecha": "20/11/2026",
+          "hora_mostrar": "Hoy 07:54"
         },
         {
           "especie_mostrar": "Cabrilla (Mediano)",
@@ -2250,8 +3242,8 @@
           "precio": 30.0,
           "precio_mostrar": "S/ 30.00",
           "hora": "15:45",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 15:45"
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 15:45"
         },
         {
           "especie_mostrar": "Caracol",
@@ -2259,11 +3251,47 @@
           "nombre_cientifico": "Thaisella chocolata",
           "sinonimos_busqueda": "Caracol, caracol negro, caracol común, caracol plomo",
           "talla": "STANDAR",
-          "precio": 2.5,
-          "precio_mostrar": "S/ 2.50",
+          "precio": 2.8,
+          "precio_mostrar": "S/ 2.80",
           "hora": "15:45",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 15:45"
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 15:45"
+        },
+        {
+          "especie_mostrar": "Pulpo",
+          "especie_corta": "Pulpo",
+          "nombre_cientifico": "Octopus mimus",
+          "sinonimos_busqueda": "Pulpo",
+          "talla": "STANDAR",
+          "precio": 22.0,
+          "precio_mostrar": "S/ 22.00",
+          "hora": "15:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 15:45"
+        },
+        {
+          "especie_mostrar": "Trambollo (Grande)",
+          "especie_corta": "Trambollo",
+          "nombre_cientifico": "Labrisomus philippii",
+          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
+          "talla": "GRANDE",
+          "precio": 25.0,
+          "precio_mostrar": "S/ 25.00",
+          "hora": "15:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 15:45"
+        },
+        {
+          "especie_mostrar": "Trambollo (Mediano)",
+          "especie_corta": "Trambollo",
+          "nombre_cientifico": "Labrisomus philippii",
+          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
+          "talla": "MEDIANO",
+          "precio": 20.0,
+          "precio_mostrar": "S/ 20.00",
+          "hora": "15:45",
+          "fecha": "19/11/2026",
+          "hora_mostrar": "Ayer 15:45"
         },
         {
           "especie_mostrar": "Concha pintada",
@@ -2302,18 +3330,6 @@
           "hora_mostrar": "18/11 07:54"
         },
         {
-          "especie_mostrar": "Pulpo",
-          "especie_corta": "Pulpo",
-          "nombre_cientifico": "Octopus mimus",
-          "sinonimos_busqueda": "Pulpo",
-          "talla": "STANDAR",
-          "precio": 22.0,
-          "precio_mostrar": "S/ 22.00",
-          "hora": "15:45",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 15:45"
-        },
-        {
           "especie_mostrar": "Sardina",
           "especie_corta": "Sardina",
           "nombre_cientifico": "Sardinops sagax",
@@ -2324,18 +3340,6 @@
           "hora": "12:00",
           "fecha": "18/11/2026",
           "hora_mostrar": "18/11 12:00"
-        },
-        {
-          "especie_mostrar": "Trambollo (Grande)",
-          "especie_corta": "Trambollo",
-          "nombre_cientifico": "Labrisomus philippii",
-          "sinonimos_busqueda": "Trambollo, tomollo, chalapo ojos",
-          "talla": "GRANDE",
-          "precio": 23.0,
-          "precio_mostrar": "S/ 23.00",
-          "hora": "15:45",
-          "fecha": "18/11/2026",
-          "hora_mostrar": "18/11 15:45"
         }
       ]
     },
