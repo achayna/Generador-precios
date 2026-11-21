@@ -2,13 +2,13 @@
   "metadata": {
     "sistema_origen": "INFOMAR - Instituto del Mar del Perú (IMARPE)",
     "endpoint_principal": "https://infomar.imarpe.gob.pe/v2/api/especies-por-puertos",
-    "estado_actualizacion": "Actualizado hasta ayer 20",
-    "estado_actualizacion_con_hora": "Actualizado hasta ayer 20 (16:21)",
-    "ultima_fecha_datos": "20/11/2026",
-    "ultima_hora_datos": "16:21",
-    "ultima_revision_sistema": "21/11/2026 13:07",
-    "generado_en_peru": "2026-11-21T13:07:38-05:00",
-    "generado_en_utc": "2026-11-21T18:07:38+00:00",
+    "estado_actualizacion": "Actualizado hasta hoy 21",
+    "estado_actualizacion_con_hora": "Actualizado hasta hoy 21 (12:42)",
+    "ultima_fecha_datos": "21/11/2026",
+    "ultima_hora_datos": "12:42",
+    "ultima_revision_sistema": "21/11/2026 14:47",
+    "generado_en_peru": "2026-11-21T14:47:56-05:00",
+    "generado_en_utc": "2026-11-21T19:47:56+00:00",
     "moneda": "PEN",
     "simbolo_moneda": "S/",
     "unidad": "kg",
@@ -23,8 +23,8 @@
     "estadisticas": {
       "puertos_consultados": 65,
       "puertos_con_datos": 31,
-      "total_especies_vigentes_puerto": 231,
-      "total_muestreos_ventana": 326,
+      "total_especies_vigentes_puerto": 232,
+      "total_muestreos_ventana": 331,
       "catalogo_total_lugares": 80,
       "catalogo_total_especies": 362,
       "puertos_con_error": []
@@ -2794,9 +2794,9 @@
       "region": "COSTA",
       "departamento": "LAMBAYEQUE",
       "tiene_datos_recientes": true,
-      "fecha_ultimo_muestreo": "2026-11-19",
-      "dias_antiguedad_min": 2,
-      "total_especies_vigentes": 9,
+      "fecha_ultimo_muestreo": "2026-11-21",
+      "dias_antiguedad_min": 0,
+      "total_especies_vigentes": 10,
       "especies": [
         {
           "taxon_id": 130,
@@ -2812,16 +2812,122 @@
           "precios_por_tamano": {
             "STANDAR": 18.0
           },
-          "fecha_ultimo_registro": "2026-11-19",
-          "hora_ultimo_registro": "14:52",
-          "dias_antiguedad": 2,
+          "fecha_ultimo_registro": "2026-11-21",
+          "hora_ultimo_registro": "12:40",
+          "dias_antiguedad": 0,
           "muestreos_ultimo_dia": 1,
           "historico_reciente": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "12:40",
+              "tamano": "STANDAR",
+              "precio_kg": 18.0
+            },
             {
               "fecha": "2026-11-19",
               "hora": "14:52",
               "tamano": "STANDAR",
               "precio_kg": 18.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 140,
+          "nombre_comun": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "nombre_comun_corto": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "precio_playa_kg": {
+            "promedio": 15.0,
+            "minimo": 12.0,
+            "maximo": 18.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "PEQUEÑO": 12.0,
+            "MEDIANO": 18.0
+          },
+          "fecha_ultimo_registro": "2026-11-21",
+          "hora_ultimo_registro": "12:41",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 2,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "12:41",
+              "tamano": "PEQUEÑO",
+              "precio_kg": 12.0
+            },
+            {
+              "fecha": "2026-11-21",
+              "hora": "12:40",
+              "tamano": "MEDIANO",
+              "precio_kg": 18.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 410,
+          "nombre_comun": "Pampanito, chiri, palometa, chiri lomo negro",
+          "nombre_comun_corto": "Pampanito",
+          "nombre_cientifico": "Peprilus snyderi",
+          "precio_playa_kg": {
+            "promedio": 12.0,
+            "minimo": 12.0,
+            "maximo": 12.0,
+            "ultimo": 12.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 12.0
+          },
+          "fecha_ultimo_registro": "2026-11-21",
+          "hora_ultimo_registro": "12:41",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "12:41",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            },
+            {
+              "fecha": "2026-11-19",
+              "hora": "14:55",
+              "tamano": "STANDAR",
+              "precio_kg": 12.0
+            }
+          ]
+        },
+        {
+          "taxon_id": 233,
+          "nombre_comun": "Sierra, verle",
+          "nombre_comun_corto": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "precio_playa_kg": {
+            "promedio": 8.0,
+            "minimo": 8.0,
+            "maximo": 8.0,
+            "ultimo": 8.0
+          },
+          "precios_por_tamano": {
+            "STANDAR": 8.0
+          },
+          "fecha_ultimo_registro": "2026-11-21",
+          "hora_ultimo_registro": "12:42",
+          "dias_antiguedad": 0,
+          "muestreos_ultimo_dia": 1,
+          "historico_reciente": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "12:42",
+              "tamano": "STANDAR",
+              "precio_kg": 8.0
+            },
+            {
+              "fecha": "2026-11-19",
+              "hora": "14:58",
+              "tamano": "STANDAR",
+              "precio_kg": 8.0
             }
           ]
         },
@@ -2876,33 +2982,6 @@
               "hora": "14:54",
               "tamano": "MEDIANO",
               "precio_kg": 7.0
-            }
-          ]
-        },
-        {
-          "taxon_id": 410,
-          "nombre_comun": "Pampanito, chiri, palometa, chiri lomo negro",
-          "nombre_comun_corto": "Pampanito",
-          "nombre_cientifico": "Peprilus snyderi",
-          "precio_playa_kg": {
-            "promedio": 12.0,
-            "minimo": 12.0,
-            "maximo": 12.0,
-            "ultimo": 12.0
-          },
-          "precios_por_tamano": {
-            "STANDAR": 12.0
-          },
-          "fecha_ultimo_registro": "2026-11-19",
-          "hora_ultimo_registro": "14:55",
-          "dias_antiguedad": 2,
-          "muestreos_ultimo_dia": 1,
-          "historico_reciente": [
-            {
-              "fecha": "2026-11-19",
-              "hora": "14:55",
-              "tamano": "STANDAR",
-              "precio_kg": 12.0
             }
           ]
         },
@@ -2984,33 +3063,6 @@
               "hora": "14:58",
               "tamano": "STANDAR",
               "precio_kg": 2.0
-            }
-          ]
-        },
-        {
-          "taxon_id": 233,
-          "nombre_comun": "Sierra, verle",
-          "nombre_comun_corto": "Sierra",
-          "nombre_cientifico": "Scomberomorus sierra",
-          "precio_playa_kg": {
-            "promedio": 8.0,
-            "minimo": 8.0,
-            "maximo": 8.0,
-            "ultimo": 8.0
-          },
-          "precios_por_tamano": {
-            "STANDAR": 8.0
-          },
-          "fecha_ultimo_registro": "2026-11-19",
-          "hora_ultimo_registro": "14:58",
-          "dias_antiguedad": 2,
-          "muestreos_ultimo_dia": 1,
-          "historico_reciente": [
-            {
-              "fecha": "2026-11-19",
-              "hora": "14:58",
-              "tamano": "STANDAR",
-              "precio_kg": 8.0
             }
           ]
         },

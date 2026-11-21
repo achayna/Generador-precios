@@ -1,15 +1,15 @@
 {
-  "estado_actualizacion": "Actualizado hasta ayer 20",
-  "estado_actualizacion_con_hora": "Actualizado hasta ayer 20 (16:21)",
-  "actualizado_peru": "Actualizado hasta ayer 20",
-  "ultima_fecha_datos": "20/11/2026",
-  "ultima_hora_datos": "16:21",
-  "ultima_revision_sistema": "21/11/2026 13:07",
-  "actualizado_iso": "2026-11-21T13:07:38-05:00",
+  "estado_actualizacion": "Actualizado hasta hoy 21",
+  "estado_actualizacion_con_hora": "Actualizado hasta hoy 21 (12:42)",
+  "actualizado_peru": "Actualizado hasta hoy 21",
+  "ultima_fecha_datos": "21/11/2026",
+  "ultima_hora_datos": "12:42",
+  "ultima_revision_sistema": "21/11/2026 14:47",
+  "actualizado_iso": "2026-11-21T14:47:56-05:00",
   "ventana_dias": 3,
   "total_puertos": 65,
   "puertos_con_datos": 31,
-  "total_filas_precios": 258,
+  "total_filas_precios": 260,
   "puertos": {
     "ACAPULCO": {
       "nombre_puerto": "ACAPULCO",
@@ -2585,10 +2585,10 @@
       "nombre_puerto": "PUERTO ETEN",
       "departamento": "LAMBAYEQUE",
       "region": "COSTA",
-      "ultima_fecha_muestreo": "19/11/2026",
-      "ultima_hora_muestreo": "14:59",
-      "estado_puerto": "Actualizado hasta el 19/11",
-      "estado_puerto_con_hora": "Actualizado hasta el 19/11 (14:59)",
+      "ultima_fecha_muestreo": "21/11/2026",
+      "ultima_hora_muestreo": "12:42",
+      "estado_puerto": "Actualizado hasta hoy 21",
+      "estado_puerto_con_hora": "Actualizado hasta hoy 21 (12:42)",
       "precios": [
         {
           "especie_mostrar": "Cachema",
@@ -2598,9 +2598,57 @@
           "talla": "STANDAR",
           "precio": 18.0,
           "precio_mostrar": "S/ 18.00",
-          "hora": "14:52",
-          "fecha": "19/11/2026",
-          "hora_mostrar": "19/11 14:52"
+          "hora": "12:40",
+          "fecha": "21/11/2026",
+          "hora_mostrar": "Hoy 12:40"
+        },
+        {
+          "especie_mostrar": "Coco (Mediano)",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "MEDIANO",
+          "precio": 18.0,
+          "precio_mostrar": "S/ 18.00",
+          "hora": "12:40",
+          "fecha": "21/11/2026",
+          "hora_mostrar": "Hoy 12:40"
+        },
+        {
+          "especie_mostrar": "Coco (Pequeño)",
+          "especie_corta": "Coco",
+          "nombre_cientifico": "Paralonchurus peruanus",
+          "sinonimos_busqueda": "Coco, suco, roncador, coco dorado, lambe coco, chula",
+          "talla": "PEQUEÑO",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "12:41",
+          "fecha": "21/11/2026",
+          "hora_mostrar": "Hoy 12:41"
+        },
+        {
+          "especie_mostrar": "Pampanito",
+          "especie_corta": "Pampanito",
+          "nombre_cientifico": "Peprilus snyderi",
+          "sinonimos_busqueda": "Pampanito, chiri, palometa, chiri lomo negro",
+          "talla": "STANDAR",
+          "precio": 12.0,
+          "precio_mostrar": "S/ 12.00",
+          "hora": "12:41",
+          "fecha": "21/11/2026",
+          "hora_mostrar": "Hoy 12:41"
+        },
+        {
+          "especie_mostrar": "Sierra",
+          "especie_corta": "Sierra",
+          "nombre_cientifico": "Scomberomorus sierra",
+          "sinonimos_busqueda": "Sierra, verle",
+          "talla": "STANDAR",
+          "precio": 8.0,
+          "precio_mostrar": "S/ 8.00",
+          "hora": "12:42",
+          "fecha": "21/11/2026",
+          "hora_mostrar": "Hoy 12:42"
         },
         {
           "especie_mostrar": "Guitarra común",
@@ -2625,18 +2673,6 @@
           "hora": "14:54",
           "fecha": "19/11/2026",
           "hora_mostrar": "19/11 14:54"
-        },
-        {
-          "especie_mostrar": "Pampanito",
-          "especie_corta": "Pampanito",
-          "nombre_cientifico": "Peprilus snyderi",
-          "sinonimos_busqueda": "Pampanito, chiri, palometa, chiri lomo negro",
-          "talla": "STANDAR",
-          "precio": 12.0,
-          "precio_mostrar": "S/ 12.00",
-          "hora": "14:55",
-          "fecha": "19/11/2026",
-          "hora_mostrar": "19/11 14:55"
         },
         {
           "especie_mostrar": "Raya águila peruana",
@@ -2670,18 +2706,6 @@
           "talla": "STANDAR",
           "precio": 2.0,
           "precio_mostrar": "S/ 2.00",
-          "hora": "14:58",
-          "fecha": "19/11/2026",
-          "hora_mostrar": "19/11 14:58"
-        },
-        {
-          "especie_mostrar": "Sierra",
-          "especie_corta": "Sierra",
-          "nombre_cientifico": "Scomberomorus sierra",
-          "sinonimos_busqueda": "Sierra, verle",
-          "talla": "STANDAR",
-          "precio": 8.0,
-          "precio_mostrar": "S/ 8.00",
           "hora": "14:58",
           "fecha": "19/11/2026",
           "hora_mostrar": "19/11 14:58"
